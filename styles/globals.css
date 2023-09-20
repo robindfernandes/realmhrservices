@@ -7,6 +7,7 @@ body {
 
 .logo {
   max-width: 200px; /* Adjust the logo's max width */
+}
 
 * {
   box-sizing: border-box;
