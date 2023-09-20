@@ -1,7 +1,13 @@
-import '@styles/globals.css'
+import '@styles/globals.css'; // Import your global CSS
+import { useEffect } from 'react';
 
-function Application({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }) {
+  // Add any global JavaScript or effects here
+  useEffect(() => {
+    // Global JavaScript or effects can go here
+  }, []);
+
+  return <Component {...pageProps} />;
 }
 
-export default Application
+export default MyApp;
