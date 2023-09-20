@@ -11,7 +11,7 @@ export default function Home() {
 
       <main>
         <Header>
-          <img src="/logo.png" alt="RealmHR Services Logo" className="logo" />
+          <img src="/logo-realm.png" alt="RealmHR Services Logo" className="logo" />
           <h1>Welcome to RealmHR Services</h1>
         </Header>
         
