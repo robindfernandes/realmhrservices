@@ -1,12 +1,23 @@
 /* styles.css */
+
+:root {
+  --primary-bg-color: #00bcb9; /* Primary background color */
+  --text-color: #333; /* Text color */
+}
+
 html,
 body {
-  background-color: #00bcb9; /* Background color */
-  color: #333; /* Text color */
+  background-color: var(--primary-bg-color);
+  color: var(--text-color);
+}
+
+.title {
+  font-size: 24px; /* Adjust the font size as needed */
 }
 
 .logo {
-  max-width: 1000px; /* Adjust the logo's max width */
+  width: 200px; /* Adjust the logo width as needed */
+  height: auto; /* Maintain aspect ratio */
 }
 
 * {

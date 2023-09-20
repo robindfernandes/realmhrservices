@@ -1,18 +1,24 @@
 import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
+import styles from '@styles/globals.css'; // Import your custom styles
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className={styles.container}>
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main>
+        <h1 className="title" style={{ fontSize: '24px' }}>Welcome to RealmHR Services</h1>
         <Header title="Welcome to RealmHR Services" /> {/* Pass the title prop here */}
-        
+        <img
+          src="/logo-realm.png"
+          alt="RealmHR Services Logo"
+          className="logo"
+          style={{ width: '200px', height: 'auto' }} // Adjust the width as needed
+        />
         <p className="description">
           RealmHR Services is your trusted partner in recruitment, specializing in the retail, FMCG, and ITES sectors. With our deep industry knowledge and a commitment to excellence, we connect businesses with top-tier talent, helping them thrive and grow. In the dynamic world of retail, FMCG, and ITES, finding the right talent is crucial for success. At RealmHR Services, we understand the unique challenges and demands of these sectors. Our dedicated team of recruiters has a proven track record of identifying and placing exceptional professionals who can drive your business forward.
         </p>
