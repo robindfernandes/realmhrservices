@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Header></><h1 className="title" style={{ fontSize: '24px' }}>Welcome to RealmHR Services</h1> {/* Use the standalone h1 element */}
+        <Header title="Welcome to RealmHR Services" /> {/* Use the Header component for the title */}
         <img
           src="/logo-realm.png"
           alt="RealmHR Services Logo"
