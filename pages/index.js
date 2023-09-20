@@ -1,10 +1,11 @@
 import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
+import styles from '@styles/globals.css'; // Import your global CSS
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{ backgroundColor: 'var(--primary-bg-color)' }}>
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
