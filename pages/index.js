@@ -1,7 +1,6 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-
+import Head from 'next/head';
+import Header from '@components/Header';
+import Footer from '@components/Footer';
 export default function Home() {
   return (
     <div className="container">
@@ -11,7 +10,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to RealmHR Services" />
+        <Header>
+          <img src="/logo.png" alt="RealmHR Services Logo" className="logo" />
+          <h1>Welcome to RealmHR Services</h1>
+        </Header>
+        
         <p className="description">
           RealmHR Services is your trusted partner in recruitment, specializing in the retail, FMCG, and ITES sectors. With our deep industry knowledge and a commitment to excellence, we connect businesses with top-tier talent, helping them thrive and grow. In the dynamic world of retail, FMCG, and ITES, finding the right talent is crucial for success. At RealmHR Services, we understand the unique challenges and demands of these sectors. Our dedicated team of recruiters has a proven track record of identifying and placing exceptional professionals who can drive your business forward.
         </p>
