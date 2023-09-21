@@ -19,8 +19,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1 className="title" style={{ fontSize: '24px' }}>"Connecting Talent to Opportunity"</h1>
-        <Header title="Welcome to RealmHR Services" /> {/* Pass the title prop here */}
+        <h1 className="title" style={{ fontSize: '36px' }}>"Welcome to RealmHR Services"</h1>
+        <Header title="Connecting Talent to Opportunity" /> {/* Pass the title prop here */}
         <img
           src="/logo-realm.png"
           alt="RealmHR Services Logo"
