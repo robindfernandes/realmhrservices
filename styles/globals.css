@@ -52,14 +52,17 @@ code {
 
 /* Dropdown menu button */
 .dropdown-button {
-  background-color: var(--primary-bg-color); /* Background color */
-  color: var(--text-color); /* Text color */
+  background-color: var(--primary-bg-color);
+  color: var(--text-color);
   border: none;
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
-  margin: 10px; /* Adjust margin as needed */
-  font-weight: bold; /* Add font weight to make it bold */
+  margin: 10px;
+  font-weight: bold;
+  position: absolute;
+  top: 0; /* Move the button to the top */
+  right: 0; /* Align it to the top right corner */
 }
 
 /* Dropdown menu */
@@ -71,7 +74,7 @@ code {
   position: absolute;
   top: 36px; /* Adjust the top position as needed */
   right: 0;
-  background-color: transparent; /* Set background to transparent */
+  background-color: transparent;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
