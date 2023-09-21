@@ -4,7 +4,10 @@ import Footer from '@components/Footer';
 import { useState } from 'react'; // Import React's useState for managing state
 
 export default function Home() {
-  // Define state to manage the visibility of the dropdown menu
+ // Define the container class
+const container = "container"; // You can change this to match your CSS class name
+
+// Define state to manage the visibility of the dropdown menu
   const [isMenuVisible, setMenuVisible] = useState(false);
 
   // Function to toggle the visibility of the dropdown menu
