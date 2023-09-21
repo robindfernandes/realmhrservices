@@ -30,10 +30,10 @@ const container = "container"; // You can change this to match your CSS class na
         <button className="dropdown-button" style={{ fontWeight: 'bold' }} onClick={toggleMenu}>Menu</button>
         {isMenuVisible && (
            <ul className="dropdown-menu">
-              <li><a href="#">Who we are</a></li>
-              <li><a href="#">Our thoughts & ideas</a></li>
-              <li><a href="#">Talk to us</a></li>
-            </ul>
+           <li><a href="https://www.realmhrservices.com">Who we are</a></li>
+           <li><a href="#">Our thoughts & ideas</a></li>
+           <li><a href="#">Talk to us</a></li>
+         </ul>
           )}
         </div>
         <h1 className="title" style={{ fontSize: '36px' }}>Welcome to RealmHR Services</h1>
