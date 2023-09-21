@@ -49,6 +49,7 @@ code {
   padding: 20px;
   text-align: left; /* Align text content to the left */
 }
+
 /* Dropdown menu button */
 .dropdown-button {
   background-color: var(--primary-bg-color); /* Background color */
@@ -58,6 +59,7 @@ code {
   cursor: pointer;
   font-size: 16px;
   margin: 10px; /* Adjust margin as needed */
+  font-weight: bold; /* Add font weight to make it bold */
 }
 
 /* Dropdown menu */
@@ -70,42 +72,12 @@ code {
   top: 40px; /* Adjust the top position as needed */
   right: 0;
   background-color: transparent; /* Set background to transparent */
-  /*background-color: #fff; /* Menu background color */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-menu li {
   padding: 10px;
   text-align: center;
-}
-/* ... (previous styles) */
-
-/* Dropdown menu button */
-.dropdown-button {
-  font-weight: bold;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: var(--primary-bg-color);
-  color: var(--text-color);
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 16px;
-  margin: 10px;
-}
-
-/* Dropdown menu */
-.dropdown-menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: none; /* Initially hide the menu */
-  position: absolute;
-  top: 40px; /* Adjust the top position as needed */
-  right: 0;
-  background-color: #fff; /* Menu background color */
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 /* Show the menu when the button is clicked */
