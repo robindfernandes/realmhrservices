@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
+import Link from 'next/link';
 import { useState } from 'react'; // Import React's useState for managing state
 
 export default function Home() {
@@ -30,7 +31,7 @@ const container = "container"; // You can change this to match your CSS class na
         <button className="dropdown-button" style={{ fontWeight: 'bold' }} onClick={toggleMenu}>Menu</button>
         {isMenuVisible && (
            <ul className="dropdown-menu">
-           <li><a href="https://www.realmhrservices.com">Who we are</a></li>
+           <li><Link href="/who-we-are">Who we are</Link></li>
            <li><a href="#">Our thoughts & ideas</a></li>
            <li><a href="#">Talk to us</a></li>
          </ul>
