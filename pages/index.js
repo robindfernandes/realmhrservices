@@ -13,14 +13,25 @@ export default function Home() {
   };
 
   return (
-    <div className="container" style={{ backgroundColor: 'var(--primary-bg-color)' }}>
+    <div className={styles.container} style={{ backgroundColor: 'var(--primary-bg-color)' }}>
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      <h1 className="title" style={{ fontSize: '36px' }}>Welcome to RealmHR Services</h1>
-      <Header title="&ldquo;Connecting Talent to Opportunity&rdquo;" /> {/* Pass the title prop here */}
+        {/* Dropdown menu button */}
+        <div className="dropdown">
+          <button className="dropdown-button" onClick={toggleMenu}>Menu</button>
+          {isMenuVisible && (
+            <ul className="dropdown-menu">
+              <li><a href="#">Who we are</a></li>
+              <li><a href="#">Our thoughts & ideas</a></li>
+              <li><a href="#">Talk to us</a></li>
+            </ul>
+          )}
+        </div>
+        <h1 className="title" style={{ fontSize: '36px' }}>Welcome to RealmHR Services</h1>
+        <Header title="&ldquo;Connecting Talent to Opportunity&rdquo;" /> {/* Pass the title prop here */}
         <img
           src="/logo-realm.png"
           alt="RealmHR Services Logo"
@@ -30,19 +41,6 @@ export default function Home() {
         <p className="description">
           RealmHR Services is your trusted partner in recruitment, specializing in the retail, FMCG, and ITES sectors. With our deep industry knowledge and a commitment to excellence, we connect businesses with top-tier talent, helping them thrive and grow. In the dynamic world of retail, FMCG, and ITES, finding the right talent is crucial for success. At RealmHR Services, we understand the unique challenges and demands of these sectors. Our dedicated team of recruiters has a proven track record of identifying and placing exceptional professionals who can drive your business forward.
         </p>
-        
-        {/* Dropdown menu button */}
-        <div className="dropdown">
-          <button className="dropdown-button" onClick={toggleMenu}>Menu</button>
-          {isMenuVisible && (
-            <ul className="dropdown-menu">
-              <li><a href="#">Item 1</a></li>
-              <li><a href="#">Item 2</a></li>
-              <li><a href="#">Item 3</a></li>
-            </ul>
-          )}
-        </div>
-        
         <h2>Why Choose RealmHR Services:</h2>
         <ul>
           <li>Industry Expertise: Our team comprises experts with in-depth knowledge of the retail, FMCG, and ITES industries, ensuring that we match your specific needs with the right candidates.</li>
