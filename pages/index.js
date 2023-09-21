@@ -15,6 +15,8 @@ const container = "container"; // You can change this to match your CSS class na
     setMenuVisible(!isMenuVisible);
   };
 
+
+
   return (
     <div className={container} style={{ backgroundColor: 'var(--primary-bg-color)' }}>
       <Head>
@@ -24,9 +26,10 @@ const container = "container"; // You can change this to match your CSS class na
       <main>
         {/* Dropdown menu button */}
         <div className="dropdown">
-          <button className="dropdown-button" onClick={toggleMenu}>Menu</button>
-          {isMenuVisible && (
-            <ul className="dropdown-menu">
+        {/* Move the button inside the JSX */}
+        <button className="dropdown-button" style={{ fontWeight: 'bold' }} onClick={toggleMenu}>Menu</button>
+        {isMenuVisible && (
+           <ul className="dropdown-menu">
               <li><a href="#">Who we are</a></li>
               <li><a href="#">Our thoughts & ideas</a></li>
               <li><a href="#">Talk to us</a></li>

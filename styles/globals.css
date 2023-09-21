@@ -78,6 +78,7 @@ code {
 
 /* Dropdown menu button */
 .dropdown-button {
+  font-weight: bold;
   position: absolute;
   top: 0;
   right: 0;
