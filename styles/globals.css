@@ -1,14 +1,15 @@
 /* styles.css */
 
 :root {
-  --primary-bg-color: #00bcb9; /* Primary background color */
+  --primary-bg-color1: #00bcb9; /* Primary background color - Left side */
+  --primary-bg-color2: #ff5722; /* Primary background color - Right side */
   --text-color: #333; /* Text color */
 }
 
 html,
 body {
   font-family: 'Lato', sans-serif;
-  background-color: var(--primary-bg-color);
+  background: linear-gradient(to right, var(--primary-bg-color1), var(--primary-bg-color2));
   color: var(--text-color);
 }
 
