@@ -8,7 +8,7 @@ const WhoWeAre = () => {
       <h1>RealmHR Services</h1>
       <h2>About Us:</h2>
       <p>
-        RealmHR Services is a leading recruitment firm specializing in the ITES, FMCG, and Retail industries. Founded and owned by Ms. Tejasweeta Mistry, a seasoned professional with over 15 years of experience in talent acquisition across ITES, Retail, Pharma, and FMCG sectors.
+        RealmHR Services is a leading recruitment firm specializing in the ITES, FMCG, and Retail industries. Founded and owned by <strong>Ms. Tejasweeta Mistry</strong>, a seasoned professional with over 15 years of experience in talent acquisition across ITES, Retail, Pharma, and FMCG sectors.
       </p>
 
       <h2>Our Expertise:</h2>
