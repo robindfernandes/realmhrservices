@@ -48,7 +48,7 @@ const container = "container"; // You can change this to match your CSS class na
         <p className="description">
           RealmHR Services is your trusted partner in recruitment, specializing in the retail, FMCG, and ITES sectors. With our deep industry knowledge and a commitment to excellence, we connect businesses with top-tier talent, helping them thrive and grow. In the dynamic world of retail, FMCG, and ITES, finding the right talent is crucial for success. At RealmHR Services, we understand the unique challenges and demands of these sectors. Our dedicated team of recruiters has a proven track record of identifying and placing exceptional professionals who can drive your business forward.
         </p>
-        <h2>Our Areas Of Expertise:</h2>
+        <h2>Why Choose RealmHR Services?:</h2>
         <ul>
           <li><strong>Industry Expertise:</strong> Our team comprises experts with in-depth knowledge of the retail, FMCG, and ITES industries, ensuring that we match your specific needs with the right candidates.</li>
           <li><strong>Extensive Network</strong>: We have an extensive network of qualified candidates, allowing us to quickly connect you with the best talent available.</li>

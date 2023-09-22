@@ -22,7 +22,7 @@ const WhoWeAre = () => {
         <strong>Retail:</strong> Our comprehensive knowledge of the retail sector allows us to source candidates who can elevate the customer experience and contribute to retail excellence.
       </p>
 
-      <h2>Why Choose RealmHR Services?</h2>
+      <h2>Discover the RealmHR Services Advantage</h2>
       <ul>
         <li><strong>Proven Track Record:</strong> With a wealth of experience, we have successfully placed candidates in key positions across various industries.</li>
         <li><strong>Tailored Solutions:</strong> We offer customized recruitment solutions to meet the unique needs of each client, ensuring the right fit for every role.</li>
