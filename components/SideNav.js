@@ -22,3 +22,5 @@ const SideNav = () => {
       </SideNavWrapper>
     );
   };
+
+  export default SideNav;

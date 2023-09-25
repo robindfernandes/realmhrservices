@@ -16,3 +16,5 @@ const MainContent = () => {
       </MainContentWrapper>
     );
   };
+
+export default MainContent;
