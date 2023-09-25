@@ -1,5 +1,6 @@
 // SideNav.js
 import styled from 'styled-components';
+import Link from 'next/link';
 
 const SideNavWrapper = styled.div`
   background-color: #333; /* Background color for the side navigation */
@@ -15,7 +16,8 @@ const SideNav = () => {
       <SideNavWrapper>
         {/* Your navigation links or content here */}
         <ul>
-          <li>Link 1</li>
+          {/*<li>Link 1</li>*/}
+          <li><Link href="/clients-tesimonials">Clients Testimonials</Link></li>
           <li>Link 2</li>
           {/* ... */}
         </ul>

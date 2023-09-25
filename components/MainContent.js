@@ -11,8 +11,8 @@ const MainContent = () => {
     return (
       <MainContentWrapper>
         {/* Your main content here */}
-        <h1>Welcome to the Main Content</h1>
-        <p>This is where your main content goes.</p>
+        {/*<h1>Welcome to the Main Content</h1>
+        <p>This is where your main content goes.</p>*/}
       </MainContentWrapper>
     );
   };
