@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import Link from 'next/link';
+import SideNav from '@components/SideNav';
+import MainContent from '@components/MainContent';
 import { useState } from 'react'; // Import React's useState for managing state
 
 export default function Home() {
@@ -25,6 +27,10 @@ const container = "container"; // You can change this to match your CSS class na
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        {/* Include the SideNav component */}
+        <SideNav />
+        {/* Include the MainContent component */}
+        <MainContent />
         {/* Dropdown menu button */}
         <div className="dropdown">
         {/* Move the button inside the JSX */}
