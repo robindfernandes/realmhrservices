@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import Link from 'next/link';
 
 const SideNavWrapper = styled.div`
-  background-color: #333; /* Background color for the side navigation */
-  color: #fff; /* Text color */
+  background-color: #ffeb3b; /* Background color for the side navigation */
+  color: #333; /* Text color */
   width: 250px; /* Set the width as needed */
   height: 100%; /* Make it cover the full height */
   padding: 20px; /* Add padding for spacing */
@@ -32,7 +32,7 @@ const SideNav = () => {
       <ul>
         <li>
           <Link href="/clients-testimonials">
-            <NavLink>Clients Testimonials</NavLink>
+            <NavLink><strong>Clients Testimonials</strong></NavLink>
           </Link>
         </li>
         {/* Add more links as needed */}

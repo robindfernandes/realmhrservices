@@ -5,10 +5,12 @@ import React from 'react';
 const ClientsTestimonials = () => {
   return (
     <div className="clients-testimonials">
-      <h1>What Our Clients say about RealmHR Services</h1>
-      <h2>National Group Of Companies - India:</h2>
+      <h1>What Our Clients say about RealmHR Services:</h1>
+      <h2>1. National Group Of Companies - India</h2>
       <p>
-      "RealmHR Services has been an invaluable partner in our recruitment efforts. Their efficiency and dedication to understanding our unique needs in the Retail and FMCG sectors have resulted in exceptional hires that have greatly contributed to our company's growth - Jaykumar Mistry - CMO "
+      <strong>"RealmHR Services has been an invaluable partner in our recruitment efforts. 
+       Their efficiency and dedication to understanding our unique needs in the Retail and FMCG sectors have resulted in exceptional hires that have greatly contributed to our company's growth.
+       Jaykumar Mistry - Chief Marketing Officer(National Group Of Companies)" </strong>
       </p>
 
       {/*<h2>Our Expertise:</h2>
