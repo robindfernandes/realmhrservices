@@ -3,7 +3,7 @@ import Header from '@components/Header';
 import Footer from '@components/Footer';
 import Link from 'next/link';
 import SideNav from '@components/SideNav';
-import MainContent from '@components/MainContent';
+{/*#import MainContent from '@components/MainContent';*/}
 import { useState } from 'react'; // Import React's useState for managing state
 
 
