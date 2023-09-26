@@ -8,6 +8,7 @@ import { useState } from 'react'; // Import React's useState for managing state
 import Image from 'next/image';
 
 const IndexPage = () => {
+console.log("Rendering IndexPage"); // Add this line
   return (
     <div>
       <h1>We are RealmHR Services</h1>
