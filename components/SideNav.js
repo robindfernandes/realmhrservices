@@ -16,11 +16,11 @@ const SideNavWrapper = styled.div`
 const NavLink = styled.a`
   display: block;
   text-decoration: none;
-  color: #fff; /* Default text color */
+  color: #333; /* Default text color */
   transition: color 0.3s; /* Smooth transition effect for color change */
 
   &:hover {
-    color: yellow; /* Color on hover */
+    color: #00bcb9; /* Color on hover */
   }
 `;
 
