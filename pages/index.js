@@ -3,8 +3,7 @@ import Header from '@components/Header';
 import Footer from '@components/Footer';
 import Link from 'next/link';
 import SideNav from '@components/SideNav';
-{/*#import MainContent from '@components/MainContent';*/}
-import { useState } from 'react'; // Import React's useState for managing state
+import { useState } from 'react';
 
 const Home = () => {
   // Define the container class
@@ -28,7 +27,7 @@ const Home = () => {
         {/* Include the SideNav component */}
         <SideNav />
         {/* Include the MainContent component */}
-       {/*} <MainContent /> */}
+        {/* <MainContent /> */}
         {/* Dropdown menu button */}
         <div className="dropdown">
           {/* Move the button inside the JSX */}
@@ -44,10 +43,10 @@ const Home = () => {
         <h1 className="title" style={{ fontSize: '36px' }}>Welcome to RealmHR Services</h1>
         <Header title="&ldquo;Connecting Talent to Opportunity&rdquo;" /> {/* Pass the title prop here */}
         <img
-          src="/logo-realm.png"
-          alt="RealmHR Services Logo"
-          className="logo"
-          style={{ width: '200px', height: 'auto' }} // Adjust the width as needed
+          src="/1.png"  // Updated image source to "/1.png"
+          alt="Image 1"
+          className="image" // Add your CSS class here
+          style={{ width: '200px', height: 'auto' }}
         />
         <p className="description">
           RealmHR Services is your trusted partner in recruitment, specializing in the retail, FMCG, and ITES sectors. With our deep industry knowledge and a commitment to excellence, we connect businesses with top-tier talent, helping them thrive and grow. In the dynamic world of retail, FMCG, and ITES, finding the right talent is crucial for success. At RealmHR Services, we understand the unique challenges and demands of these sectors. Our dedicated team of recruiters has a proven track record of identifying and placing exceptional professionals who can drive your business forward.
@@ -71,4 +70,3 @@ const Home = () => {
 };
 
 export default Home;
-
