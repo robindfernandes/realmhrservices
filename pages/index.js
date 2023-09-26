@@ -16,8 +16,7 @@ console.log("Rendering IndexPage"); // Add this line
         <Image
           src="/realm1.png" // Use absolute path
           alt="Image 1"
-          width={400} // Set the desired width
-          height={300} // Set the desired height
+          style={{ width: '200px', height: 'auto' }} // Adjust the width as needed
         />
         <p>Customer Delight is in our DNA</p>
       </div>
@@ -25,8 +24,7 @@ console.log("Rendering IndexPage"); // Add this line
         <Image
           src="/realm2.png" // Use absolute path
           alt="Image 2"
-          width={400}
-          height={300}
+          style={{ width: '200px', height: 'auto' }} // Adjust the width as needed
         />
         <p>Personal Touch</p>
       </div>
@@ -34,8 +32,7 @@ console.log("Rendering IndexPage"); // Add this line
         <Image
           src="/realm3.png" // Use absolute path
           alt="Image 3"
-          width={400}
-          height={300}
+          style={{ width: '200px', height: 'auto' }} // Adjust the width as needed
         />
         <p>With you at every step</p>
       </div>
