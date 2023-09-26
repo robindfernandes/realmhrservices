@@ -8,21 +8,37 @@ const SideNavWrapper = styled.div`
   width: 250px; /* Set the width as needed */
   height: 100%; /* Make it cover the full height */
   padding: 20px; /* Add padding for spacing */
+  position: fixed; /* Fixed position to stick to the top left */
+  top: 0; /* Position from the top */
+  left: 0; /* Position from the left */
+`;
+
+const NavLink = styled.a`
+  display: block;
+  text-decoration: none;
+  color: #fff; /* Default text color */
+  transition: color 0.3s; /* Smooth transition effect for color change */
+
+  &:hover {
+    color: yellow; /* Color on hover */
+  }
 `;
 
 // SideNav.js
 const SideNav = () => {
-    return (
-      <SideNavWrapper>
-        {/* Your navigation links or content here */}
-        <ul>
-          {/*<li>Link 1</li>*/}
-          <li><Link href="/clients-tesimonials">Clients Testimonials</Link></li>
-          <li>Link 2</li>
-          {/* ... */}
-        </ul>
-      </SideNavWrapper>
-    );
-  };
+  return (
+    <SideNavWrapper>
+      {/* Your navigation links or content here */}
+      <ul>
+        <li>
+          <Link href="/clients-testimonials">
+            <NavLink>Clients Testimonials</NavLink>
+          </Link>
+        </li>
+        {/* Add more links as needed */}
+      </ul>
+    </SideNavWrapper>
+  );
+};
 
-  export default SideNav;
+export default SideNav;

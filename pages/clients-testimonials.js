@@ -5,13 +5,13 @@ import React from 'react';
 const ClientsTestimonials = () => {
   return (
     <div className="clients-testimonials">
-      <h1>RealmHR Services</h1>
-      <h2>About Us:</h2>
+      <h1>What Our Clients say about RealmHR Services</h1>
+      <h2>National Group Of Companies - India:</h2>
       <p>
-        RealmHR Services is a leading recruitment firm specializing in the ITES, FMCG, and Retail industries. Founded and owned by <strong>Ms. Tejasweeta Mistry</strong>, a seasoned professional with over 15 years of experience in talent acquisition across ITES, Retail, Pharma, and FMCG sectors.
+      "RealmHR Services has been an invaluable partner in our recruitment efforts. Their efficiency and dedication to understanding our unique needs in the Retail and FMCG sectors have resulted in exceptional hires that have greatly contributed to our company's growth - Jaykumar Mistry - CMO "
       </p>
 
-      <h2>Our Expertise:</h2>
+      {/*<h2>Our Expertise:</h2>
       <p>
         <strong>ITES (Information Technology Enabled Services):</strong> We excel in finding top talent for the ITES sector, ensuring that our clients have the skilled professionals they need to thrive in today's fast-paced tech-driven environment.
       </p>
@@ -28,7 +28,7 @@ const ClientsTestimonials = () => {
         <li><strong>Tailored Solutions:</strong> We offer customized recruitment solutions to meet the unique needs of each client, ensuring the right fit for every role.</li>
         <li><strong>Exceptional Talent Pool:</strong> Our extensive network and rigorous selection process enable us to provide access to top-tier talent.</li>
         <li><strong>Client-Centric Approach:</strong> We prioritize understanding our clients' goals and challenges to deliver results that drive their success.</li>
-      </ul>
+  </ul> */}
 
       <h2>Contact Us:</h2>
       <p>
