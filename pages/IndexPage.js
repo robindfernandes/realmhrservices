@@ -1,9 +1,8 @@
-// pages/IndexPage.js
 import React from 'react';
 import Image from 'next/image';
-import Image1 from '../public/RealmHR1.jpg';
-import Image2 from '../public/RealmHR2.jpg';
-import Image3 from '../public/RealmHR3.jpg';
+import RealmHR1 from '../public/RealmHR1.jpg';
+import RealmHR2 from '../public/RealmHR2.jpg';
+import RealmHR3 from '../public/RealmHR3.jpg';
 
 const IndexPage = () => {
   return (
@@ -11,16 +10,16 @@ const IndexPage = () => {
       <h1>We are RealmHR Services</h1>
       <div>
         <Image
-          src={Image1}
+          src={RealmHR1}
           alt="Image 1"
           width={400} // Set the desired width
           height={300} // Set the desired height
         />
-        <p>Csutomer Delight is in our DNA</p>
+        <p>Customer Delight is in our DNA</p>
       </div>
       <div>
         <Image
-          src={Image2}
+          src={RealmHR2}
           alt="Image 2"
           width={400}
           height={300}
@@ -29,7 +28,7 @@ const IndexPage = () => {
       </div>
       <div>
         <Image
-          src={Image3}
+          src={RealmHR3}
           alt="Image 3"
           width={400}
           height={300}
