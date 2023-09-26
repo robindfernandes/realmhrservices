@@ -6,7 +6,7 @@ const IndexPage = () => {
 
   return (
     <div>
-      <h1>We are RealmHR Services</h1>
+      {/*<h1>We are RealmHR Services</h1>*/}
       <div>
         <Image
           src="/one.jpg"
@@ -16,7 +16,7 @@ const IndexPage = () => {
         />
         <p>Customer Delight is in our DNA</p>
       </div>
-      <div>
+      {/*<div>
         <Image
           src="/two.jpg"
           alt="Image 2"
@@ -33,8 +33,8 @@ const IndexPage = () => {
           style={{ width: '200px', height: 'auto' }}
         />
         <p>With you at every step</p>
-      </div>
-    </div>
+  </div> */}
+  </div>
   );
 };
 
