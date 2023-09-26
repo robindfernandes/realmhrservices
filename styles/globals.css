@@ -76,7 +76,7 @@ code {
 
 /* Apply hover effect to the dropdown button */
 .dropdown-button:hover {
-  {/*background-color: #009c99; /* Darken the background color on hover */*/}
+  /*background-color: #009c99; /* Darken the background color on hover */
   transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
