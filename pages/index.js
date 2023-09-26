@@ -5,20 +5,54 @@ import Link from 'next/link';
 import SideNav from '@components/SideNav';
 import MainContent from '@components/MainContent';
 import { useState } from 'react'; // Import React's useState for managing state
+import Image from 'next/image';
 
-export default function Home() {
- // Define the container class
-const container = "container"; // You can change this to match your CSS class name
+const IndexPage = () => {
+  return (
+    <div>
+      <h1>We are RealmHR Services</h1>
+      <div>
+        <Image
+          src="/RealmHR1.jpg" // Use absolute path
+          alt="Image 1"
+          width={400} // Set the desired width
+          height={300} // Set the desired height
+        />
+        <p>Customer Delight is in our DNA</p>
+      </div>
+      <div>
+        <Image
+          src="/RealmHR2.jpg" // Use absolute path
+          alt="Image 2"
+          width={400}
+          height={300}
+        />
+        <p>Personal Touch</p>
+      </div>
+      <div>
+        <Image
+          src="/RealmHR3.jpg" // Use absolute path
+          alt="Image 3"
+          width={400}
+          height={300}
+        />
+        <p>With you at every step</p>
+      </div>
+    </div>
+  );
+};
 
-// Define state to manage the visibility of the dropdown menu
+const Home = () => {
+  // Define the container class
+  const container = "container"; // You can change this to match your CSS class name
+
+  // Define state to manage the visibility of the dropdown menu
   const [isMenuVisible, setMenuVisible] = useState(false);
 
   // Function to toggle the visibility of the dropdown menu
   const toggleMenu = () => {
     setMenuVisible(!isMenuVisible);
   };
-
-
 
   return (
     <div className={container} style={{ backgroundColor: 'var(--primary-bg-color)' }}>
@@ -33,14 +67,14 @@ const container = "container"; // You can change this to match your CSS class na
         <MainContent />
         {/* Dropdown menu button */}
         <div className="dropdown">
-        {/* Move the button inside the JSX */}
-        <button className="dropdown-button" style={{ fontWeight: 'bold' }} onClick={toggleMenu}>Menu</button>
-        {isMenuVisible && (
-           <ul className="dropdown-menu">
-           <li><Link href="/who-we-are">Who we are</Link></li>
-           <li><a href="#">Our thoughts & ideas</a></li>
-           <li><a href="#">Talk to us</a></li>
-         </ul>
+          {/* Move the button inside the JSX */}
+          <button className="dropdown-button" style={{ fontWeight: 'bold' }} onClick={toggleMenu}>Menu</button>
+          {isMenuVisible && (
+            <ul className="dropdown-menu">
+              <li><Link href="/who-we-are">Who we are</Link></li>
+              <li><a href="#">Our thoughts & ideas</a></li>
+              <li><a href="#">Talk to us</a></li>
+            </ul>
           )}
         </div>
         <h1 className="title" style={{ fontSize: '36px' }}>Welcome to RealmHR Services</h1>
@@ -61,7 +95,7 @@ const container = "container"; // You can change this to match your CSS class na
           <li><strong>Customized Solutions</strong>: We tailor our recruitment solutions to your business's unique requirements, ensuring a perfect fit for every position.</li>
           <li><strong>Seamless Process</strong>: Our efficient and transparent recruitment process saves you time and resources, so you can focus on what you do best—growing your business.</li>
         </ul>
-        
+
         <p>
           Partner with RealmHR Services today and experience the difference in recruitment. Let us help you build a workforce that drives success in the retail, FMCG, and ITES sectors. Contact us to learn more about how we can assist you in achieving your recruitment goals.
         </p>
@@ -70,4 +104,7 @@ const container = "container"; // You can change this to match your CSS class na
       <Footer />
     </div>
   );
-}
+};
+
+export default Home;
+export { IndexPage };
