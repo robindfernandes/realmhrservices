@@ -6,9 +6,6 @@ import SideNav from '@components/SideNav';
 {/*#import MainContent from '@components/MainContent';*/}
 import { useState } from 'react'; // Import React's useState for managing state
 
-
-
-
 const Home = () => {
   // Define the container class
   const container = "container"; // You can change this to match your CSS class name
