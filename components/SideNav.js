@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import Link from 'next/link';
 
 const SideNavWrapper = styled.div`
-  background-color: #ffeb3b; /* Background color for the side navigation */
-  color: #333; /* Text color */
+  background-color: #333; /* Background color for the side navigation */
+  color: #fff; /* Text color */
   width: 250px; /* Set the width as needed */
   height: 100%; /* Make it cover the full height */
   padding: 20px; /* Add padding for spacing */
