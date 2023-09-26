@@ -9,7 +9,7 @@ const IndexPage = () => {
       <h1>We are RealmHR Services</h1>
       <div>
         <Image
-          src="/1.png"
+          src="/one.jpg"
           alt="Image 1"
           className="image" // Add your CSS class here
           style={{ width: '200px', height: 'auto' }}
@@ -18,7 +18,7 @@ const IndexPage = () => {
       </div>
       <div>
         <Image
-          src="/2.png"
+          src="/two.jpg"
           alt="Image 2"
           className="image" // Add your CSS class here
           style={{ width: '200px', height: 'auto' }}
@@ -27,7 +27,7 @@ const IndexPage = () => {
       </div>
       <div>
         <Image
-          src="/3.png"
+          src="/three.jpg"
           alt="Image 3"
           className="image" // Add your CSS class here
           style={{ width: '200px', height: 'auto' }}
