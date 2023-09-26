@@ -13,27 +13,30 @@ console.log("Rendering IndexPage"); // Add this line
     <div>
       <h1>We are RealmHR Services</h1>
       <div>
-        <Image
-          src="/realm1.png" // Use absolute path
-          alt="Image 1"
-          style={{ width: '200px', height: 'auto' }} // Adjust the width as needed
-        />
+      <Image
+  src="/realm1.png"
+  alt="Image 1"
+  className="image" // Add your CSS class here
+  style={{ width: '200px', height: 'auto' }}
+/>
         <p>Customer Delight is in our DNA</p>
       </div>
       <div>
-        <Image
-          src="/realm2.png" // Use absolute path
-          alt="Image 2"
-          style={{ width: '200px', height: 'auto' }} // Adjust the width as needed
-        />
+      <Image
+  src="/realm2.png"
+  alt="Image 1"
+  className="image" // Add your CSS class here
+  style={{ width: '200px', height: 'auto' }}
+/>
         <p>Personal Touch</p>
       </div>
       <div>
-        <Image
-          src="/realm3.png" // Use absolute path
-          alt="Image 3"
-          style={{ width: '200px', height: 'auto' }} // Adjust the width as needed
-        />
+      <Image
+  src="/realm3.png"
+  alt="Image 1"
+  className="image" // Add your CSS class here
+  style={{ width: '200px', height: 'auto' }}
+/>
         <p>With you at every step</p>
       </div>
     </div>
