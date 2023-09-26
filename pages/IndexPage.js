@@ -1,8 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import RealmHR1 from '../public/RealmHR1.jpg';
-import RealmHR2 from '../public/RealmHR2.jpg';
-import RealmHR3 from '../public/RealmHR3.jpg';
 
 const IndexPage = () => {
   return (
@@ -10,7 +7,7 @@ const IndexPage = () => {
       <h1>We are RealmHR Services</h1>
       <div>
         <Image
-          src={RealmHR1}
+          src="/RealmHR1.jpg" //Use absolute path
           alt="Image 1"
           width={400} // Set the desired width
           height={300} // Set the desired height
@@ -19,7 +16,7 @@ const IndexPage = () => {
       </div>
       <div>
         <Image
-          src={RealmHR2}
+          src="/RealmHR2.jpg" //Use absolute path
           alt="Image 2"
           width={400}
           height={300}
@@ -28,7 +25,7 @@ const IndexPage = () => {
       </div>
       <div>
         <Image
-          src={RealmHR3}
+          src="/RealmHR3.jpg" //Use absolute path
           alt="Image 3"
           width={400}
           height={300}

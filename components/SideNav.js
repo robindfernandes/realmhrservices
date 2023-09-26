@@ -16,7 +16,7 @@ const SideNavWrapper = styled.div`
 const NavLink = styled.a`
   display: block;
   text-decoration: none;
-  color: #333; /* Default text color */
+  color: yellow; /* Default text color */
   transition: color 0.3s; /* Smooth transition effect for color change */
 
   &:hover {
