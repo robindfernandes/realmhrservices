@@ -13,7 +13,7 @@ const IndexPage = () => {
       <h1>We are RealmHR Services</h1>
       <div>
         <Image
-          src="/RealmHR1.jpg" // Use absolute path
+          src="/realm1.jpg" // Use absolute path
           alt="Image 1"
           width={400} // Set the desired width
           height={300} // Set the desired height
@@ -22,7 +22,7 @@ const IndexPage = () => {
       </div>
       <div>
         <Image
-          src="/RealmHR2.jpg" // Use absolute path
+          src="/realm2.jpg" // Use absolute path
           alt="Image 2"
           width={400}
           height={300}
@@ -31,7 +31,7 @@ const IndexPage = () => {
       </div>
       <div>
         <Image
-          src="/RealmHR3.jpg" // Use absolute path
+          src="/realm3.jpg" // Use absolute path
           alt="Image 3"
           width={400}
           height={300}
