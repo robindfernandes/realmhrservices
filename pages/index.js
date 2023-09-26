@@ -31,7 +31,7 @@ const Home = () => {
         {/* Include the SideNav component */}
         <SideNav />
         {/* Include the MainContent component */}
-        <MainContent />
+       {/*} <MainContent /> */}
         {/* Dropdown menu button */}
         <div className="dropdown">
           {/* Move the button inside the JSX */}
