@@ -85,15 +85,16 @@ body {
   display: block;
 }
 .content-container {
-  max-width: 100px; /* Adjust the max-width to your preferred layout */
-  margin: 0 auto;
-  padding: 20px;
-  text-align: left;
-  position: relative; /* Add position relative for positioning logo */
+  max-width: 800px; /* Adjust the max-width to your preference */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px; /* Add padding for spacing */
+  text-align: left; /* Align text content to the left */
+  padding-left: 270px; /* Ensure content doesn't overlap with side nav */
 }
 
 .logo-container {
   position: absolute;
   top: 20px;
-  left: 20px;
+  left: 50%;
+  transform: translateX(-50%); /* This centers the element horizontally */
 }
