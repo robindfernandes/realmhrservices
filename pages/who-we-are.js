@@ -3,6 +3,8 @@
 import React from 'react';
 import Head from 'next/head';
 import styles from './whoWeAre.module.css'; // Import the CSS module for page-specific styles
+import Header from '@components/Header';
+import Footer from '@components/Footer';
 
 const WhoWeAre = () => {
   return (
@@ -14,21 +16,22 @@ const WhoWeAre = () => {
 
       <div className={styles.container}>
         <div className={`logo-container ${styles.logoTopLeft}`}>
-          <img
+          {/*<img
             src="/logo-realm.png"
             alt="RealmHR Services Logo"
             className="logo"
             style={{ width: '150px', height: 'auto' }} // Adjusted logo size
-          />
+  /> */}
            <img
         src="/2.png"
         alt="Image 2"
         className="image"
-        style={{ width: '50%', height: '50' }}
+        style={{ width: '100%', height: '50' }}
       />
         </div>
         <div className="who-we-are">
-          <h1 className={styles.title}>RealmHR Services</h1>
+        <Header title="&ldquo;RealmHR Services&rdquo;" />
+        <h1 className={styles.title}>About Us</h1>
         <h2>About Us:</h2>
         <p>
           RealmHR Services is a leading recruitment firm specializing in the ITES, FMCG, and Retail industries. Founded and owned by <strong>Ms. Tejasweeta Mistry</strong>, a seasoned professional with over 15 years of experience in talent acquisition across ITES, Retail, Pharma, and FMCG sectors.
@@ -67,6 +70,7 @@ const WhoWeAre = () => {
           Connect with us on LinkedIn: <a href="https://www.linkedin.com/company/realmhrservices">Follow us on LinkedIn</a>
         </p>
         </div>
+        <Footer />
       </div>
     </>
   );
