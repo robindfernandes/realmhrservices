@@ -84,3 +84,16 @@ body {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+.content-container {
+  max-width: 1000px; /* Adjust the max-width to your preferred layout */
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  position: relative; /* Add position relative for positioning logo */
+}
+
+.logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
