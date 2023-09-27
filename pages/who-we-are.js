@@ -24,7 +24,7 @@ const WhoWeAre = () => {
         src="/2.png"
         alt="Image 2"
         className="image"
-        style={{ width: '100%', height: 'auto' }}
+        style={{ width: '50%', height: '50' }}
       />
         </div>
         <div className="who-we-are">
