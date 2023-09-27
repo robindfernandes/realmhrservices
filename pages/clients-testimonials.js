@@ -1,13 +1,18 @@
 // clients-testimonials.js
 
 import React from 'react';
+import Head from 'next/head';
 
 const ClientsTestimonials = () => {
   return (
     <><div className="logo-container logo-top-left">
+      <Head>
+        <title>Next.js Starter!</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <img
-      src="/logo.png"
-      alt="Your Logo"
+      src="/logo-realm.png"
+      alt="RealmHR Services Logo"
       className="logo"
       style={{ width: '200px', height: 'auto' }}
     />

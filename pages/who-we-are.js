@@ -1,13 +1,17 @@
 // who-we-are.js
 
 import React from 'react';
-
+import Head from 'next/head';
 const WhoWeAre = () => {
   return (
     <><div className="logo-container logo-top-left">
-    <img
-      src="/logo.png"
-      alt="Your Logo"
+    <Head>
+        <title>Next.js Starter!</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <img
+      src="/logo-realm.png"
+      alt="RealmHR Services Logo"
       className="logo"
       style={{ width: '200px', height: 'auto' }}
     />
