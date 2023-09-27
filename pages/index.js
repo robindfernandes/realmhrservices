@@ -5,8 +5,6 @@ import Link from 'next/link';
 import SideNav from '@components/SideNav';
 import { useState } from 'react';
 
-const container = "container"; // You can change this to match your CSS class name
-
 const Home = () => {
   // Define state to manage the visibility of the dropdown menu
   const [isMenuVisible, setMenuVisible] = useState(false);
@@ -17,56 +15,30 @@ const Home = () => {
   };
 
   return (
-    <div className={container} style={{ backgroundColor: 'var(--primary-bg-color)' }}>
+    <div className="container">
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <SideNav /> {/* Move the SideNav component outside of the main content */}
+      <SideNav />
       <main>
-        {/* Include the MainContent component */}
-        {/* <MainContent /> */}
-        {/* Dropdown menu button */}
-        <div className="dropdown">
-          {/* Move the button inside the JSX */}
-          <button className="dropdown-button" style={{ fontWeight: 'bold' }} onClick={toggleMenu}>
-            Menu
-          </button>
-          {isMenuVisible && (
-            <ul className="dropdown-menu">
-              <li>
-                <Link href="/who-we-are">Who we are</Link>
-              </li>
-              <li>
-                <a href="#">Our thoughts & ideas</a>
-              </li>
-              <li>
-                <a href="#">Talk to us</a>
-              </li>
-            </ul>
-          )}
-        </div>
-          <div className="logo-container">
-            <img
-              src="/logo-realm.png"
-              alt="RealmHR Services Logo"
-              className="logo"
-              style={{ width: '200px', height: 'auto' }}
-            />
-          </div>
-          <div className="content-container">
-        </div>
-          <h1 className="title" style={{ fontSize: '36px' }}>
-            Welcome to RealmHR Services
-          </h1>
-          <Header title="&ldquo;Connecting Talent to Opportunity&rdquo;" />
+        <div className="logo-container">
           <img
-            src="/1.png" // Updated image source to "/1.png"
-            alt="Image 1"
-            className="image"
-            style={{ width: '50%', height: 'auto' }}
+            src="/logo-realm.png"
+            alt="RealmHR Services Logo"
+            className="logo"
           />
-          <p className="description">
+        </div>
+        <h1 className="title" style={{ fontSize: '36px' }}>
+          Welcome to RealmHR Services
+        </h1>
+        <Header title="&ldquo;Connecting Talent to Opportunity&rdquo;" />
+        <img
+          src="/1.png"
+          alt="Image 1"
+          className="image"
+        />
+        <p className="description">
           RealmHR Services is your trusted partner in recruitment, specializing in the retail, FMCG, and ITES sectors. With our deep industry knowledge and a commitment to excellence, we connect businesses with top-tier talent, helping them thrive and grow. In the dynamic world of retail, FMCG, and ITES, finding the right talent is crucial for success. At RealmHR Services, we understand the unique challenges and demands of these sectors. Our dedicated team of recruiters has a proven track record of identifying and placing exceptional professionals who can drive your business forward.
         </p>
         <h2>Why Choose RealmHR Services?</h2>

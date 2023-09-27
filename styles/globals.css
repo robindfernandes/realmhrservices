@@ -1,9 +1,9 @@
 /* styles.css */
 
 :root {
-  --primary-bg-color1: #00bcb9; /* Primary background color - Left side */
-  --primary-bg-color2: #ffeb3b; /* Primary background color - Right side */
-  --text-color: #333; /* Text color */
+  --primary-bg-color1: #00bcb9;
+  --primary-bg-color2: #ffeb3b;
+  --text-color: #333;
 }
 
 html,
@@ -11,39 +11,39 @@ body {
   font-family: 'Lato', sans-serif;
   background: linear-gradient(to right, var(--primary-bg-color1), var(--primary-bg-color2));
   color: var(--text-color);
-  margin: 0; /* Remove default body margin */
-  padding: 0; /* Remove default body padding */
-  overflow-x: hidden; /* Hide horizontal overflow */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center; /* Center-align content */
 }
 
 .title {
-  font-size: 36px; /* Increase the font size for titles */
-  font-weight: bold; /* Make titles bold */
-  margin: 0; /* Remove margin for titles */
-  padding: 0; /* Remove padding for titles */
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0; /* Add margin for spacing */
 }
 
 .logo {
-  width: 200px; /* Adjust the logo width as needed */
-  height: auto; /* Maintain aspect ratio */
-  margin: 20px; /* Add margin for spacing */
-  display: block; /* Ensure it takes up the full width */
-  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
-  position: absolute; /* Position the logo absolutely */
-  top: 20px; /* Adjust the top position as needed */
-  left: 20px; /* Adjust the left position as needed */
+  width: 200px;
+  height: auto;
+  display: block;
+  transition: transform 0.2s ease-in-out;
 }
 
-/* Apply hover effect to the logo */
 .logo:hover {
-  transform: scale(1.05); /* Slight zoom effect on hover */
+  transform: scale(1.05);
 }
 
 /* Remove bullet points from the side nav and make it slimmer */
 .dropdown-menu li {
-  padding: -10px;
+  padding: 10px 0; /* Adjust padding for spacing */
   text-align: center;
-  list-style: none; /* Remove bullet points */
+  list-style: none;
   margin-left: -10px; /* Adjust the left margin to make it slimmer */
 }
 
@@ -62,12 +62,10 @@ body {
   transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
-/* Apply hover effect to the dropdown button */
 .dropdown-button:hover {
   transform: scale(1.05);
 }
 
-/* Dropdown menu */
 .dropdown-menu {
   list-style: none;
   padding: 0;
@@ -77,24 +75,30 @@ body {
   top: 36px;
   right: 0;
   background-color: transparent;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 /* Show the menu when the button is clicked */
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-.content-container {
-  max-width: 500px; /* Adjust the max-width to your preference */
-  margin: 0 auto; /* Center the content horizontally */
-  padding: 20px; /* Add padding for spacing */
-  text-align: left; /* Align text content to the left */
-  padding-left: 270px; /* Ensure content doesn't overlap with side nav */
-}
 
+/* Center the logo container */
 .logo-container {
   position: absolute;
   top: 20px;
   left: 50%;
-  transform: translateX(-50%); /* This centers the element horizontally */
+  transform: translateX(-50%);
+}
+
+/* Add space on the left for the content to avoid overlap */
+.main-content {
+  padding-left: 280px; /* Adjust as needed */
+}
+
+/* Center align the content within the main content area */
+.main-content > * {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
 }
