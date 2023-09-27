@@ -4,12 +4,14 @@ import React from 'react';
 
 const ClientsTestimonials = () => {
   return (
-    <><div className="logo-container">
-      <img
-        src="/logo-realm.png"
-        alt="RealmHR Services Logo"
-        className="logo" />
-    </div>
+    <><div className="logo-container logo-top-left">
+    <img
+      src="/logo.png"
+      alt="Your Logo"
+      className="logo"
+      style={{ width: '200px', height: 'auto' }}
+    />
+  </div>
     <div className="clients-testimonials">
         <h1>What Our Clients say about RealmHR Services:</h1>
         <h2>1. National Group Of Companies - India</h2>

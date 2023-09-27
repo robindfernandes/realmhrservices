@@ -4,12 +4,14 @@ import React from 'react';
 
 const WhoWeAre = () => {
   return (
-    <><div className="logo-container">
-      <img
-        src="/logo-realm.png"
-        alt="RealmHR Services Logo"
-        className="logo" />
-    </div>
+    <><div className="logo-container logo-top-left">
+    <img
+      src="/logo.png"
+      alt="Your Logo"
+      className="logo"
+      style={{ width: '200px', height: 'auto' }}
+    />
+  </div>
     <div className="who-we-are">
         <h1>RealmHR Services</h1>
         <h2>About Us:</h2>
