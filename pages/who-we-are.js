@@ -15,7 +15,7 @@ const WhoWeAre = () => {
       </Head>
 
       <div className={styles.container}>
-        <Header title="&ldquo;RealmHR Services&rdquo;" />
+        <Header title="&ldquo;<strong>Founders Profile</strong>&rdquo;" />
         <img
           src="/2.png"
           alt="Image 2"
@@ -23,30 +23,14 @@ const WhoWeAre = () => {
           style={{ width: '100%', height: 'auto' }}
         />
         <div className="who-we-are">
-          <h1 className={styles.title}>About Us</h1>
-          <h2>About Us:</h2>
+          <h1 className={styles.title}>TEJASWEETA MISTRY</h1>
+          <h2><strong>Founder | REALMHR Services</strong></h2>
           <p>
-            RealmHR Services is a leading recruitment firm specializing in the ITES, FMCG, and Retail industries. Founded and owned by <strong>Ms. Tejasweeta Mistry</strong>, a seasoned professional with over 15 years of experience in talent acquisition across ITES, Retail, Pharma, and FMCG sectors.
+          Tejasweeta Mistry, a name embodying majesty, dignity, and an unwavering wellspring of positive energy, stands as a luminary in the realm of recruitment and human resources. With an illustrious career spanning over 15 years, Tejasweeta has honed her skills and acumen in the art of managing organizational human capital, making her a formidable force in the industry.
+          Her journey to becoming a recruitment industry expert is marked by a relentless pursuit of knowledge and hands-on experience within distinguished corporations, coupled with impactful consulting engagements. Tejasweeta's extensive knowledge traverses the entire spectrum of HR functions, encompassing Talent Acquisition, Employee Life Cycle Management, Performance Management, Compensation & Benefits, Payroll & Compliance, HR Audit, and HRIS Management. Her unwavering commitment to compliance and her profound understanding of regulatory and legal frameworks are the cornerstones of her success.
+          Armed with a Master's Degree from the prestigious Narsee Monjee Institute of Management Studies, Tejasweeta has ascended to the status of a true subject matter expert in HR Shared Services. Her extensive skill set and hands-on experience empower her to provide strategic guidance to senior management, particularly in matters pertaining to human capital. Tejasweeta's remarkable achievements include spearheading organizational structure changes, spearheading the seamless implementation of cutting-edge HRIS systems, and adeptly navigating the intricate HR landscape in high-stakes Merger & Acquisition projects.
+          In the dynamic world of recruitment, Tejasweeta Mistry shines as an unwavering beacon of expertise, innovation, and excellence, guiding organizations toward a brighter future.
           </p>
-
-        {/*<h2>Our Expertise:</h2>
-        <p>
-          <strong>ITES (Information Technology Enabled Services):</strong> We excel in finding top talent for the ITES sector, ensuring that our clients have the skilled professionals they need to thrive in today's fast-paced tech-driven environment.
-        </p>
-        <p>
-          <strong>FMCG (Fast-Moving Consumer Goods):</strong> We understand the unique demands of the FMCG industry and connect companies with dynamic individuals who can drive growth and success.
-        </p>
-        <p>
-          <strong>Retail:</strong> Our comprehensive knowledge of the retail sector allows us to source candidates who can elevate the customer experience and contribute to retail excellence.
-        </p>
-
-        <h2>Discover the RealmHR Services Advantage</h2>
-        <ul>
-          <li><strong>Proven Track Record:</strong> With a wealth of experience, we have successfully placed candidates in key positions across various industries.</li>
-          <li><strong>Tailored Solutions:</strong> We offer customized recruitment solutions to meet the unique needs of each client, ensuring the right fit for every role.</li>
-          <li><strong>Exceptional Talent Pool:</strong> Our extensive network and rigorous selection process enable us to provide access to top-tier talent.</li>
-          <li><strong>Client-Centric Approach:</strong> We prioritize understanding our clients' goals and challenges to deliver results that drive their success.</li>
-        </ul> */}
 
         <h2><strong>Contact Us:</strong></h2>
         <p>
