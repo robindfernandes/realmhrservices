@@ -15,29 +15,21 @@ const WhoWeAre = () => {
       </Head>
 
       <div className={styles.container}>
-        <div className={`logo-container ${styles.logoTopLeft}`}>
-          {/*<img
-            src="/logo-realm.png"
-            alt="RealmHR Services Logo"
-            className="logo"
-            style={{ width: '150px', height: 'auto' }} // Adjusted logo size
-  /> */}
-           <img
-        src="/2.png"
-        alt="Image 2"
-        className="image"
-        style={{ width: '100%', height: '50' }}
-      />
-        </div>
-        <div className="who-we-are">
         <Header title="&ldquo;RealmHR Services&rdquo;" />
-        <h1 className={styles.title}>About Us</h1>
-        <h2>About Us:</h2>
-        <p>
-          RealmHR Services is a leading recruitment firm specializing in the ITES, FMCG, and Retail industries. Founded and owned by <strong>Ms. Tejasweeta Mistry</strong>, a seasoned professional with over 15 years of experience in talent acquisition across ITES, Retail, Pharma, and FMCG sectors.
-        </p>
+        <img
+          src="/2.png"
+          alt="Image 2"
+          className="image"
+          style={{ width: '100%', height: 'auto' }}
+        />
+        <div className="who-we-are">
+          <h1 className={styles.title}>About Us</h1>
+          <h2>About Us:</h2>
+          <p>
+            RealmHR Services is a leading recruitment firm specializing in the ITES, FMCG, and Retail industries. Founded and owned by <strong>Ms. Tejasweeta Mistry</strong>, a seasoned professional with over 15 years of experience in talent acquisition across ITES, Retail, Pharma, and FMCG sectors.
+          </p>
 
-        <h2>Our Expertise:</h2>
+        {/*<h2>Our Expertise:</h2>
         <p>
           <strong>ITES (Information Technology Enabled Services):</strong> We excel in finding top talent for the ITES sector, ensuring that our clients have the skilled professionals they need to thrive in today's fast-paced tech-driven environment.
         </p>
@@ -54,20 +46,20 @@ const WhoWeAre = () => {
           <li><strong>Tailored Solutions:</strong> We offer customized recruitment solutions to meet the unique needs of each client, ensuring the right fit for every role.</li>
           <li><strong>Exceptional Talent Pool:</strong> Our extensive network and rigorous selection process enable us to provide access to top-tier talent.</li>
           <li><strong>Client-Centric Approach:</strong> We prioritize understanding our clients' goals and challenges to deliver results that drive their success.</li>
-        </ul>
+        </ul> */}
 
-        <h2>Contact Us:</h2>
+        <h2><strong>Contact Us:</strong></h2>
         <p>
-          Email: <a href="mailto:teejay@realmhrservices.com">teejay@realmhrservices.com</a>
+          Email: <a href="mailto:teejay@realmhrservices.com"><strong>teejay@realmhrservices.com</strong></a>
         </p>
         <p>
-          Phone: +91 93727 87542
+          Phone: <strong>+91 93727 87542</strong>
         </p>
         <p>
-          Website: <a href="https://www.realmhrservices.com">www.realmhrservices.com</a>
+          Website: <a href="https://www.realmhrservices.com"><strong>www.realmhrservices.com</strong></a>
         </p>
         <p>
-          Connect with us on LinkedIn: <a href="https://www.linkedin.com/company/realmhrservices">Follow us on LinkedIn</a>
+          Connect with us on LinkedIn: <a href="https://www.linkedin.com/company/realmhrservices"><strong>Follow us on LinkedIn</strong></a>
         </p>
         </div>
         <Footer />
