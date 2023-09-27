@@ -1,0 +1,43 @@
+/* whoWeAre.module.css */
+
+/* Styles for the container div */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center; /* Center-align content */
+  }
+  
+  /* Styles for the logo container */
+  .logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transform: translateX(0);
+  }
+  
+  /* Styles for the logo image */
+  .logo {
+    width: 150px; /* Make the logo 25% smaller */
+    height: auto;
+    display: block;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .logo:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Styles for the "who-we-are" content */
+  .who-we-are {
+    text-align: left;
+    padding-left: 280px; /* Adjust as needed to avoid overlap */
+    margin-top: 50px; /* Add margin to create space below the logo */
+  }
+  
+  /* Styles for the page title */
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0; /* Add margin for spacing */
+  }
+  
