@@ -5,7 +5,7 @@ import Link from 'next/link';
 const SideNavWrapper = styled.div`
   background-color: #333; /* Background color for the side navigation */
   color: #fff; /* Text color */
-  width: 100px; /* Set the width as needed */
+  width: 50px; /* Set the width as needed */
   height: 100%; /* Make it cover the full height */
   padding: 20px; /* Add padding for spacing */
   position: fixed; /* Fixed position to stick to the top left */

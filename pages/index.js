@@ -22,7 +22,18 @@ const Home = () => {
       </Head>
       <SideNav />
       <main>
-        <div className="logo-container">
+      <div className="dropdown">
+          {/* Move the button inside the JSX */}
+          <button className="dropdown-button" style={{ fontWeight: 'bold' }} onClick={toggleMenu}>Menu</button>
+          {isMenuVisible && (
+            <ul className="dropdown-menu">
+              <li><Link href="/who-we-are">Who we are</Link></li>
+              <li><a href="#">Our thoughts & ideas</a></li>
+              <li><a href="#">Talk to us</a></li>
+            </ul>
+          )}
+        </div>
+         <div className="logo-container">
           <img
             src="/logo-realm.png"
             alt="RealmHR Services Logo"
