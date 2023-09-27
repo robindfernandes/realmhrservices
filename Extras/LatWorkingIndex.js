@@ -42,14 +42,6 @@ const Home = () => {
         </div>
         <h1 className="title" style={{ fontSize: '36px' }}>Welcome to RealmHR Services</h1>
         <Header title="&ldquo;Connecting Talent to Opportunity&rdquo;" /> {/* Pass the title prop here */}
-        {/* Logo */}
-        <img
-          src="/logo-realm.png"  // Add the path to your logo image here
-          alt="RealmHR Services Logo"
-          className="logo"
-          style={{ width: '200px', height: 'auto' }}
-        />
-        {/* Image 1 */}
         <img
           src="/1.png"  // Updated image source to "/1.png"
           alt="Image 1"
