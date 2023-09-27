@@ -56,7 +56,7 @@ const Home = () => {
               style={{ width: '200px', height: 'auto' }}
             />
           </div>
-          <h1 className="title" style={{ fontSize: '36px' }}>
+          <h1 className="title" style={{ fontSize: '48px' }}>
             Welcome to RealmHR Services
           </h1>
           <Header title="&ldquo;Connecting Talent to Opportunity&rdquo;" />
@@ -64,7 +64,7 @@ const Home = () => {
             src="/1.png" // Updated image source to "/1.png"
             alt="Image 1"
             className="image"
-            style={{ width: '100%', height: 'auto' }} // Adjust the width to cover the page horizontally
+            style={{ width: '100%', height: '50%' }} // Adjust the width to cover the page horizontally
           />
           <p className="description">
           RealmHR Services is your trusted partner in recruitment, specializing in the retail, FMCG, and ITES sectors. With our deep industry knowledge and a commitment to excellence, we connect businesses with top-tier talent, helping them thrive and grow. In the dynamic world of retail, FMCG, and ITES, finding the right talent is crucial for success. At RealmHR Services, we understand the unique challenges and demands of these sectors. Our dedicated team of recruiters has a proven track record of identifying and placing exceptional professionals who can drive your business forward.
