@@ -86,7 +86,7 @@ body {
 .logo-container {
   position: absolute;
   top: 20px;
-  left: 25%; /* Adjust the left position as needed */
+  left: 28%; /* Adjust the left position as needed */
   transform: translateX(-50%);
 }
 
