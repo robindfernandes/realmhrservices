@@ -40,3 +40,9 @@
   font-weight: bold;
   margin: 20px 0; /* Add margin for spacing */
 }
+
+/* Styles for the additional image */
+.image {
+  width: 50%; /* Adjust the width as needed */
+  height: auto;
+}
