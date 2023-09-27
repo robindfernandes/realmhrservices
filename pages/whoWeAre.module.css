@@ -9,7 +9,7 @@
 .logo-container {
   position: absolute;
   top: 20px;
-  left: 50%; /* Center the logo horizontally */
+  left: 50%;
   transform: translateX(-50%);
   z-index: 1; /* Ensure the logo is above other content */
 }
@@ -20,6 +20,8 @@
   height: auto;
   display: block;
   transition: transform 0.2s ease-in-out;
+  max-width: 100%; /* Ensure the image fits within its container */
+  max-height: 100%; /* Ensure the image fits within its container */
 }
 
 .logo:hover {
