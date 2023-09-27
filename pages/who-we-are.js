@@ -20,6 +20,12 @@ const WhoWeAre = () => {
             className="logo"
             style={{ width: '150px', height: 'auto' }} // Adjusted logo size
           />
+           <img
+        src="/2.png"
+        alt="Image 2"
+        className="image"
+        style={{ width: '100%', height: 'auto' }}
+      />
         </div>
         <div className="who-we-are">
           <h1 className={styles.title}>RealmHR Services</h1>

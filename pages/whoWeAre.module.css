@@ -4,15 +4,15 @@
 .container {
     max-width: 800px;
     margin: 0 auto;
-    text-align: center; /* Center-align content */
+    text-align: left; /* left align*/
   }
   
   /* Styles for the logo container */
   .logo-container {
     position: absolute;
     top: 20px;
-    left: 20px;
-    transform: translateX(0);
+    left: 28%; /* Adjust the left position as needed */
+    transform: translateX(-50%);
   }
   
   /* Styles for the logo image */
@@ -30,8 +30,8 @@
   /* Styles for the "who-we-are" content */
   .who-we-are {
     text-align: left;
-    padding-left: 280px; /* Adjust as needed to avoid overlap */
-    margin-top: 50px; /* Add margin to create space below the logo */
+    padding-left: 50px; /* Adjust as needed to avoid overlap */
+    margin-top: 20px; /* Add margin to create space below the logo */
   }
   
   /* Styles for the page title */
