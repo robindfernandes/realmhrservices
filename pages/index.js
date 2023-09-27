@@ -2,13 +2,9 @@ import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import Link from 'next/link';
-import SideNav from '@components/SideNav';
 import { useState } from 'react';
 
 const Home = () => {
-  // Define the container class
-  const container = "container"; // You can change this to match your CSS class name
-
   // Define state to manage the visibility of the dropdown menu
   const [isMenuVisible, setMenuVisible] = useState(false);
 
@@ -18,14 +14,12 @@ const Home = () => {
   };
 
   return (
-    <div className={container} style={{ backgroundColor: 'var(--primary-bg-color)' }}>
+    <div className="container">
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {/* Include the SideNav component */}
-        <SideNav />
         {/* Dropdown menu button */}
         <div className="dropdown">
           {/* Move the button inside the JSX */}
