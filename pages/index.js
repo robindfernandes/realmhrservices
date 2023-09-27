@@ -5,6 +5,8 @@ import Link from 'next/link';
 import SideNav from '@components/SideNav';
 import { useState } from 'react';
 
+const container = "container"; // You can change this to match your CSS class name
+
 const Home = () => {
   // Define state to manage the visibility of the dropdown menu
   const [isMenuVisible, setMenuVisible] = useState(false);
