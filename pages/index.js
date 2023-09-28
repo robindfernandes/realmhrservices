@@ -54,8 +54,8 @@ const Home = () => {
             alt="RealmHR Services Logo"
             className="logo"
             style={{
-              width: '50%',
-              height: '30%',
+              width: '25%',
+              height: '15%',
               position: 'absolute',
               top: '20px', // Adjust the top position as needed
               left: '20px', // Adjust the left position as needed
