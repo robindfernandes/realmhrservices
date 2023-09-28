@@ -14,12 +14,12 @@ const ClientsTestimonials = () => {
       </Head>
 
       <div className="container"> {/* Use global CSS class here */}
-        <Header title="&ldquo;Founders Profile&rdquo;" />
-        <img
+        <Header title= "Clients Testimonials" 
+        img
           src="/logo-realm.png"
           alt="RealmHR Services Logo"
           className="logo" /* Use global CSS class here */
-          style={{ width: '20px', height: 'auto' }}
+          style={{ width: '50px', height: 'auto' }} 
         />
       </div>
       <div className="clients-testimonials"> {/* Use global CSS class here */}
