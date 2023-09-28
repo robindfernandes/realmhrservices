@@ -29,7 +29,7 @@ body {
 }
 
 .logo {
-  width: 150px; /* Make the logo 25% smaller */
+  width: 250px; /* Make the logo 25% smaller */
   height: auto;
   display: block;
   transition: transform 0.2s ease-in-out;
@@ -41,7 +41,7 @@ body {
 
 /* Remove bullet points from the side nav and make it slimmer */
 .dropdown-menu li {
-  padding: 10px 0; /* Adjust padding for spacing */
+  padding: 20px 0; /* Adjust padding for spacing */
   text-align: center;
   list-style: none;
   margin-left: -10px; /* Adjust the left margin to make it slimmer */
@@ -62,9 +62,9 @@ body {
   transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
-.dropdown-button:hover {
+/*}.dropdown-button:hover {
   transform: scale(1.05);
-}
+} */
 
 .dropdown-menu {
   list-style: none;
@@ -86,25 +86,25 @@ body {
 .logo-container {
   position: absolute;
   top: 20px;
-  left: 28%; /* Adjust the left position as needed */
+  left: 0; /* Adjust the left position as needed */
   transform: translateX(-50%);
 }
 
 /* Add space on the left for the content to avoid overlap */
-.main-content {
-  padding-left: 280px; /* Adjust as needed */
-}
+/*.main-content {
+  padding-left: 280px; */ /* Adjust as needed
+} */
 
 /* Center align the content within the main content area */
 .main-content > * {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   text-align: left;
 }
 
 .logo-top-left {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 10px;
+  left: 10px;
   transform: translateX(0);
 }
