@@ -4,6 +4,7 @@ import Footer from '@components/Footer';
 import Link from 'next/link';
 /*import SideNav from '@components/SideNav';*/
 import { useState } from 'react';
+import '../styles/globals.css'
 
 const Home = () => {
   // Define state to manage the visibility of the dropdown menu
@@ -15,7 +16,7 @@ const Home = () => {
   };
 
   return (
-<div className={container}>
+<div className="container">
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
@@ -40,7 +41,7 @@ const Home = () => {
           </ul>
           )}
         </div>
-        <div className={container}> </div>
+        <div className="container"> </div>
         <Header>
           <div className={styles.logoContainer}>
             <img
