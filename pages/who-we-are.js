@@ -15,12 +15,12 @@ const WhoWeAre = () => {
       </Head>
 
       <div className={styles.container}>
-        <Header title="&ldquo;<strong>Founders Profile</strong>&rdquo;" />
+        <Header title="&ldquo;Founders Profile&rdquo;" />
         <img
           src="/2.png"
           alt="Image 2"
           className="image"
-          style={{ width: '100%', height: 'auto' }}
+          style={{ width: '50%', height: 'auto' }}
         />
         <div className="who-we-are">
           <h1 className={styles.title}>TEJASWEETA MISTRY</h1>
