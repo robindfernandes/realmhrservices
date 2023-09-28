@@ -4,6 +4,7 @@ import Footer from '@components/Footer';
 import Link from 'next/link';
 /*import SideNav from '@components/SideNav';*/
 import { useState } from 'react';
+import styles from './index.module.css'
 
 const Home = () => {
   // Define state to manage the visibility of the dropdown menu
@@ -40,28 +41,17 @@ const Home = () => {
           </ul>
           )}
         </div>
-         <div className="logo-container">
-          {/*<img
-            src="/logo-realm.png"
-            alt="RealmHR Services Logo"
-          className="logo" 
-          /> */}
-        </div>
-        <Header title="Welcome to RealmHR Services" />
-        <h1 className="title" style={{ fontSize: '36px' }}>
-        <img
-            src="/logo-realm.png"
-            alt="RealmHR Services Logo"
-            className="logo"
-            style={{
-              width: '25%',
-              height: '15%',
-              position: 'absolute',
-              top: '20px', // Adjust the top position as needed
-              left: '20px', // Adjust the left position as needed
-            }} 
-          />
-        </h1>
+        <div className={styles.container}> </div>
+        <Header>
+          <div className={styles.logoContainer}>
+            <img
+              src="/logo-realm.png"
+              alt="RealmHR Services Logo"
+              className={styles.logo}
+            />
+            <h1 className={styles.title}>Welcome to RealmHR Services</h1>
+            </div>
+        </Header>
         <img
           src="/1.png"
           alt="Image 1"
