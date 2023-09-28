@@ -4,7 +4,6 @@ import Footer from '@components/Footer';
 import Link from 'next/link';
 /*import SideNav from '@components/SideNav';*/
 import { useState } from 'react';
-import '../styles/globals.css'
 
 const Home = () => {
   // Define state to manage the visibility of the dropdown menu

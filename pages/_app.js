@@ -7,7 +7,7 @@ import Footer from '@components/Footer';
   useEffect(() => {
     // Global JavaScript or effects can go here
   }, []);
-  const MyApp = ({ Component, pageProps }) => {
+  function MyApp = ({ Component, pageProps }) => {
     return (
       <div className="container">
         <Head>
