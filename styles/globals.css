@@ -99,7 +99,7 @@ body {
 .main-content > * {
   max-width: 1000px;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
 }
 
 .logo-top-left {

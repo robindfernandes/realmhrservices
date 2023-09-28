@@ -53,7 +53,13 @@ const Home = () => {
             src="/logo-realm.png"
             alt="RealmHR Services Logo"
             className="logo"
-            style={{ width: '50%', height: '30%' }} 
+            style={{
+              width: '50%',
+              height: '30%',
+              position: 'absolute',
+              top: '20px', // Adjust the top position as needed
+              left: '20px', // Adjust the left position as needed
+            }} 
           />
         </h1>
         <img
