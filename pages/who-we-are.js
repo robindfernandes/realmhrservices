@@ -15,9 +15,9 @@ const WhoWeAre = () => {
       </Head>
 
       <div className={styles.container}>
-        <Header title="&ldquo;FOUNDERS PROFILE&rdquo;" />
+        <Header title="FOUNDERS PROFILE" />
         <img
-          src="/2.JPG"
+          src="/2.png"
           alt="Image 2"
           className="image"
           style={{ width: '20%', height: '20%' }}
