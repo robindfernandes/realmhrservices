@@ -29,7 +29,7 @@ body {
 }
 
 .logo {
-  width: 250px; /* Make the logo 25% smaller */
+  width: 350px; /* Make the logo 25% smaller */
   height: auto;
   display: block;
   transition: transform 0.2s ease-in-out;
@@ -86,7 +86,7 @@ body {
 .logo-container {
   position: absolute;
   top: 20px;
-  left: 0; /* Adjust the left position as needed */
+  left: 10; /* Adjust the left position as needed */
   transform: translateX(-50%);
 }
 
@@ -104,7 +104,7 @@ body {
 
 .logo-top-left {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 10;
   transform: translateX(0);
 }
