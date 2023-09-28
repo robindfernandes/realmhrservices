@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import Link from 'next/link';
-import SideNav from '@components/SideNav';
+/*import SideNav from '@components/SideNav';*/
 import { useState } from 'react';
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <SideNav />
+      /*<SideNav /> */
       <main>
       <div className="dropdown">
           {/* Move the button inside the JSX */}
