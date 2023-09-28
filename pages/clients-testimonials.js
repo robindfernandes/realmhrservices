@@ -13,16 +13,17 @@ const ClientsTestimonials = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.container}>
+      <div className="container"> {/* Use global CSS class here */}
         <Header title="&ldquo;Founders Profile&rdquo;" />
-    <img
-      src="/logo-realm.png"
-      alt="RealmHR Services Logo"
-      className="logo"
-      style={{ width: '20px', height: 'auto' }}
-    />
-  </div>
-    <div className="clients-testimonials">
+        <img
+          src="/logo-realm.png"
+          alt="RealmHR Services Logo"
+          className="logo" /* Use global CSS class here */
+          style={{ width: '20px', height: 'auto' }}
+        />
+      </div>
+      <div className="clients-testimonials"> {/* Use global CSS class here */}
+
         <h1>What Our Clients say about RealmHR Services:</h1>
         <h2>1. National Group Of Companies - India</h2>
         <p>
