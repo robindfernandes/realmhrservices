@@ -20,7 +20,7 @@ const Home = () => {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      /*<SideNav /> */
+      {/* <SideNav /> */}
       <main>
       <div className="dropdown">
           {/* Move the button inside the JSX */}
