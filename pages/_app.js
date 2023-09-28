@@ -1,4 +1,3 @@
-import '../styles/globals.css'; // Adjust the path as needed
 import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
