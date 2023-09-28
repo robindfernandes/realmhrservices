@@ -28,9 +28,16 @@ const Home = () => {
           {isMenuVisible && (
             <ul className="dropdown-menu">
               <li><Link href="/who-we-are">Who we are</Link></li>
-              <li><a href="#">Our thoughts & ideas</a></li>
+              <li><a href="#">Clients-Testimonials</a></li>
               <li><a href="#">Talk to us</a></li>
             </ul>
+          )}
+          {isMenuVisible && (
+            <ul className="dropdown-menu">
+            <li><Link href="/who-we-are">Who we are</Link></li>
+            <li><Link href="/clients-testimonials">Clients-Testimonials</Link></li>
+            <li><a href="#">Talk to us</a></li>
+          </ul>
           )}
         </div>
          <div className="logo-container">
