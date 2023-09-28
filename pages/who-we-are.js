@@ -20,7 +20,7 @@ const WhoWeAre = () => {
           src="/2.JPG"
           alt="Image 2"
           className="image"
-          style={{ width: '50%', height: 'auto' }}
+          style={{ width: '50%', height: '20%' }}
         />
         <div className="who-we-are">
           <h1 className={styles.title}>TEJASWEETA MISTRY</h1>

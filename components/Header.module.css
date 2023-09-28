@@ -1,0 +1,13 @@
+/* Header.module.css */
+
+.header {
+    background-color: #000000; /* Replace with your desired background color */
+    padding: 20px; /* Add padding as needed */
+    color: #fff; /* Set text color to white or a suitable contrasting color */
+  }
+  
+  .logo {
+    height: 4em; /* Increase the height to make the logo bigger */
+    margin: 5px;
+  }
+  
