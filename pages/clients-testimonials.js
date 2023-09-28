@@ -2,7 +2,6 @@
 
 import React from 'react';
 import Head from 'next/head';
-import styles from './clients-testimonials.css'; // Import the CSS module for page-specific styles
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 
