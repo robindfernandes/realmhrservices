@@ -19,7 +19,7 @@ body {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  text-align: center; /* Center-align content */
+  text-align: center; /* Left-center content */
 }
 
 .title {
@@ -99,7 +99,7 @@ body {
 .main-content > * {
   max-width: 1000px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .logo-top-left {
