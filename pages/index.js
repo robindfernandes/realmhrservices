@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const Home = () => {
   // Define state to manage the visibility of the dropdown menu
-  const [isMenuVisible, setMenuVisible] = useState(false);
+  const [isMenuVisible, setMenuVisible] = useState(true);
 
   // Function to toggle the visibility of the dropdown menu
   const toggleMenu = () => {
