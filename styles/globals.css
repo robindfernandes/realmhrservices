@@ -19,7 +19,7 @@ body {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  text-align: justify; /* Center content */
+  text-align: center; /* Center content */
 }
 
 .title {
@@ -101,7 +101,7 @@ body {
 .main-content ol,
 .main-content li,
 .main-content h2 {
-  text-align: justify;
+  text-align: left;
 }
 
 /* Center align the content within the main content area */
