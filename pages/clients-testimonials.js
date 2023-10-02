@@ -18,6 +18,21 @@ const ClientsTestimonials = () => {
                 />
             </div>
             </Head>
+            <header>
+        <div className="header-container">
+        <div className="button-container">
+          {isMenuVisible && (
+            <>
+            <Link href="/who-we-are"><button className="menu-link-button"><strong>Who we are</strong></button>
+            </Link>
+            <Link href="/clients-testimonials"><button className="menu-link-button"><strong>Clients Testimonials</strong></button>
+              </Link>
+            <a href="#"><button className="menu-link-button"><strong>Talk to us</strong></button></a>
+            </>
+            )}
+        </div>  
+        </div>
+      </header>
             <div className={styles['clients-testimonials']}>
                 {/* Use CSS Modules class here */}
                 <h1>What Our Clients say about RealmHR Services:</h1>

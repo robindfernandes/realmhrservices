@@ -40,17 +40,16 @@ const Home = () => {
         />
         <p className="description">
         <main className="main-content"></main>
-        <li><strong>Focused on Building Careers!</strong></li>
-        <li><strong>Building a fulfilling career requires more than just finding a job; it requires guidance, support, & opportunities for gowth.</strong></li>
-        <li><strong>Welcome to Realm HR Services, your trusted partner in recruitment solutions. At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization. We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries. With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.</strong></li>
+        Welcome to Realm HR Services, your trusted partner in recruitment solutions. 
+        <p>At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization. We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries.</p>
+        <p>With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.</p>
         </p>
         <h2>Why RealmHR Services?</h2>
-        <ul>
-          <li><strong>We leverage the latest technologies and industry best practices to streamline the recruitment process, ensuring efficiency, accuracy, and transparency. Whether you are seeking candidates for permanent positions, contract roles, or executive-level placements, we have the expertise and resources to deliver results. We carefully assess and screen candidates, conduct in-depth interviews, and conduct thorough background checks to present you with a shortlist of highly qualified individuals. At Realm HR Services, we value integrity, professionalism, and confidentiality. We maintain the highest ethical standards and prioritize the privacy of both our clients and candidates. Our team is dedicated to providing personalized, responsive, and reliable service, and we strive to exceed your expectations at every stage of the recruitment journey. Discover the difference that Realm HR Services can make for your organization. Let us handle your recruitment needs, allowing you to focus on your core business objectives. Contact us today to learn more about our services or to discuss how we can assist you in finding the right talent to drive your organization forward. Your success is our priority. Trust Realm HR Services for exceptional recruitment solutions. </strong> </li>
-        </ul>
-
-        <p>
-          Partner with RealmHR Services today and experience the difference in recruitment. Let us help you build a workforce that drives success in the retail, FMCG, and ITES sectors. Contact us to learn more about how we can assist you in achieving your recruitment goals.
+        <p>We leverage the latest technologies and industry best practices to streamline the recruitment process, ensuring efficiency, accuracy, and transparency. Whether you are seeking candidates for permanent positions, contract roles, or executive-level placements, we have the expertise and resources to deliver results.</p> 
+        <p>We carefully assess and screen candidates, conduct in-depth interviews, and conduct thorough background checks to present you with a shortlist of highly qualified individuals.</p> 
+        <p>At Realm HR Services, we value integrity, professionalism, and confidentiality. We maintain the highest ethical standards and prioritize the privacy of both our clients and candidates. Our team is dedicated to providing personalized, responsive, and reliable service, and we strive to exceed your expectations at every stage of the recruitment journey. Discover the difference that Realm HR Services can make for your organization. Let us handle your recruitment needs, allowing you to focus on your core business objectives.</p> 
+        
+        <p>Contact us today to learn more about our services or to discuss how we can assist you in finding the right talent to drive your organization forward. Your success is our priority. Trust Realm HR Services for exceptional recruitment solutions.
         </p>
     </div>
   );
