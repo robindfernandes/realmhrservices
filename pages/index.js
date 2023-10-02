@@ -40,7 +40,8 @@ const Home = () => {
         />
         <p className="description">
         <main className="main-content"></main>
-        <hi><strong>Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.</strong></hi>
+        <div className="main-content" style={{ textAlign: 'justify' }}>
+        </div><hi><strong>Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.</strong></hi>
         <p>At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization. We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries.</p>
         <p>With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.</p>
         </p>
