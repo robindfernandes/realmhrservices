@@ -108,7 +108,7 @@ body {
 .main-content > * {
   max-width: 1000px;
   margin: 0 auto;
-  text-align: justify;
+  text-align: left;
 }
 
 .logo-top-left {
