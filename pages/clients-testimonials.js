@@ -87,6 +87,7 @@ return (
                 <p>
                     Connect with us on LinkedIn: <a href="https://www.linkedin.com/company/realmhrservices">Follow us on LinkedIn</a>
                 </p>
+                <Link href="/index"><button className="menu-link-button"><strong>Back to Home</strong></button></Link>
             </div>
         </>
     );

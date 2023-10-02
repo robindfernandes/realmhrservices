@@ -66,6 +66,7 @@ const WhoWeAre = () => {
         <p>
           Connect with us on LinkedIn: <a href="https://www.linkedin.com/company/realmhrservices"><strong>Follow us on LinkedIn</strong></a>
         </p>
+        <Link href="/index"><button className="menu-link-button"><strong>Back to Home</strong></button></Link>
         </div>
       </div>
     </>

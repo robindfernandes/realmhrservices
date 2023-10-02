@@ -40,7 +40,7 @@ const Home = () => {
         />
         <p className="description">
         <main className="main-content"></main>
-        Welcome to Realm HR Services, your trusted partner in recruitment solutions. 
+        <hi><strong>Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.</strong></hi>
         <p>At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization. We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries.</p>
         <p>With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.</p>
         </p>
@@ -49,7 +49,7 @@ const Home = () => {
         <p>We carefully assess and screen candidates, conduct in-depth interviews, and conduct thorough background checks to present you with a shortlist of highly qualified individuals.</p> 
         <p>At Realm HR Services, we value integrity, professionalism, and confidentiality. We maintain the highest ethical standards and prioritize the privacy of both our clients and candidates. Our team is dedicated to providing personalized, responsive, and reliable service, and we strive to exceed your expectations at every stage of the recruitment journey. Discover the difference that Realm HR Services can make for your organization. Let us handle your recruitment needs, allowing you to focus on your core business objectives.</p> 
         
-        <p>Contact us today to learn more about our services or to discuss how we can assist you in finding the right talent to drive your organization forward. Your success is our priority. Trust Realm HR Services for exceptional recruitment solutions.
+        <p><strong>Contact us today to learn more about our services or to discuss how we can assist you in finding the right talent to drive your organization forward. Your success is our priority. Trust Realm HR Services for exceptional recruitment solutions.</strong>
         </p>
     </div>
   );
