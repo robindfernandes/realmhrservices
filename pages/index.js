@@ -40,14 +40,13 @@ const Home = () => {
         />
         <p className="description">
         <main className="main-content"></main>
-        RealmHR Services is your trusted partner in recruitment, specializing in the retail, FMCG, and ITES sectors. With our deep industry knowledge and a commitment to excellence, we connect businesses with top-tier talent, helping them thrive and grow. In the dynamic world of retail, FMCG, and ITES, finding the right talent is crucial for success. At RealmHR Services, we understand the unique challenges and demands of these sectors. Our dedicated team of recruiters has a proven track record of identifying and placing exceptional professionals who can drive your business forward.
+        <li><strong>Focused on Building Careers!</strong></li>
+        <li><strong>Building a fulfilling career requires more than just finding a job; it requires guidance, support, & opportunities for gowth.</strong></li>
+        <li><strong>Welcome to Realm HR Services, your trusted partner in recruitment solutions. At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization. We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries. With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.</strong></li>
         </p>
-        <h2>Why Choose RealmHR Services?</h2>
+        <h2>Why RealmHR Services?</h2>
         <ul>
-          <li><strong>Industry Expertise:</strong> Our team comprises experts with in-depth knowledge of the retail, FMCG, and ITES industries, ensuring that we match your specific needs with the right candidates.</li>
-          <li><strong>Extensive Network</strong>: We have an extensive network of qualified candidates, allowing us to quickly connect you with the best talent available.</li>
-          <li><strong>Customized Solutions</strong>: We tailor our recruitment solutions to your business's unique requirements, ensuring a perfect fit for every position.</li>
-          <li><strong>Seamless Process</strong>: Our efficient and transparent recruitment process saves you time and resources, so you can focus on what you do best—growing your business.</li>
+          <li><strong>We leverage the latest technologies and industry best practices to streamline the recruitment process, ensuring efficiency, accuracy, and transparency. Whether you are seeking candidates for permanent positions, contract roles, or executive-level placements, we have the expertise and resources to deliver results. We carefully assess and screen candidates, conduct in-depth interviews, and conduct thorough background checks to present you with a shortlist of highly qualified individuals. At Realm HR Services, we value integrity, professionalism, and confidentiality. We maintain the highest ethical standards and prioritize the privacy of both our clients and candidates. Our team is dedicated to providing personalized, responsive, and reliable service, and we strive to exceed your expectations at every stage of the recruitment journey. Discover the difference that Realm HR Services can make for your organization. Let us handle your recruitment needs, allowing you to focus on your core business objectives. Contact us today to learn more about our services or to discuss how we can assist you in finding the right talent to drive your organization forward. Your success is our priority. Trust Realm HR Services for exceptional recruitment solutions. </strong> </li>
         </ul>
 
         <p>
