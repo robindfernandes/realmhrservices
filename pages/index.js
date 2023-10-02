@@ -8,15 +8,13 @@ const Home = () => {
   const [isMenuVisible, setMenuVisible] = useState(true);
 
   // Function to toggle the visibility of the dropdown menu
-  const toggleMenu = () => {
+  {/*const toggleMenu = () => { */}
     setMenuVisible(!isMenuVisible);
-  };
-
   return (
 <div className="container">
       <Head>
         <title>RealmHRServices</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo-realm.png" />
       </Head>
       <header>
         <div className="header-container">
