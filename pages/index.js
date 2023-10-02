@@ -18,20 +18,26 @@ const Home = () => {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-     
-      <div className="header-container">
-          <div className="menu-links">
-            <ul>
-            <li><Link href="/who-we-are">Who we are</Link></li>
-            <li><Link href="/clients-testimonials">Clients-Testimonials</Link></li>
-            <li><a href="#">Talk to us</a></li>
-          </ul>
+      <header>
+        <div className="header-container">
+        <h1 className={styles.title}>Welcome to RealmHR Services</h1>
+        <button className="menu-button" style={{ fontWeight: 'bold' }} onClick={toggleMenu}>
+            Menu
+          </button>
         </div>
-        <div className="container">
-            <h1 className={styles.title}>Welcome to RealmHR Services</h1>
-            </div>
-        </div>
-      <main>         
+      </header>
+      <main>
+        <div className="button-container">
+          {isMenuVisible && (
+            <>
+            <Link href="/who-we-are"><button className="menu-link-button">Who we are</button>
+            </Link>
+            <Link href="/clients-testimonials"><button className="menu-link-button">Clients Testimonials</button>
+              </Link>
+            <a href="#"><button className="menu-link-button">Talk to us</button></a>
+            </>
+            )}
+        </div>        
         <img
           src="/1.png"
           alt="Image 1"
