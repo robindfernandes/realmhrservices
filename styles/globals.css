@@ -19,7 +19,7 @@ body {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  text-align: center; /* Center content */
+  text-align: justify; /* Center content */
 }
 
 .title {
@@ -101,14 +101,14 @@ body {
 .main-content ol,
 .main-content li,
 .main-content h2 {
-  text-align: left;
+  text-align: justify;
 }
 
 /* Center align the content within the main content area */
 .main-content > * {
   max-width: 1000px;
   margin: 0 auto;
-  text-align: left;
+  text-align: justify;
 }
 
 .logo-top-left {
