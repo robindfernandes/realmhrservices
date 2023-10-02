@@ -1,17 +1,13 @@
 import React from 'react';
 import Head from 'next/head';
-import Header from '@components/Header';
-import Footer from '@components/Footer';
 import styles from './clients-testimonials.module.css'; // Import the CSS module for page-specific styles
 
 const ClientsTestimonials = () => {
     return (
         <>
             <Head>
-                <title>Clients Testimonials</title>
+                <title>CLIENTS TESTIMONIALS</title>
                 <link rel="icon" href="/favicon.ico" />
-            </Head>
-
             <div className={styles.container}>
                 {/* Use CSS Modules class here */}
                 <Header title="CLIENTS TESTIMONIALS" />
@@ -22,6 +18,7 @@ const ClientsTestimonials = () => {
                     style={{ width: '50px', height: 'auto' }}
                 />
             </div>
+            </Head>
             <div className={styles['clients-testimonials']}>
                 {/* Use CSS Modules class here */}
                 <h1>What Our Clients say about RealmHR Services:</h1>
