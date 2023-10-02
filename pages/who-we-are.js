@@ -1,11 +1,20 @@
 // who-we-are.js
 
-import React from 'react';
+import React, { useState } from 'react'; // Import useState from React
 import Head from 'next/head';
+import Link from 'next/link';
 import styles from './whoWeAre.module.css'; // Import the CSS module for page-specific styles
 
 const WhoWeAre = () => {
-  return (
+ // Define state to manage the visibility of the dropdown menu
+ const [isMenuVisible, setMenuVisible] = useState(true);
+ 
+ // Function to toggle the visibility of the dropdown menu
+    const toggleMenu = () => {
+    setMenuVisible(!isMenuVisible);
+    };
+
+ return (
     <>
       <Head>
       <title>RealmHRServices</title>
