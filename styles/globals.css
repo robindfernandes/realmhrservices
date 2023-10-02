@@ -19,7 +19,7 @@ body {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  text-align: center; /* Center content */
+  text-align: justify; /* Center content */
 }
 
 .title {
