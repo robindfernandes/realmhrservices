@@ -23,11 +23,11 @@ const Home = () => {
         <div className="button-container">
           {isMenuVisible && (
             <>
-            <Link href="/who-we-are"><button className="menu-link-button">Who we are</button>
+            <Link href="/who-we-are"><button className="menu-link-button"><strong>Who we are</strong></button>
             </Link>
-            <Link href="/clients-testimonials"><button className="menu-link-button">Clients Testimonials</button>
+            <Link href="/clients-testimonials"><button className="menu-link-button"><strong>Clients Testimonials</strong></button>
               </Link>
-            <a href="#"><button className="menu-link-button">Talk to us</button></a>
+            <a href="#"><button className="menu-link-button"><strong>Talk to us</strong></button></a>
             </>
             )}
         </div>  
