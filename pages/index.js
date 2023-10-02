@@ -8,8 +8,9 @@ const Home = () => {
   const [isMenuVisible, setMenuVisible] = useState(true);
 
   // Function to toggle the visibility of the dropdown menu
-  {/*const toggleMenu = () => { */}
+    const toggleMenu = () => {
     setMenuVisible(!isMenuVisible);
+};
   return (
 <div className="container">
       <Head>
