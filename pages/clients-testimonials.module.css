@@ -2,7 +2,7 @@
 
 /* Styles for the container div */
 .container {
-  text-align: center; /* Justify the content within the container */
+  text-align: justify; /* Justify the content within the container */
 }
 
 /* Styles for the logo container */
