@@ -47,9 +47,9 @@ return (
                 <h1>What Our Clients say about RealmHR Services:</h1>
                 <h2>1. National Group Of Companies - India</h2>
                 <p>
-                    <strong>"RealmHR Services has been an invaluable partner in our recruitment efforts.
+                    "RealmHR Services has been an invaluable partner in our recruitment efforts.
                         Their efficiency and dedication to understanding our unique needs in the Retail and FMCG sectors
-                        have resulted in exceptional hires that have greatly contributed to our company's growth."</strong>
+                        have resulted in exceptional hires that have greatly contributed to our company's growth."
                 </p>
                 <p><strong>Jaykumar Mistry - Chief Marketing Officer</strong>
                     <p />
@@ -57,8 +57,8 @@ return (
 
                 <h2>2. RDF Group Of Companies</h2>
                 <p>
-                    <strong>"Working with RealmHR Services has been a game-changer for us in the Media industry.
-                        Their ability to quickly source top-tier talent, coupled with their industry knowledge, has made a significant impact on our team's productivity and success."</strong>
+                    "Working with RealmHR Services has been a game-changer for us in the Media industry.
+                    Their ability to quickly source top-tier talent, coupled with their industry knowledge, has made a significant impact on our team's productivity and success."
                 </p>
                 <p><strong>Ronald D Feepling - National HR Head</strong>
                     <p />
@@ -66,9 +66,9 @@ return (
 
                 <h2>3. MKR Group Of Companies</h2>
                 <p>
-                    <strong>"We can't thank RealmHR Services enough for their outstanding support in the Pharma industry.
-                        Their personalized and tailored recruitment solutions have consistently provided us with skilled professionals who align perfectly with our company's goals.
-                        They are our go-to partner for talent acquisition."</strong>
+                    "We can't thank RealmHR Services enough for their outstanding support in the Pharma industry.
+                    Their personalized and tailored recruitment solutions have consistently provided us with skilled professionals who align perfectly with our company's goals.
+                    They are our go-to partner for talent acquisition."
                 </p>
                 <p><strong>Max K Rowling - National HR Head</strong>
                     <p />

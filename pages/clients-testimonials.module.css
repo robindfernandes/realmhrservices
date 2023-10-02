@@ -30,7 +30,7 @@
 
 /* Styles for the "clients-testimonials" content */
 .clients-testimonials {
-  text-align: justify; /* Justify the main content within the container */
+  text-align: center; /* Justify the center content within the container */
   max-width: 800px; /* Adjust the maximum width as needed */
   margin: 0 auto; /* Center the content horizontally within the container */
 }
