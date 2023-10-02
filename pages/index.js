@@ -20,14 +20,12 @@ const Home = () => {
       </Head>
      
       <div className="header-container">
-          <h1 className={styles.title}>Welcome to RealmHR Services</h1>
           <div className="menu-links">
             <ul>
             <li><Link href="/who-we-are">Who we are</Link></li>
             <li><Link href="/clients-testimonials">Clients-Testimonials</Link></li>
             <li><a href="#">Talk to us</a></li>
           </ul>
-          )
         </div>
         <div className="container">
             <h1 className={styles.title}>Welcome to RealmHR Services</h1>
