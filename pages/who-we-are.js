@@ -15,7 +15,7 @@ const WhoWeAre = () => {
       </Head>
 
       <div className={styles.container}>
-        <Header title="FOUNDERS PROFILE" />
+        <Header title="FOUNDERS PROFILE"/>
         <img
           src="/2.png"
           alt="Image 2"

@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import { useEffect } from 'react';
+import '../styles/globals.css'; // Import your global styles
+
 
 function MyApp({ Component, pageProps }) {
   // Add any global JavaScript or effects here

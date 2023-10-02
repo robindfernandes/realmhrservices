@@ -14,7 +14,7 @@ const ClientsTestimonials = () => {
 
             <div className={styles.container}>
                 {/* Use CSS Modules class here */}
-                <Header title="&ldquo;Clients Testimonials&rdquo;" />
+                <Header title="CLIENTS TESTIMONIALS" />
                 <img
                     src="/logo-realm.png"
                     alt="RealmHR Services Logo"

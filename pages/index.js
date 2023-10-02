@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Header from '@components/Header';
 import Footer from '@components/Footer';
 import Link from 'next/link';
 /*import SideNav from '@components/SideNav';*/
@@ -28,13 +27,6 @@ const Home = () => {
           <button className="dropdown-button" style={{ fontWeight: 'bold' }} onClick={toggleMenu}>Menu</button>
           {isMenuVisible && (
             <ul className="dropdown-menu">
-              <li><Link href="/who-we-are">Who we are</Link></li>
-              <li><a href="#">Clients-Testimonials</a></li>
-              <li><a href="#">Talk to us</a></li>
-            </ul>
-          )}
-          {isMenuVisible && (
-            <ul className="dropdown-menu">
             <li><Link href="/who-we-are">Who we are</Link></li>
             <li><Link href="/clients-testimonials">Clients-Testimonials</Link></li>
             <li><a href="#">Talk to us</a></li>
@@ -42,7 +34,7 @@ const Home = () => {
           )}
         </div>
         <div className="container"> </div>
-        <Header>
+       
           <div className={styles.logoContainer}>
             <img
               src="/logo-realm.png"
@@ -51,7 +43,7 @@ const Home = () => {
             />
             <h1 className={styles.title}>Welcome to RealmHR Services</h1>
             </div>
-        </Header>
+       
         <img
           src="/1.png"
           alt="Image 1"
