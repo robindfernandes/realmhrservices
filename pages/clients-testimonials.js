@@ -1,6 +1,8 @@
 import React, { useState } from 'react'; // Import useState from React
 import Head from 'next/head';
 import styles from './clients-testimonials.module.css'; // Import the CSS module for page-specific styles
+import Link from 'next/link';
+
 
 const ClientsTestimonials = () => {
     // Define state to manage the visibility of the dropdown menu
