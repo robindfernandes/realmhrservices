@@ -15,14 +15,11 @@ const Home = () => {
   return (
 <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>RealmHRServices</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
         <div className="header-container">
-        </div>
-      </header>
-      <main>
         <div className="button-container">
           {isMenuVisible && (
             <>
@@ -33,7 +30,10 @@ const Home = () => {
             <a href="#"><button className="menu-link-button">Talk to us</button></a>
             </>
             )}
-        </div>        
+        </div>  
+        </div>
+      </header>
+      <main>      
         <img
           src="/1.png"
           alt="Image 1"
