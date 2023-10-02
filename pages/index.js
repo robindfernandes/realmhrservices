@@ -31,8 +31,7 @@ const Home = () => {
             )}
         </div>  
         </div>
-      </header>
-      <main className="main-content"></main>     
+      </header>  
         <img
           src="/1.png"
           alt="Image 1"
@@ -40,7 +39,8 @@ const Home = () => {
           style={{ width: '80%', height: '30%' }}
         />
         <p className="description">
-          RealmHR Services is your trusted partner in recruitment, specializing in the retail, FMCG, and ITES sectors. With our deep industry knowledge and a commitment to excellence, we connect businesses with top-tier talent, helping them thrive and grow. In the dynamic world of retail, FMCG, and ITES, finding the right talent is crucial for success. At RealmHR Services, we understand the unique challenges and demands of these sectors. Our dedicated team of recruiters has a proven track record of identifying and placing exceptional professionals who can drive your business forward.
+        <main className="main-content"></main>   
+        RealmHR Services is your trusted partner in recruitment, specializing in the retail, FMCG, and ITES sectors. With our deep industry knowledge and a commitment to excellence, we connect businesses with top-tier talent, helping them thrive and grow. In the dynamic world of retail, FMCG, and ITES, finding the right talent is crucial for success. At RealmHR Services, we understand the unique challenges and demands of these sectors. Our dedicated team of recruiters has a proven track record of identifying and placing exceptional professionals who can drive your business forward.
         </p>
         <h2>Why Choose RealmHR Services?</h2>
         <ul>
