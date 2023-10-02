@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { useState } from 'react';
-import styles from './index.module.css'
+{/*##import styles from './index.module.css'## */}
 
 const Home = () => {
   // Define state to manage the visibility of the dropdown menu
@@ -20,10 +20,6 @@ const Home = () => {
       </Head>
       <header>
         <div className="header-container">
-        <h1 className={styles.title}>Welcome to RealmHR Services</h1>
-        <button className="menu-button" style={{ fontWeight: 'bold' }} onClick={toggleMenu}>
-            Menu
-          </button>
         </div>
       </header>
       <main>
