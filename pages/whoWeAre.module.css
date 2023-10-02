@@ -29,7 +29,7 @@
 
 /* Styles for the "who-we-are" content */
 .who-we-are {
-  text-align: left; /* Left-align the main content within the container */
+  text-align: justify; /* justify the main content within the container */
   max-width: 800px; /* Adjust the maximum width as needed */
   margin: 0 auto; /* Center the content horizontally within the container */
 }

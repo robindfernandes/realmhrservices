@@ -3,7 +3,7 @@
     max-width: 800px; /* Adjust the maximum width as needed */
     margin: 0 auto; /* Center the content horizontally within the container */
     padding: 20px; /* Add padding as needed */
-    text-align: center; /* Center-align the content within the container */
+    text-align: justify; /* justify the content within the container */
   }
   
   /* Styles for the dropdown button */
@@ -47,6 +47,7 @@
   /* Styles for the main content */
   .main-content {
     margin-top: 20px; /* Add spacing below the header */
+    text-align: justify;
   }
   
   /* Styles for the image */
