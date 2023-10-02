@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Link from 'next/link';
-/*import SideNav from '@components/SideNav';*/
 import { useState } from 'react';
 import styles from './index.module.css'
 
@@ -19,30 +18,22 @@ const Home = () => {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <SideNav /> */}
-      <main>
-      <div className="dropdown">
-          {/* Move the button inside the JSX */}
-          <button className="dropdown-button" style={{ fontWeight: 'bold' }} onClick={toggleMenu}>Menu</button>
-          {isMenuVisible && (
-            <ul className="dropdown-menu">
+     
+      <div className="header-container">
+          <h1 className={styles.title}>Welcome to RealmHR Services</h1>
+          <div className="menu-links">
+            <ul>
             <li><Link href="/who-we-are">Who we are</Link></li>
             <li><Link href="/clients-testimonials">Clients-Testimonials</Link></li>
             <li><a href="#">Talk to us</a></li>
           </ul>
-          )}
+          )
         </div>
-        <div className="container"> </div>
-       
-          <div className={styles.logoContainer}>
-            <img
-              src="/logo-realm.png"
-              alt="RealmHR Services Logo"
-              className={styles.logo}
-            />
+        <div className="container">
             <h1 className={styles.title}>Welcome to RealmHR Services</h1>
             </div>
-       
+        </div>
+      <main>         
         <img
           src="/1.png"
           alt="Image 1"
