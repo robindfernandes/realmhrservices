@@ -8,8 +8,8 @@ const WhoWeAre = () => {
   return (
     <>
       <Head>
-        <title>Who We Are</title>
-        <link rel="icon" href="/favicon.ico" />
+      <title>RealmHRServices</title>
+       <link rel="icon" href="/logo-realm.png" />
       </Head>
 
       <div className={styles.container}>

@@ -6,8 +6,8 @@ const ClientsTestimonials = () => {
     return (
         <>
             <Head>
-                <title>CLIENTS TESTIMONIALS</title>
-                <link rel="icon" href="/favicon.ico" />
+            <title>RealmHRServices</title>
+             <link rel="icon" href="/logo-realm.png" />
             <div className={styles.container}>
                 {/* Use CSS Modules class here */}
                 <img

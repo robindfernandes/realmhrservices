@@ -15,7 +15,7 @@ const Home = () => {
 <div className="container">
       <Head>
         <title>RealmHRServices</title>
-        <link rel="icon" href="/logo-realm.png" />
+         <link rel="icon" href="/logo-realm.png" />
       </Head>
       <header>
         <div className="header-container">

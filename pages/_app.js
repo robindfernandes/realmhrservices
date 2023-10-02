@@ -14,8 +14,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+      <title>RealmHRServices</title>
+        <link rel="icon" href="/logo-realm.png" />
       </Head>
       {/* Rest of your JSX */}
       <Header>
