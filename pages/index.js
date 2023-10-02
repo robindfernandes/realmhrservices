@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Footer from '@components/Footer';
 import Link from 'next/link';
 /*import SideNav from '@components/SideNav';*/
 import { useState } from 'react';
@@ -66,7 +65,7 @@ const Home = () => {
         </p>
       </main>
 
-      <Footer />
+      
     </div>
   );
 };
