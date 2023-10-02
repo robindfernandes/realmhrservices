@@ -17,6 +17,7 @@ const Home = () => {
         <title>RealmHRServices</title>
          <link rel="icon" href="/logo-realm.png" />
       </Head>
+      <div className="centered-content">
       <header>
         <div className="header-container">
         <div className="button-container">
@@ -39,7 +40,8 @@ const Home = () => {
           style={{ width: '80%', height: '30%' }}
         />
         <p className="description">
-        <div className="main-content" style={{ textAlign: 'justify' }}>
+
+        <div className="main-content">
         </div><hi><strong>Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.</strong></hi>
         <p>At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization. We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries.</p>
         <p>With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.</p>
@@ -51,6 +53,7 @@ const Home = () => {
         
         <p><strong>Contact us today to learn more about our services or to discuss how we can assist you in finding the right talent to drive your organization forward. Your success is our priority. Trust Realm HR Services for exceptional recruitment solutions.</strong>
         </p>
+    </div>
     </div>
   );
 };

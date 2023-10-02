@@ -116,3 +116,12 @@ body {
   left: 10;
   transform: translateX(0);
 }
+/* Centered content */
+.centered-content {
+  text-align: center;
+}
+
+/* Main content text alignment */
+.main-content {
+  text-align: justify;
+}
