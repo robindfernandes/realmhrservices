@@ -3,10 +3,11 @@
 import React from 'react';
 import styles from './Header.module.css'; // Import your CSS module for header styles
 
-const Header = ({ title }) => {
+const Header = () => {
   return (
     <header className={styles.header}>
-      <h1>{title}</h1>
+      <h1><strong>WELCOME TO REALMHR SERVICES</strong></h1>
+      <img src="/logo-realm.png" alt="Netlify Logo" className={styles.logo} />
     </header>
   );
 };
