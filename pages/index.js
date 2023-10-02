@@ -32,7 +32,7 @@ const Home = () => {
         </div>  
         </div>
       </header>
-      <main>      
+      <main className="main-content"></main>     
         <img
           src="/1.png"
           alt="Image 1"
@@ -53,9 +53,6 @@ const Home = () => {
         <p>
           Partner with RealmHR Services today and experience the difference in recruitment. Let us help you build a workforce that drives success in the retail, FMCG, and ITES sectors. Contact us to learn more about how we can assist you in achieving your recruitment goals.
         </p>
-      </main>
-
-      
     </div>
   );
 };

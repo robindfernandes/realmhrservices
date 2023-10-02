@@ -95,6 +95,15 @@ body {
   padding-left: 280px; */ /* Adjust as needed
 } */
 
+/* Apply justified text alignment to elements within the main content area */
+.main-content p,
+.main-content ul,
+.main-content ol,
+.main-content li,
+.main-content h2 {
+  text-align: justify;
+}
+
 /* Center align the content within the main content area */
 .main-content > * {
   max-width: 1000px;

@@ -47,5 +47,5 @@ const WhoWeAre = () => {
       </div>
     </>
   );
-}
+};
 export default WhoWeAre;
