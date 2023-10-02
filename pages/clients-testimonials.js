@@ -10,7 +10,6 @@ const ClientsTestimonials = () => {
                 <link rel="icon" href="/favicon.ico" />
             <div className={styles.container}>
                 {/* Use CSS Modules class here */}
-                <Header title="CLIENTS TESTIMONIALS" />
                 <img
                     src="/logo-realm.png"
                     alt="RealmHR Services Logo"
@@ -65,7 +64,6 @@ const ClientsTestimonials = () => {
                     Connect with us on LinkedIn: <a href="https://www.linkedin.com/company/realmhrservices">Follow us on LinkedIn</a>
                 </p>
             </div>
-            <Footer />
         </>
     );
 }

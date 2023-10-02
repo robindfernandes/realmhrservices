@@ -3,8 +3,6 @@
 import React from 'react';
 import Head from 'next/head';
 import styles from './whoWeAre.module.css'; // Import the CSS module for page-specific styles
-import Header from '@components/Header';
-import Footer from '@components/Footer';
 
 const WhoWeAre = () => {
   return (
@@ -15,7 +13,6 @@ const WhoWeAre = () => {
       </Head>
 
       <div className={styles.container}>
-        <Header title="FOUNDERS PROFILE"/>
         <img
           src="/2.png"
           alt="Image 2"
@@ -47,7 +44,6 @@ const WhoWeAre = () => {
           Connect with us on LinkedIn: <a href="https://www.linkedin.com/company/realmhrservices"><strong>Follow us on LinkedIn</strong></a>
         </p>
         </div>
-        <Footer />
       </div>
     </>
   );
