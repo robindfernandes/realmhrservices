@@ -25,6 +25,7 @@ const WhoWeAre = () => {
         <div className="button-container">
           {isMenuVisible && (
             <>
+            <Link href="/index"><button className="menu-link-button"><strong>Home</strong></button></Link>
             <Link href="/who-we-are"><button className="menu-link-button"><strong>Who we are</strong></button>
             </Link>
             <Link href="/clients-testimonials"><button className="menu-link-button"><strong>Clients Testimonials</strong></button>
