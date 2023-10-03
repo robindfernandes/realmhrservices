@@ -36,7 +36,8 @@ return (
             </Link>
             <Link href="/clients-testimonials"><button className="menu-link-button"><strong>Clients Testimonials</strong></button>
               </Link>
-            <a href="#"><button className="menu-link-button"><strong>Talk to us</strong></button></a>
+              <Link href="/Talk-to-us"><button className="menu-link-button"><strong>Talk to us</strong></button>
+                  </Link>
             </>
             )}
         </div>  
