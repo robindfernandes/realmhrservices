@@ -43,6 +43,12 @@ return (
         </div>  
         </div>
       </header>
+      <img
+              src="/5.png"
+              alt="Image 5"
+              className="image"
+              style={{ width: '80%', height: '30%' }}
+            />
             <div className={styles['clients-testimonials']}>
                 {/* Use CSS Modules class here */}
                 <h1>What Our Clients say about RealmHR Services:</h1>

@@ -42,6 +42,7 @@ const Home = () => {
             </p>   
             <div className="main-content">
           </div><hi><strong>Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.</strong></hi>
+          <h2><strong>Contact Us:</strong></h2>
           <p>
           Email: <a href="mailto:teejay@realmhrservices.com"><strong>teejay@realmhrservices.com</strong></a>
         </p>
