@@ -54,18 +54,7 @@ const WhoWeAre = () => {
           <p>In the dynamic world of recruitment, Tejasweeta Mistry shines as an unwavering beacon of expertise, innovation, and excellence, guiding organizations toward a brighter future.</p>
         
         <h2><strong>Contact Us:</strong></h2>
-        <p>
-          Email: <a href="mailto:teejay@realmhrservices.com"><strong>teejay@realmhrservices.com</strong></a>
-        </p>
-        <p>
-          Phone: <strong>+91 93727 87542</strong>
-        </p>
-        <p>
-          Website: <a href="https://www.realmhrservices.com"><strong>www.realmhrservices.com</strong></a>
-        </p>
-        <p>
-          Connect with us on LinkedIn: <a href="https://www.linkedin.com/company/realmhrservices"><strong>Follow us on LinkedIn</strong></a>
-        </p>
+      
         <Link href="/index"><button className="menu-link-button"><strong>Back to Home</strong></button></Link>
         </div>
       </div>
