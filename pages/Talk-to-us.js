@@ -33,8 +33,8 @@ const Home = () => {
             </div>
           </header>  
             <img
-              src="/1.png"
-              alt="Image 1"
+              src="/9.png"
+              alt="Image 9"
               className="image"
               style={{ width: '80%', height: '30%' }}
             />
