@@ -7,6 +7,9 @@ export default function Footer() {
       <footer className={styles.footer}>
         <img src="/logo-realm.png" alt="Netlify Logo" className={styles.logo} />
       </footer>
+      <p>
+        <a href="https://www.linkedin.com/company/realmhrservices"><strong>Follow us on LinkedIn</strong></a> <img src="/LinkedIn.png" alt="LinkedIn Logo" className={styles.LinkedInlogo} />
+        </p>
     </>
   )
 }
