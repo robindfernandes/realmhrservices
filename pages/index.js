@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import { Button, Typography, Container, AppBar, Toolbar } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Button from '@mui/material/Button';
 import { useState } from 'react';
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
