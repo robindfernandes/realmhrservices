@@ -40,7 +40,7 @@ const Home = () => {
             {/* Add your navigation buttons here */}
           </Toolbar>
         </AppBar>
-        <Container maxWidth="md">
+        <Container maxWidth="sm">
           <div className="header-container">
             <div className="button-container">
               {isMenuVisible && (
@@ -65,8 +65,8 @@ const Home = () => {
             </div>
           </div>
         </Container>
-        <Container maxWidth="md">
-          <Image src="/1.png" alt="Image 1" className="image" style={{ maxWidth: '20%', height: '20%' }} />
+        <Container maxWidth="sm">
+        <Image src="/1.png" alt="Image 1" className="image" style={{ maxWidth: '100%', height: 'auto' }} />
           <Typography variant="h4" component="h1">
             Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
           </Typography>
