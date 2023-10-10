@@ -1,6 +1,10 @@
-import Head from 'next/head';
-import Link from 'next/link';
-import { AppBar, Button, Container, Toolbar, Typography } from '@mui/material';
+import Image from 'next/image';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Container from '@mui/material/Container';
+import Button from '@mui/material/Button';
+
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const theme = createTheme({
@@ -12,13 +16,6 @@ const theme = createTheme({
       main: '#ff6f61', // Customize secondary color
     },
   },
-  themeOptions: {
-    background: {
-      // Set background image and make it cover the viewport
-      image: 'url("/1.png")', // Use 'url()' to specify the image
-      size: 'cover',
-    },
-  },
   typography: {
     fontFamily: 'Lato, sans-serif', // Set custom fonts
   },
@@ -28,44 +25,33 @@ const Home = () => {
   return (
     <ThemeProvider theme={theme}>
       <div className="container">
-        <Head>
-          <title>RealmHRServices</title>
-          <link rel="icon" href="/logo-realm.png" />
-        </Head>
+        {/* Your Head and title */}
         <AppBar position="static" style={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
           <Toolbar>
             <Typography variant="h6" style={{ flexGrow: 1 }}>
               Realm HR Services
             </Typography>
-            <Link href="/who-we-are" passHref>
-              <Button color="primary" style={{ textTransform: 'none' }}>
-                <strong>Who we are</strong>
-              </Button>
-            </Link>
-            <Link href="/clients-testimonials" passHref>
-              <Button color="primary" style={{ textTransform: 'none' }}>
-                <strong>Clients Testimonials</strong>
-              </Button>
-            </Link>
-            <Link href="/Talk-to-us" passHref>
-              <Button color="primary" style={{ textTransform: 'none' }}>
-                <strong>Talk to us</strong>
-              </Button>
-            </Link>
+            {/* Your navigation buttons */}
           </Toolbar>
         </AppBar>
-        <Container maxWidth="md" style={{ paddingTop: '100px' }}>
-          <Typography variant="h4" component="h1">
+        <Container
+          maxWidth="md"
+          style={{
+            paddingTop: '100px',
+            backgroundImage: 'url("/1.png")',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+          }}
+        >
+          <Typography variant="h4" component="h1" style={{ color: '#fff' }}>
             Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
           </Typography>
-          <Typography variant="body1">
-            At Realm HR Services, we understand that finding the right talent is crucial for the success of any
-            organization. We specialize in providing comprehensive recruitment services tailored to meet the unique
-            needs of businesses across various industries.
+          <Typography variant="body1" style={{ color: '#fff' }}>
+            At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization.
+            We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries.
           </Typography>
-          <Typography variant="body1">
-            With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect
-            exceptional talent with exceptional opportunities.
+          <Typography variant="body1" style={{ color: '#fff' }}>
+            With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.
           </Typography>
           {/* Add more content here */}
         </Container>
