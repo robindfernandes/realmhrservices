@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { Button, Typography, Container, AppBar, Toolbar } from '@mui/material';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { useState } from 'react';
+import { createTheme as createMuiTheme, ThemeProvider } from "@mui/material/styles";
+import { useState } from "react";
 
 const theme = createTheme({
   palette: {
