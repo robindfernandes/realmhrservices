@@ -1,9 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import { useState } from 'react';
-import { Button, Typography, Container, AppBar, Toolbar } from '@mui/material';
+import { AppBar, Button, Container, Toolbar, Typography } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Image from 'next/image';
 
 const theme = createTheme({
   palette: {
@@ -13,20 +11,18 @@ const theme = createTheme({
     secondary: {
       main: '#ff6f61', // Customize secondary color
     },
+    background: {
+      // Set background image and make it cover the viewport
+      image: '/1.png',
+      size: 'cover',
+    },
   },
   typography: {
     fontFamily: 'Lato, sans-serif', // Set custom fonts
   },
-  // Add more theme customizations here
 });
 
 const Home = () => {
-  const [isMenuVisible, setMenuVisible] = useState(true);
-
-  const toggleMenu = () => {
-    setMenuVisible(!isMenuVisible);
-  };
-
   return (
     <ThemeProvider theme={theme}>
       <div className="container">
@@ -34,39 +30,29 @@ const Home = () => {
           <title>RealmHRServices</title>
           <link rel="icon" href="/logo-realm.png" />
         </Head>
-        <AppBar position="static">
+        <AppBar position="static" style={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
           <Toolbar>
-            <Typography variant="h6">Realm HR Services</Typography>
-            {/* Add your navigation buttons here */}
+            <Typography variant="h6" style={{ flexGrow: 1 }}>
+              Realm HR Services
+            </Typography>
+            <Link href="/who-we-are" passHref>
+              <Button color="primary" style={{ textTransform: 'none' }}>
+                <strong>Who we are</strong>
+              </Button>
+            </Link>
+            <Link href="/clients-testimonials" passHref>
+              <Button color="primary" style={{ textTransform: 'none' }}>
+                <strong>Clients Testimonials</strong>
+              </Button>
+            </Link>
+            <Link href="/Talk-to-us" passHref>
+              <Button color="primary" style={{ textTransform: 'none' }}>
+                <strong>Talk to us</strong>
+              </Button>
+            </Link>
           </Toolbar>
         </AppBar>
-        <Container maxWidth="md">
-          <div className="header-container">
-            <div className="button-container">
-              {isMenuVisible && (
-                <>
-                  <Link href="/who-we-are">
-                    <Button variant="contained" color="primary">
-                      <strong>Who we are</strong>
-                    </Button>
-                  </Link>
-                  <Link href="/clients-testimonials">
-                    <Button variant="contained" color="primary">
-                      <strong>Clients Testimonials</strong>
-                    </Button>
-                  </Link>
-                  <Link href="/Talk-to-us">
-                    <Button variant="contained" color="primary">
-                      <strong>Talk to us</strong>
-                    </Button>
-                  </Link>
-                </>
-              )}
-            </div>
-          </div>
-        </Container>
-        <Container maxWidth="md">
-        <Image src="/1.png" alt="Image 1" width={300} height={200} />
+        <Container maxWidth="md" style={{ paddingTop: '100px' }}>
           <Typography variant="h4" component="h1">
             Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
           </Typography>
