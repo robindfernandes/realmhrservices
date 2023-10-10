@@ -66,7 +66,7 @@ const Home = () => {
           </div>
         </Container>
         <Container maxWidth="md">
-          <Image src="/1.png" alt="Image 1" className="image" style={{ width: '100%', height: 'auto' }}/>
+          <Image src="/1.png" alt="Image 1" className="image" style={{ maxWidth: '20%', height: '20%' }} />
           <Typography variant="h4" component="h1">
             Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
           </Typography>
