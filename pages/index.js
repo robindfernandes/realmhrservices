@@ -22,6 +22,12 @@ const theme = createTheme({
 });
 
 const Home = () => {
+  const [isMenuVisible, setMenuVisible] = useState(true);
+
+  const toggleMenu = () => {
+    setMenuVisible(!isMenuVisible);
+  };
+  
   return (
     <ThemeProvider theme={theme}>
       <div className="container">
@@ -35,6 +41,30 @@ const Home = () => {
           </Toolbar>
         </AppBar>
         <Container
+        maxWidth="md">
+        <div className="header-container">
+          <div className="button-container">
+            {isMenuVisible && (
+              <>
+                <Link href="/who-we-are">
+                  <Button variant="contained" color="primary">
+                    <strong>Who we are</strong>
+                  </Button>
+                </Link>
+                <Link href="/clients-testimonials">
+                  <Button variant="contained" color="primary">
+                    <strong>Clients Testimonials</strong>
+                  </Button>
+                </Link>
+                <Link href="/Talk-to-us">
+                  <Button variant="contained" color="primary">
+                    <strong>Talk to us</strong>
+                  </Button>
+                </Link>
+              </>
+            )}
+          </div>
+        </div>
           maxWidth="md"
           style={{
             paddingTop: '100px',
@@ -42,7 +72,6 @@ const Home = () => {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
           }}
-        >
           <Typography variant="h4" component="h1" style={{ color: '#fff' }}>
             Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
           </Typography>
