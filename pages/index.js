@@ -11,9 +11,11 @@ const theme = createTheme({
     secondary: {
       main: '#ff6f61', // Customize secondary color
     },
+  },
+  themeOptions: {
     background: {
       // Set background image and make it cover the viewport
-      image: '/1.png',
+      image: 'url("/1.png")', // Use 'url()' to specify the image
       size: 'cover',
     },
   },
