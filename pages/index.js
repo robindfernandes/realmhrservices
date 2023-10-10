@@ -1,7 +1,8 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { Button, Typography, Container, AppBar, Toolbar } from '@mui/material';
-import { createTheme as createMuiTheme, ThemeProvider } from "@mui/material/styles";
-import { useState } from "react";
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { useState } from 'react';
 
 const theme = createTheme({
   palette: {
@@ -36,49 +37,50 @@ const Home = () => {
             {/* Your navigation buttons */}
           </Toolbar>
         </AppBar>
-        <Container
-        maxWidth="md">
-        <div className="header-container">
-          <div className="button-container">
-            {isMenuVisible && (
-              <>
-                <Link href="/who-we-are">
-                  <Button variant="contained" color="primary">
-                    <strong>Who we are</strong>
-                  </Button>
-                </Link>
-                <Link href="/clients-testimonials">
-                  <Button variant="contained" color="primary">
-                    <strong>Clients Testimonials</strong>
-                  </Button>
-                </Link>
-                <Link href="/Talk-to-us">
-                  <Button variant="contained" color="primary">
-                    <strong>Talk to us</strong>
-                  </Button>
-                </Link>
-              </>
-            )}
+        <Container maxWidth="md">
+          <div className="header-container">
+            <div className="button-container">
+              {isMenuVisible && (
+                <>
+                  <Link href="/who-we-are">
+                    <Button variant="contained" color="primary">
+                      <strong>Who we are</strong>
+                    </Button>
+                  </Link>
+                  <Link href="/clients-testimonials">
+                    <Button variant="contained" color="primary">
+                      <strong>Clients Testimonials</strong>
+                    </Button>
+                  </Link>
+                  <Link href="/Talk-to-us">
+                    <Button variant="contained" color="primary">
+                      <strong>Talk to us</strong>
+                    </Button>
+                  </Link>
+                </>
+              )}
+            </div>
           </div>
-        </div>
-          maxWidth="md"
-          style={{
-            paddingTop: '100px',
-            backgroundImage: 'url("/1.png")',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-          }}
-          <Typography variant="h4" component="h1" style={{ color: '#fff' }}>
-            Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
-          </Typography>
-          <Typography variant="body1" style={{ color: '#fff' }}>
-            At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization.
-            We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries.
-          </Typography>
-          <Typography variant="body1" style={{ color: '#fff' }}>
-            With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.
-          </Typography>
-          {/* Add more content here */}
+          <div
+            style={{
+              paddingTop: '100px',
+              backgroundImage: 'url("/1.png")',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+            }}
+          >
+            <Typography variant="h4" component="h1" style={{ color: '#fff' }}>
+              Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
+            </Typography>
+            <Typography variant="body1" style={{ color: '#fff' }}>
+              At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization.
+              We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries.
+            </Typography>
+            <Typography variant="body1" style={{ color: '#fff' }}>
+              With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.
+            </Typography>
+            {/* Add more content here */}
+          </div>
         </Container>
       </div>
     </ThemeProvider>
