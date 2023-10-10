@@ -14,7 +14,9 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: 'Lato, sans-serif', // Set custom fonts
+    fontFamily: 'Lato, sans-serif',
+    allVariants: {
+      color: 'black',}
   },
 });
 
