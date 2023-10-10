@@ -34,7 +34,7 @@ const Home = () => {
         <AppBar position="static" style={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
           <Toolbar>
             <Typography variant="h6" style={{ flexGrow: 1 }}>
-              Realm HR Services
+            Talent Acquisition Experts
             </Typography>
             {/* Your navigation buttons */}
           </Toolbar>
@@ -71,14 +71,14 @@ const Home = () => {
               backgroundRepeat: 'no-repeat',
             }}
           >
-            <Typography variant="h4" component="h1" style={{ color: '#fff' }}>
+            <Typography variant="h4" component="h1" style={{ color: '#000000' }}>
               Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
             </Typography>
-            <Typography variant="body1" style={{ color: '#fff' }}>
+            <Typography variant="body1" style={{ color: '#000000' }}>
               At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization.
               We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries.
             </Typography>
-            <Typography variant="body1" style={{ color: '#fff' }}>
+            <Typography variant="body1" style={{ color: '#000000' }}>
               With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.
             </Typography>
             {/* Add more content here */}
