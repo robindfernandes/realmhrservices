@@ -3,8 +3,6 @@ import { Button, Typography, Container, AppBar, Toolbar } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useState } from 'react';
 
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-
 const theme = createTheme({
   palette: {
     primary: {
