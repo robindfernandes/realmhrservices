@@ -135,3 +135,7 @@ body {
 .main-content {
   text-align: left;
 }
+
+html {
+  font-size: 150%; /* This increases the base font size by 25%, making everything larger */
+}
