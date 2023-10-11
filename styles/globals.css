@@ -5,17 +5,19 @@
   /*--primary-bg-color2: #ffeb3b;*/
   --text-color: #333;
 }
+
 html {
   font-size: 125%; /* This increases the base font size by 25%, making everything larger */
 }
 
 body {
-  background-color: #f0f0f0; /* Set a background color if needed */
+  background-color: var(--primary-bg-color1); /* Use the variable for background color */
   font-family: 'Lato', sans-serif;
-  background: linear-gradient(to right, var(--primary-bg-color1), var(--primary-bg-color2));
+  /* Remove background gradient for now */
+  /* background: linear-gradient(to right, var(--primary-bg-color1), var(--primary-bg-color2)); */
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Set minimum height to 100% of viewport height */
+  min-height: 100vh;
   display: flex;
   color: var(--text-color);
   margin: 0;
@@ -28,9 +30,9 @@ body {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1000px; /* Removed the quotes around "md" */
   margin: 0 auto;
-  text-align: center
+  text-align: center; /* Added a semicolon at the end */
 }
 
 .title {
@@ -59,15 +61,15 @@ body {
 
 /* Remove bullet points from the side nav and make it slimmer */
 .dropdown-menu li {
-  padding: 20px 0; /* Adjust padding for spacing */
+  padding: 20px 0;
   text-align: center;
   list-style: none;
-  margin-left: -10px; /* Adjust the left margin to make it slimmer */
+  margin-left: -10px;
 }
 
 /* Dropdown menu button */
 .dropdown-button {
-  background-color: var(--primary-bg-color);
+  background-color: var(--primary-bg-color1);
   color: var(--text-color);
   border: none;
   padding: 10px 20px;
@@ -104,14 +106,9 @@ body {
 .logo-container {
   position: absolute;
   top: 20px;
-  left: 10; /* Adjust the left position as needed */
+  left: 10px; /* Added "px" to the left value */
   transform: translateX(-50%);
 }
-
-/* Add space on the left for the content to avoid overlap */
-/*.main-content {
-  padding-left: 280px; */ /* Adjust as needed
-} */
 
 /* Apply justified text alignment to elements within the main content area */
 .main-content p,
@@ -132,9 +129,10 @@ body {
 .logo-top-left {
   position: absolute;
   top: 20px;
-  left: 10;
+  left: 10px; /* Added "px" to the left value */
   transform: translateX(0);
 }
+
 /* Centered content */
 .centered-content {
   text-align: center;
