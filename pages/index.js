@@ -39,11 +39,11 @@ const Home = () => {
         <div
           style={{
             backgroundImage: 'url("/1.png")',
-            backgroundSize: 'cover',
+            backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
           }}
         >
-          <AppBar position="static" style={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
+          <AppBar position="static" style={{ backgroundColor: 'transparent', boxShadow: 'none', display: 'flex', justifyContent: 'center' }}>
   <Toolbar>
     <div style={{ display: 'flex', alignItems: 'center' }}>
       {isMenuVisible && (
