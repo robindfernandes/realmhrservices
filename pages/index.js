@@ -19,7 +19,6 @@ const theme = createTheme({
     allVariants: {
       color: 'black',
       /* Change 'font' to 'fontFamily' for specifying the font family */
-      fontFamily: 'Bloodtype', 
     },
   },
 });
@@ -37,32 +36,27 @@ const Home = () => {
         <div
           style={{
             backgroundImage: 'url("/1.png")',
-            backgroundSize: '100% 100%',
+            backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
           }}
         >
           <AppBar position="static" style={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
   <Toolbar>
     <div style={{ display: 'flex', alignItems: 'center' }}>
-      <Typography variant="h6">
-        <strong>TALENT ACQUISITION EXPERTS</strong>
-      </Typography>
-    </div>
-    <div style={{ display: 'flex', alignItems: 'center' }}>
       {isMenuVisible && (
         <>
           <Link href="/who-we-are">
-            <Button variant="contained" color="primary">
+            <Button variant="contained" color="transparent">
               <strong>Who we are</strong>
             </Button>
           </Link>
           <Link href="/clients-testimonials">
-            <Button variant="contained" color="primary">
+            <Button variant="contained" color="transparent">
               <strong>Clients Testimonials</strong>
             </Button>
           </Link>
           <Link href="/Talk-to-us">
-            <Button variant="contained" color="primary">
+            <Button variant="contained" color="transparent">
               <strong>Talk to us</strong>
             </Button>
           </Link>
@@ -72,7 +66,12 @@ const Home = () => {
   </Toolbar>
 </AppBar>
           <Container maxWidth="md">
-          <Typography variant="h4" component="h1" style={{ color: '#000000' }}>
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+      <Typography variant="h6">
+        <strong>TALENT ACQUISITION EXPERTS</strong>
+      </Typography>
+    </div>
+    <Typography variant="h4" component="h1" style={{ color: '#000000' }}>
             Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
           </Typography>
           <Typography variant="body1" style={{ color: '#000000' }}>
