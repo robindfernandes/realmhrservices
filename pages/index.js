@@ -7,6 +7,7 @@ import { Bloodtype } from '@mui/icons-material';
 
 const theme = createTheme({
   palette: {
+    type: 'light', // Specify 'light' or 'dark'
     primary: {
       main: '#06dee3', // Customize primary color
     },
@@ -16,9 +17,11 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: 'Lato, sans-serif',
-    allVariants: {
+    h6: {
       color: 'black',
-      /* Change 'font' to 'fontFamily' for specifying the font family */
+    },
+    body1: {
+      color: '#000000',
     },
   },
 });
