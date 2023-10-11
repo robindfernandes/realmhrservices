@@ -18,7 +18,9 @@ const theme = createTheme({
     fontFamily: 'Lato, sans-serif',
     allVariants: {
       color: 'black',
-      font: 'Bloodtype',}
+      /* Change 'font' to 'fontFamily' for specifying the font family */
+      fontFamily: 'Bloodtype', 
+    },
   },
 });
 
@@ -28,22 +30,22 @@ const Home = () => {
   const toggleMenu = () => {
     setMenuVisible(!isMenuVisible);
   };
-  
+
   return (
     <ThemeProvider theme={theme}>
       <div className="container">
-        {/* Your Head and title */}
-        <AppBar position="static" style={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
-          <Toolbar>
-            <Typography variant="h6" style={{ flexGrow: 1 }}>
-            <strong>TALENT ACQUISITION EXPERTS</strong>
-            </Typography>
-            {/* Your navigation buttons */}
-          </Toolbar>
-        </AppBar>
-        <Container maxWidth="md">
-          <div className="header-container">
-            <div className="button-container">
+        <div
+          style={{
+            backgroundImage: 'url("/1.png")',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+          }}
+        >
+          <AppBar position="static" style={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
+            <Toolbar>
+              <Typography variant="h6" style={{ flexGrow: 1 }}>
+                <strong>TALENT ACQUISITION EXPERTS</strong>
+              </Typography>
               {isMenuVisible && (
                 <>
                   <Link href="/who-we-are">
@@ -63,28 +65,21 @@ const Home = () => {
                   </Link>
                 </>
               )}
-            </div>
-          </div>
-          <div
-            style={{
-              paddingTop: '100px',
-              backgroundImage: 'url("/1.png")',
-              backgroundSize: 'cover',
-              backgroundRepeat: 'no-repeat',
-            }}
-          >
-            <Typography variant="h4" component="h1" style={{ color: '#000000' }}>
-              Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
-            </Typography>
-            <Typography variant="body1" style={{ color: '#000000' }}>
-              At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization.
-              We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries.
-            </Typography>
-            <Typography variant="body1" style={{ color: '#000000' }}>
-              With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.
-            </Typography>
-            {/* Add more content here */}
-          </div>
+            </Toolbar>
+          </AppBar>
+        </div>
+        <Container maxWidth="md">
+          <Typography variant="h4" component="h1" style={{ color: '#000000' }}>
+            Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
+          </Typography>
+          <Typography variant="body1" style={{ color: '#000000' }}>
+            At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization.
+            We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries.
+          </Typography>
+          <Typography variant="body1" style={{ color: '#000000' }}>
+            With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.
+          </Typography>
+          {/* Add more content here */}
         </Container>
       </div>
     </ThemeProvider>
