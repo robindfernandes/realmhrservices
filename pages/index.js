@@ -67,8 +67,7 @@ const Home = () => {
               )}
             </Toolbar>
           </AppBar>
-        </div>
-        <Container maxWidth="md">
+          <Container maxWidth="md">
           <Typography variant="h4" component="h1" style={{ color: '#000000' }}>
             Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
           </Typography>
@@ -81,6 +80,7 @@ const Home = () => {
           </Typography>
           {/* Add more content here */}
         </Container>
+      </div>
       </div>
     </ThemeProvider>
   );
