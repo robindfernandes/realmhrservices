@@ -55,17 +55,17 @@ const Home = () => {
             {isMenuVisible && (
               <>
                 <Link href="/who-we-are">
-                <Button variant="contained" style={{ color: 'transparent', backgroundColor: 'transparent' }}>
+                <Button variant="contained" style={{ color: 'black', backgroundColor: 'transparent' }}>
                 <strong>Who we are</strong>
                 </Button>
                 </Link>
                 <Link href="/clients-testimonials">
-                <Button variant="contained" style={{ color: 'transparent', backgroundColor: 'transparent' }}>
+                <Button variant="contained" style={{ color: 'black', backgroundColor: 'transparent' }}>
                 <strong>Clients Testimonials</strong>
                 </Button>
                 </Link>
                 <Link href="/Talk-to-us">
-                <Button variant="contained" style={{ color: 'transparent', backgroundColor: 'transparent' }}>
+                <Button variant="contained" style={{ color: 'black', backgroundColor: 'transparent' }}>
                 <strong>Talk to us</strong>
                 </Button>
                 </Link>
