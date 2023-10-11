@@ -79,15 +79,8 @@ const Home = () => {
        <strong>TALENT ACQUISITION EXPERTS</strong>
        </Typography>
         <Typography variant="h4" component="h1" style={{ color: '#000000' }}>
-          Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
+        <strong>Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.</strong>
         </Typography>
-        <Typography variant="body1" style={{ color: '#06dee3' }}>
-          At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization. We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries.
-        </Typography>
-        <Typography variant="body1" style={{ color: '#06dee3' }}>
-          With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.
-        </Typography>
-        {/* Add more content here */}
       </Container>
     </div>
     </div>
