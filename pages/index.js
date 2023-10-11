@@ -37,10 +37,10 @@ const Home = () => {
     <ThemeProvider theme={theme}>
   <div className="container">
     <div
-      style={{
-        backgroundImage: 'url("/1.png")',
-        backgroundSize: 'cover',  // Change 'contain' to 'cover'
-        backgroundRepeat: 'no-repeat',
+     style={{
+      backgroundImage: 'url("/1.png")',
+      backgroundSize: '100% 100%', // Cover the entire container
+      backgroundRepeat: 'no-repeat',
       }}
     >
       <AppBar position="static" style={{ backgroundColor: 'transparent', boxShadow: 'none', display: 'flex', justifyContent: 'center' }}>
@@ -49,19 +49,19 @@ const Home = () => {
             {isMenuVisible && (
               <>
                 <Link href="/who-we-are">
-                  <Button variant="contained">
-                    <strong>Who we are</strong>
-                  </Button>
+                <Button variant="contained" style={{ color: 'transparent', backgroundColor: 'transparent' }}>
+                <strong>Who we are</strong>
+                </Button>
                 </Link>
                 <Link href="/clients-testimonials">
-                  <Button variant="contained">
-                    <strong>Clients Testimonials</strong>
-                  </Button>
+                <Button variant="contained" style={{ color: 'transparent', backgroundColor: 'transparent' }}>
+                <strong>Clients Testimonials</strong>
+                </Button>
                 </Link>
                 <Link href="/Talk-to-us">
-                  <Button variant="contained">
-                    <strong>Talk to us</strong>
-                  </Button>
+                <Button variant="contained" style={{ color: 'transparent', backgroundColor: 'transparent' }}>
+                <strong>Talk to us</strong>
+                </Button>
                 </Link>
               </>
             )}
@@ -70,9 +70,9 @@ const Home = () => {
       </AppBar>
       <Container maxWidth="md">
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          <Typography variant="h6">
-            <strong>TALENT ACQUISITION EXPERTS</strong>
-          </Typography>
+        <Typography variant="h6" style={{ textAlign: 'center' }}>
+       <strong>TALENT ACQUISITION EXPERTS</strong>
+       </Typography>
         </div>
         <Typography variant="h4" component="h1" style={{ color: '#000000' }}>
           Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
