@@ -49,17 +49,17 @@ const Home = () => {
       {isMenuVisible && (
         <>
           <Link href="/who-we-are">
-            <Button variant="contained" color="transparent">
+            <Button variant="contained">
               <strong>Who we are</strong>
             </Button>
           </Link>
           <Link href="/clients-testimonials">
-            <Button variant="contained" color="transparent">
+            <Button variant="contained">
               <strong>Clients Testimonials</strong>
             </Button>
           </Link>
           <Link href="/Talk-to-us">
-            <Button variant="contained" color="transparent">
+            <Button variant="contained">
               <strong>Talk to us</strong>
             </Button>
           </Link>
