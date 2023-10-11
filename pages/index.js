@@ -20,10 +20,16 @@ const theme = createTheme({
     h6: {
       color: 'black',
     },
+    Button: {
+      fontFamily: 'Lato, sans-serif',
+      h6: {
+        color: 'black',
+      },
     body1: {
       color: '#000000',
     },
   },
+},
 });
 
 const Home = () => {
@@ -68,12 +74,10 @@ const Home = () => {
           </div>
         </Toolbar>
       </AppBar>
-      <Container maxWidth="md">
-        <div style={{ display: 'flex', alignItems: 'center' }}>
+      <Container>
         <Typography variant="h6" style={{ textAlign: 'center' }}>
        <strong>TALENT ACQUISITION EXPERTS</strong>
        </Typography>
-        </div>
         <Typography variant="h4" component="h1" style={{ color: '#000000' }}>
           Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
         </Typography>
@@ -86,7 +90,7 @@ const Home = () => {
         {/* Add more content here */}
       </Container>
     </div>
-  </div>
+    </div>
 </ThemeProvider>
   );
 };
