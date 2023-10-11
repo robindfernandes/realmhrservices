@@ -8,7 +8,7 @@ import { Bloodtype } from '@mui/icons-material';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#007bff', // Customize primary color
+      main: '#06dee3', // Customize primary color
     },
     secondary: {
       main: '#ff6f61', // Customize secondary color
@@ -37,36 +37,40 @@ const Home = () => {
         <div
           style={{
             backgroundImage: 'url("/1.png")',
-            backgroundSize: 'cover',
+            backgroundSize: '100% 100%',
             backgroundRepeat: 'no-repeat',
           }}
         >
           <AppBar position="static" style={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
-            <Toolbar>
-              <Typography variant="h6" style={{ flexGrow: 1 }}>
-                <strong>TALENT ACQUISITION EXPERTS</strong>
-              </Typography>
-              {isMenuVisible && (
-                <>
-                  <Link href="/who-we-are">
-                    <Button variant="contained" color="primary">
-                      <strong>Who we are</strong>
-                    </Button>
-                  </Link>
-                  <Link href="/clients-testimonials">
-                    <Button variant="contained" color="primary">
-                      <strong>Clients Testimonials</strong>
-                    </Button>
-                  </Link>
-                  <Link href="/Talk-to-us">
-                    <Button variant="contained" color="primary">
-                      <strong>Talk to us</strong>
-                    </Button>
-                  </Link>
-                </>
-              )}
-            </Toolbar>
-          </AppBar>
+  <Toolbar>
+    <div style={{ display: 'flex', alignItems: 'center' }}>
+      <Typography variant="h6">
+        <strong>TALENT ACQUISITION EXPERTS</strong>
+      </Typography>
+    </div>
+    <div style={{ display: 'flex', alignItems: 'center' }}>
+      {isMenuVisible && (
+        <>
+          <Link href="/who-we-are">
+            <Button variant="contained" color="primary">
+              <strong>Who we are</strong>
+            </Button>
+          </Link>
+          <Link href="/clients-testimonials">
+            <Button variant="contained" color="primary">
+              <strong>Clients Testimonials</strong>
+            </Button>
+          </Link>
+          <Link href="/Talk-to-us">
+            <Button variant="contained" color="primary">
+              <strong>Talk to us</strong>
+            </Button>
+          </Link>
+        </>
+      )}
+    </div>
+  </Toolbar>
+</AppBar>
           <Container maxWidth="md">
           <Typography variant="h4" component="h1" style={{ color: '#000000' }}>
             Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.
