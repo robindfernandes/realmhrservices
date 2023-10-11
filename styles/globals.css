@@ -1,22 +1,31 @@
 /* styles.css */
 
 :root {
-  --primary-bg-color1: #f3f6f4
+  --primary-bg-color1: #f3f6f4;
   /*--primary-bg-color2: #ffeb3b;*/
   --text-color: #333;
 }
+html {
+  font-size: 125%; /* This increases the base font size by 25%, making everything larger */
+}
 
-html,
 body {
+  background-color: #f0f0f0; /* Set a background color if needed */
   font-family: 'Lato', sans-serif;
   background: linear-gradient(to right, var(--primary-bg-color1), var(--primary-bg-color2));
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Set minimum height to 100% of viewport height */
+  display: flex;
   color: var(--text-color);
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+  /* Add styles for small screens here */
+}
 
 .container {
   max-width: 1000px;
@@ -136,6 +145,7 @@ body {
   text-align: left;
 }
 
-html {
-  font-size: 200%; /* This increases the base font size by 25%, making everything larger */
+.text {
+  font-size: 16px;
+  line-height: 1.5;
 }
