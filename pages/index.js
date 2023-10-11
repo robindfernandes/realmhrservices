@@ -75,10 +75,10 @@ const Home = () => {
         </Toolbar>
       </AppBar>
       <Container>
-        <Typography variant="h6" style={{ textAlign: 'center' }}>
+        <Typography variant="h6" style={{ textAlign: 'center', color: '#ffffff' }}>
        <strong>TALENT ACQUISITION EXPERTS</strong>
        </Typography>
-        <Typography variant="h4" component="h1" style={{ color: '#000000' }}>
+        <Typography variant="h4" component="h1" style={{ color: '#ffffff' }}>
         <strong>Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.</strong>
         </Typography>
       </Container>
