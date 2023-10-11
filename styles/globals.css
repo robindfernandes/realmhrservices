@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-  max-width: 1000px; /* Removed the quotes around "md" */
+  max-width: 100%; /* Change "1000px" to "100%" */
   margin: 0 auto;
   text-align: center; /* Added a semicolon at the end */
 }
