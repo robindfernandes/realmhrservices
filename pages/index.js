@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Button, Typography, Container, AppBar, Toolbar } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useState } from 'react';
+import { Bloodtype } from '@mui/icons-material';
 
 const theme = createTheme({
   palette: {
@@ -16,7 +17,8 @@ const theme = createTheme({
   typography: {
     fontFamily: 'Lato, sans-serif',
     allVariants: {
-      color: 'black',}
+      color: 'black',
+      font: 'Bloodtype',}
   },
 });
 
@@ -34,7 +36,7 @@ const Home = () => {
         <AppBar position="static" style={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
           <Toolbar>
             <Typography variant="h6" style={{ flexGrow: 1 }}>
-            Talent Acquisition Experts
+            <strong>TALENT ACQUISITION EXPERTS</strong>
             </Typography>
             {/* Your navigation buttons */}
           </Toolbar>

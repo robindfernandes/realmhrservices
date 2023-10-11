@@ -19,3 +19,14 @@
   height: 2em; /* Increase the height to make the logo bigger */
   margin: 3px;
 }
+
+.logoContainer {
+  display: block; /* This ensures it's displayed as a block element, taking up the full width of its container */
+  text-align: center; /* You can use text-align to center its content horizontally */
+  margin-bottom: 10px; /* Add margin to create spacing between the two elements */
+}
+
+.linkedinContainer {
+  display: block; /* Also displayed as a block element */
+  text-align: center; /* Centered horizontally */
+}
