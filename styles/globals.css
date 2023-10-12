@@ -4,7 +4,7 @@
   --primary-bg-color1: #f3f6f4;
   /*--primary-bg-color2: #ffeb3b;*/
   --text-color: #333;
-  --base-font-size: 150%; /* Define a base font size */
+  --base-font-size: 125%; /* Define a base font size */
 }
 
 html {
@@ -31,7 +31,7 @@ body {
 }
 
 .container {
-  max-width: 100%; /* Change "1000px" to "100%" */
+  max-width: 150%; /* Change "1000px" to "100%" */
   margin: 0 auto;
   text-align: center; /* Added a semicolon at the end */
 }
