@@ -103,6 +103,10 @@ body {
   display: block;
 }
 
+Button:hover {
+  background-color: #06dee3; /* Change to the desired hover color */
+}
+
 .logo-container {
   position: absolute;
   top: 20px;

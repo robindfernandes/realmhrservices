@@ -113,14 +113,16 @@ const Home = () => {
        <strong>TALENT ACQUISITION EXPERTS</strong>
        </Typography>
         <Typography variant="h4" component="h1" style={{ color: 'black' }}>
-        <strong>Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.</strong>
+        <strong>Welcome to REALM HR SERVICES, your trusted partner in recruitment solutions.</strong>
         </Typography>
         <Typography variant="body1" style={{ color: 'black' }}>
-        <strong>At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization. We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries.</strong>
+        <strong>At REALM HR Services, we understand that finding the right talent is crucial for the success of any organization. We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries.</strong>
         </Typography>
+       {/*
         <Typography variant="body1" style={{ color: 'black' }}>
         <strong>With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.</strong>
-        </Typography>
+        </Typography> 
+            */}
       </Container>
     </div>
     </div>
