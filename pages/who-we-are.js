@@ -3,7 +3,7 @@
 import React, { useState } from 'react'; // Import useState from React
 import Head from 'next/head';
 import Link from 'next/link';
-import styles from './whoWeAre.module.css'; // Import the CSS module for page-specific styles
+//import styles from './whoWeAre.module.css'; // Import the CSS module for page-specific styles
 
 const WhoWeAre = () => {
  // Define state to manage the visibility of the dropdown menu
