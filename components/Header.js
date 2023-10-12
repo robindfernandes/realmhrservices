@@ -16,21 +16,13 @@ const Header = () => {
 
       {isMenuVisible && (
         <nav className={styles.menu}>
-          <Link href="/who-we-are">
-            <Button variant="contained">
-              Who we are
-            </Button>
-          </Link>
-          <Link href="/clients-testimonials">
-            <Button variant="contained">
-              Clients Testimonials
-            </Button>
-          </Link>
-          <Link href="/Talk-to-us">
-            <Button variant="contained">
-              Talk to us
-            </Button>
-          </Link>
+           <Link href="/index"><button className="menu-link-button"><strong>Home</strong></button></Link>
+                <Link href="/who-we-are"><button className="menu-link-button"><strong>Who we are</strong></button>
+                </Link>
+                <Link href="/clients-testimonials"><button className="menu-link-button"><strong>Clients Testimonials</strong></button>
+                  </Link>
+                  <Link href="/Talk-to-us"><button className="menu-link-button"><strong>Talk to us</strong></button>
+                  </Link>
         </nav>
       )}
     </header>
