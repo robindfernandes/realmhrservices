@@ -1,5 +1,6 @@
 /* styles.css */
 
+/* Variables */
 :root {
   --primary-bg-color1: #f3f6f4;
   /*--primary-bg-color2: #ffeb3b;*/
@@ -7,15 +8,14 @@
   --base-font-size: 125%; /* Define a base font size */
 }
 
+/* Global Styles */
 html {
   font-size: var(--base-font-size); /* Set the font size to the base font size */
 }
 
 body {
-  background-color: var(--primary-bg-color1); /* Use the variable for background color */
+  background-color: var(--primary-bg-color1);
   font-family: 'Lato', sans-serif;
-  /* Remove background gradient for now */
-  /* background: linear-gradient(to right, var(--primary-bg-color1), var(--primary-bg-color2)); */
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -30,18 +30,21 @@ body {
   /* Add styles for small screens here */
 }
 
+/* Container Styles */
 .container {
   max-width: 150%; /* Change "1000px" to "100%" */
   margin: 0 auto;
   text-align: center; /* Added a semicolon at the end */
 }
 
+/* Title Styles */
 .title {
   font-size: 36px;
   font-weight: bold;
   margin: 20px 0; /* Add margin for spacing */
 }
 
+/* Logo Styles */
 .logo {
   width: 350px; /* Make the logo 25% smaller */
   height: auto;
@@ -56,11 +59,12 @@ body {
   transition: transform 0.2s ease-in-out;
 }
 
+/* Hover Effect on Logo */
 .logo:hover {
   transform: scale(1.05);
 }
 
-/* Remove bullet points from the side nav and make it slimmer */
+/* Dropdown Menu Styles */
 .dropdown-menu li {
   padding: 20px 0;
   text-align: center;
@@ -68,7 +72,7 @@ body {
   margin-left: -10px;
 }
 
-/* Dropdown menu button */
+/* Dropdown Button Styles */
 .dropdown-button {
   background-color: var(--primary-bg-color1);
   color: var(--text-color);
@@ -83,10 +87,7 @@ body {
   transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
-/*}.dropdown-button:hover {
-  transform: scale(1.05);
-} */
-
+/* Dropdown Menu Visibility */
 .dropdown-menu {
   list-style: none;
   padding: 0;
@@ -104,10 +105,12 @@ body {
   display: block;
 }
 
+/* Button Hover Effect */
 Button:hover {
   background-color: #06dee3; /* Change to the desired hover color */
 }
 
+/* Logo Container Positioning */
 .logo-container {
   position: absolute;
   top: 20px;
@@ -115,7 +118,7 @@ Button:hover {
   transform: translateX(-50%);
 }
 
-/* Apply justified text alignment to elements within the main content area */
+/* Text Alignment for Main Content */
 .main-content p,
 .main-content ul,
 .main-content ol,
@@ -124,13 +127,14 @@ Button:hover {
   text-align: justify;
 }
 
-/* Center align the content within the main content area */
+/* Center Align the Content within the Main Content Area */
 .main-content > * {
   max-width: 1000px;
   margin: 0 auto;
   text-align: justify;
 }
 
+/* Logo Top Left Positioning */
 .logo-top-left {
   position: absolute;
   top: 20px;
@@ -138,16 +142,17 @@ Button:hover {
   transform: translateX(0);
 }
 
-/* Centered content */
+/* Centered Content */
 .centered-content {
   text-align: center;
 }
 
-/* Main content text alignment */
+/* Main Content Text Alignment */
 .main-content {
   text-align: left;
 }
 
+/* Text Styles */
 .text {
   font-size: 16px;
   line-height: 1.5;
