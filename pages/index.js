@@ -46,7 +46,7 @@ const Home = () => {
     <div
      style={{
       backgroundImage: 'url("/1.png")',
-      backgroundSize: '100% 100%', // Cover the entire container
+      backgroundSize: 'cover', // Cover the entire container
       backgroundRepeat: 'no-repeat',
       }}
     >
