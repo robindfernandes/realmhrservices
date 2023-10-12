@@ -50,7 +50,7 @@ const Home = () => {
       backgroundRepeat: 'no-repeat',
       }}
     >
-      <AppBar position="static" style={{ backgroundColor: 'transparent', boxShadow: 'none', display: 'flex', justifyContent: 'center' }}>
+      {/* <AppBar position="static" style={{ backgroundColor: 'transparent', boxShadow: 'none', display: 'flex', justifyContent: 'center' }}>
         <Toolbar style={{ display: 'flex', justifyContent: 'center' }}>
           <div style={{ display: 'flex', alignItems: 'center' }}>
             {isMenuVisible && (
@@ -107,8 +107,8 @@ const Home = () => {
             )}
           </div>
         </Toolbar>
-      </AppBar>
-      <Container>
+      </AppBar> */}
+      <Container> 
         <Typography variant="h6" style={{ textAlign: 'center', color: 'black' }}>
        <strong>TALENT ACQUISITION EXPERTS</strong>
        </Typography>
