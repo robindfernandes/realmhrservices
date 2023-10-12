@@ -42,7 +42,6 @@ const Home = () => {
           className="image"
           style={{ width: '80%', height: '30%' }}
         />
-        <div className={styles['clients-testimonials']}>
           {/* Use CSS Modules class here */}
           <h1>What Our Clients say about RealmHR Services:</h1>
           <h2>1. National Group Of Companies - India</h2>
@@ -84,7 +83,6 @@ const Home = () => {
           <Link href="/index"><button className="menu-link-button"><strong>Back to Home</strong></button></Link>
         </div>
       </div>
-    </div>
   );
 };
 

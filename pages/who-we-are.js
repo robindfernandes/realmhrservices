@@ -5,21 +5,21 @@ import Head from 'next/head';
 import Link from 'next/link';
 //import styles from './whoWeAre.module.css'; // Import the CSS module for page-specific styles
 
-const WhoWeAre = () => {
- // Define state to manage the visibility of the dropdown menu
- const [isMenuVisible, setMenuVisible] = useState(true);
- 
- // Function to toggle the visibility of the dropdown menu
+const Home = () => {
+  // Define state to manage the visibility of the dropdown menu
+  const [isMenuVisible, setMenuVisible] = useState(true);
+
+  // Function to toggle the visibility of the dropdown menu
     const toggleMenu = () => {
     setMenuVisible(!isMenuVisible);
-    };
 
  return (
-    <>
+    <div className="container">
       <Head>
       <title>RealmHRServices</title>
        <link rel="icon" href="/logo-realm.png" />
       </Head>
+      <div className="centered-content">
       <header>
         <div className="header-container">
         <div className="button-container">
@@ -37,12 +37,10 @@ const WhoWeAre = () => {
         </div>  
         </div>
       </header>   
-      <div className={styles.container}>
         <img
           src="/2.png"
           alt="Image 2"
           className="image"
-          style={{ width: '20%', height: '20%' }}
         />
         <div className="who-we-are">
           <h1 className={styles.title}>TEJASWEETA MISTRY</h1>
@@ -57,8 +55,9 @@ const WhoWeAre = () => {
       
         <Link href="/index"><button className="menu-link-button"><strong>Back to Home</strong></button></Link>
         </div>
-      </div>
-    </>
+        </div>
+        </div>
   );
 };
-export default WhoWeAre;
+};
+export default Home;
