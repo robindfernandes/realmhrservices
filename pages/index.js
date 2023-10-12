@@ -72,13 +72,35 @@ const Home = () => {
                 </Button>
                 </Link>
                 <Link href="/clients-testimonials">
-                <Button variant="contained" style={{ color: 'black', backgroundColor: 'transparent' }}>
+                <Button 
+                variant="contained"
+                style={{
+                color: 'black',
+                backgroundColor: 'transparent',
+                transition: 'background-color 0.3s',
+                borderRadius: '25px', // Rounded corners
+                padding: '12px 24px', // Increased padding
+                border: '2px solid #06dee3', // Custom border
+              }}
+              >
                 <strong>Clients Testimonials</strong>
+                <ArrowForwardIcon />
                 </Button>
                 </Link>
                 <Link href="/Talk-to-us">
-                <Button variant="contained" style={{ color: 'black', backgroundColor: 'transparent' }}>
+                <Button 
+                variant="contained"
+                style={{
+                color: 'black',
+                backgroundColor: 'transparent',
+                transition: 'background-color 0.3s',
+                borderRadius: '25px', // Rounded corners
+                padding: '12px 24px', // Increased padding
+                border: '2px solid #06dee3', // Custom border
+              }}
+              >
                 <strong>Talk to us</strong>
+                <ArrowForwardIcon />
                 </Button>
                 </Link>
               </>
@@ -94,10 +116,10 @@ const Home = () => {
         <strong>Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.</strong>
         </Typography>
         <Typography variant="body1" style={{ color: 'black' }}>
-          At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization. We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries.
+        <strong>At Realm HR Services, we understand that finding the right talent is crucial for the success of any organization. We specialize in providing comprehensive recruitment services tailored to meet the unique needs of businesses across various industries.</strong>
         </Typography>
         <Typography variant="body1" style={{ color: 'black' }}>
-          With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.
+        <strong>With our deep industry knowledge, extensive networks, and proven methodologies, we strive to connect exceptional talent with exceptional opportunities.</strong>
         </Typography>
       </Container>
     </div>
