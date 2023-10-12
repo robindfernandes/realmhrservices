@@ -41,8 +41,9 @@ const Home = () => {
           src="/2.png"
           alt="Image 2"
           className="image"
+          style={{ width: '80%', height: '30%' }}
         />
-        <div className="who-we-are">
+        <div className="main-content">
           <h1 className={styles.title}>TEJASWEETA MISTRY</h1>
           <h2><strong>Founder | REALMHR Services</strong></h2>
           <p>Tejasweeta Mistry, a name embodying majesty, dignity, and an unwavering wellspring of positive energy, stands as a luminary in the realm of recruitment and human resources. With an illustrious career spanning over 15 years, Tejasweeta has honed her skills and acumen in the art of managing organizational human capital, making her a formidable force in the industry.</p>
