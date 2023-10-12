@@ -1,6 +1,5 @@
 import React, { useState } from 'react'; // Import useState from React
 import Head from 'next/head';
-//import styles from './clients-testimonials.module.css'; // Import the CSS module for page-specific styles
 import Link from 'next/link';
 
 const Home = () => {
@@ -43,6 +42,7 @@ const Home = () => {
           style={{ width: '80%', height: '30%' }}
         />
           {/* Use CSS Modules class here */}
+          <div className="main-content">
           <h1>What Our Clients say about RealmHR Services:</h1>
           <h2>1. National Group Of Companies - India</h2>
           <p>
@@ -81,6 +81,7 @@ const Home = () => {
             Connect with us on LinkedIn: <a href="https://www.linkedin.com/company/realmhrservices">Follow us on LinkedIn</a>
           </p>
           <Link href="/index"><button className="menu-link-button"><strong>Back to Home</strong></button></Link>
+        </div>
         </div>
       </div>
   );
