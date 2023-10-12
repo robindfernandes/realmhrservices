@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-  max-width: 150%; /* Change "1000px" to "100%" */
+  max-width: 125%; /* Change "1000px" to "100%" */
   margin: 0 auto;
   text-align: center; /* Added a semicolon at the end */
 }
