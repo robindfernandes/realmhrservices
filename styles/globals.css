@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 125%; /* This increases the base font size by 25%, making everything larger */
+  font-size: 100%; /* This increases the base font size by 25%, making everything larger */
 }
 
 body {
@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-  max-width: 125%; /* Change "1000px" to "100%" */
+  max-width: 100%; /* Change "1000px" to "100%" */
   margin: 0 auto;
   text-align: center; /* Added a semicolon at the end */
 }
