@@ -4,10 +4,11 @@
   --primary-bg-color1: #f3f6f4;
   /*--primary-bg-color2: #ffeb3b;*/
   --text-color: #333;
+  --base-font-size: 150%; /* Define a base font size */
 }
 
 html {
-  font-size: 100%; /* This increases the base font size by 25%, making everything larger */
+  font-size: var(--base-font-size); /* Set the font size to the base font size */
 }
 
 body {
