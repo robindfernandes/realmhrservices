@@ -1,13 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; // Import useState from React
 import Head from 'next/head';
 import Link from 'next/link';
 
-const WhoWeAre = () => {
+const Home = () => {
+  // Define state to manage the visibility of the dropdown menu
   const [isMenuVisible, setMenuVisible] = useState(true);
-
-  const toggleMenu = () => {
-    setMenuVisible(!isMenuVisible);
-  };
 
   return (
     <div className="container">
@@ -19,32 +16,22 @@ const WhoWeAre = () => {
         <header>
           <div className="header-container">
             <div className="button-container">
-              {/*
               {isMenuVisible && (
                 <>
-                  <Link href="/index">
-                    <button className="menu-link-button">
-                      <strong>Home</strong>
-                    </button>
+                 {/*} <Link href="/index">
+                    <button className="menu-link-button"><strong>Home</strong></button>
                   </Link>
                   <Link href="/who-we-are">
-                    <button className="menu-link-button">
-                      <strong>Who we are</strong>
-                    </button>
+                    <button className="menu-link-button"><strong>Who we are</strong></button>
                   </Link>
                   <Link href="/clients-testimonials">
-                    <button className="menu-link-button">
-                      <strong>Clients Testimonials</strong>
-                    </button>
+                    <button className="menu-link-button"><strong>Clients Testimonials</strong></button>
                   </Link>
                   <Link href="/Talk-to-us">
-                    <button className="menu-link-button">
-                      <strong>Talk to us</strong>
-                    </button>
-                  </Link>
+                    <button className="menu-link-button"><strong>Talk to us</strong></button>
+              </Link> */}
                 </>
-              )} 
-             */}
+              )}
             </div>
           </div>
         </header>
@@ -52,8 +39,10 @@ const WhoWeAre = () => {
           src="/2.png"
           alt="Image 2"
           className="image"
-          style={{ width: '50%', height: 'auto' }}
+          style={{ width: '50%', height: '10%' }}
         />
+
+
         <div className="main-content">
           <h1>TEJASWEETA MISTRY</h1>
           <h2>
@@ -71,6 +60,8 @@ const WhoWeAre = () => {
           <p>Armed with a Master's Degree from the prestigious Narsee Monjee Institute of Management Studies, Tejasweeta has ascended to the status of a true subject matter expert in HR Shared Services. Her extensive skill set and hands-on experience empower her to provide strategic guidance to senior management, particularly in matters pertaining to human capital. Tejasweeta's remarkable achievements include spearheading organizational structure changes, spearheading the seamless implementation of cutting-edge HRIS systems, and adeptly navigating the intricate HR landscape in high-stakes Merger & Acquisition projects.</p>
           <p>In the dynamic world of recruitment, Tejasweeta Mistry shines as an unwavering beacon of expertise, innovation, and excellence, guiding organizations toward a brighter future.</p>
           </div>
+
+
           <div className="centered-content">
           <div style={{ textAlign: 'center' }}>
             <Link href="/index">
@@ -85,4 +76,4 @@ const WhoWeAre = () => {
   );
 };
 
-export default WhoWeAre;
+export default Home;
