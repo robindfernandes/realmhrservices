@@ -1,7 +1,7 @@
 import React, { useState } from 'react'; // Import useState from React
 import Head from 'next/head';
 import Link from 'next/link';
-
+import '../styles/globals.css'; // Import your global styles
 const Home = () => {
   // Define state to manage the visibility of the dropdown menu
   const [isMenuVisible, setMenuVisible] = useState(true);
@@ -18,7 +18,8 @@ const Home = () => {
             <div className="button-container">
               {isMenuVisible && (
                 <>
-                 {/*} <Link href="/index">
+                 {/*
+                 } <Link href="/index">
                     <button className="menu-link-button"><strong>Home</strong></button>
                   </Link>
                   <Link href="/who-we-are">
@@ -29,7 +30,9 @@ const Home = () => {
                   </Link>
                   <Link href="/Talk-to-us">
                     <button className="menu-link-button"><strong>Talk to us</strong></button>
-              </Link> */}
+              </Link> 
+              
+             */}
                 </>
               )}
             </div>
