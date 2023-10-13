@@ -38,7 +38,7 @@ const Home = () => {
 
   return (
     <ThemeProvider theme={theme}>
-  <div className="container">
+  <div className="container" style={{ height: '100vh'}}>
     <div
      style={{
       backgroundImage: 'url("/1.png")',
