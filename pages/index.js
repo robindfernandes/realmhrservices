@@ -1,10 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { Button, Typography, Container, AppBar, Toolbar } from '@mui/material';
+import { Typography, Container } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useState } from 'react';
-import { Bloodtype } from '@mui/icons-material';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const theme = createTheme({
   palette: {
@@ -46,68 +42,10 @@ const Home = () => {
     <div
      style={{
       backgroundImage: 'url("/1.png")',
-      backgroundSize: 'cover', // Cover the entire container
+      backgroundSize: '100% 100%', // Cover the entire container
       backgroundRepeat: 'no-repeat',
       }}
     >
-      {/* <AppBar position="static" style={{ backgroundColor: 'transparent', boxShadow: 'none', display: 'flex', justifyContent: 'center' }}>
-        <Toolbar style={{ display: 'flex', justifyContent: 'center' }}>
-          <div style={{ display: 'flex', alignItems: 'center' }}>
-            {isMenuVisible && (
-              <>
-                <Link href="/who-we-are">
-                <Button
-                variant="contained"
-                style={{
-                color: 'black',
-                backgroundColor: 'transparent',
-                transition: 'background-color 0.3s',
-                borderRadius: '25px', // Rounded corners
-                padding: '12px 24px', // Increased padding
-                border: '2px solid #06dee3', // Custom border 
-              }}
-              >
-                <strong>Who we are</strong>
-                <ArrowForwardIcon />
-                </Button>
-                </Link>
-                <Link href="/clients-testimonials">
-                <Button 
-                variant="contained"
-                style={{
-                color: 'black',
-                backgroundColor: 'transparent',
-                transition: 'background-color 0.3s',
-                borderRadius: '25px', // Rounded corners
-                padding: '12px 24px', // Increased padding
-                border: '2px solid #06dee3', // Custom border
-              }}
-              >
-                <strong>Clients Testimonials</strong>
-                <ArrowForwardIcon />
-                </Button>
-                </Link>
-                <Link href="/Talk-to-us">
-                <Button 
-                variant="contained"
-                style={{
-                color: 'black',
-                backgroundColor: 'transparent',
-                transition: 'background-color 0.3s',
-                borderRadius: '25px', // Rounded corners
-                padding: '12px 24px', // Increased padding
-                border: '2px solid #06dee3', // Custom border
-              }}
-              >
-                <strong>Talk to us</strong>
-                <ArrowForwardIcon />
-                </Button>
-                </Link>
-              </>
-            )}
-          </div>
-        </Toolbar>
-      </AppBar> */}
       <Container> 
         <Typography variant="h6" style={{ textAlign: 'center', color: 'black' }}>
        <strong>TALENT ACQUISITION EXPERTS</strong>
