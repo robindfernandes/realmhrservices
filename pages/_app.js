@@ -4,7 +4,6 @@ import Footer from '@components/Footer';
 import { useEffect } from 'react';
 import '../styles/globals.css'; // Import your global styles
 
-
 function MyApp({ Component, pageProps }) {
   // Add any global JavaScript or effects here
   useEffect(() => {
@@ -14,10 +13,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <div className="container">
       <Head>
-      <title>RealmHRServices</title>
+        <title>RealmHRServices</title>
         <link rel="icon" href="/logo-realm.png" />
       </Head>
-      {/* Rest of your JSX */}
       <Header>
         <div className="logoContainer">
           <img
@@ -29,7 +27,7 @@ function MyApp({ Component, pageProps }) {
         </div>
       </Header>
       <Component {...pageProps} />
-      <Footer /> 
+      <Footer />
     </div>
   );
 }
