@@ -39,7 +39,7 @@ const Home = () => {
           src="/5.png"
           alt="Image 5"
           className="image"
-          style={{ width: '80%', height: '30%' }}
+          style={{ width: '50%', height: '10%' }}
         />
           {/* Use CSS Modules class here */}
           <div className="main-content">

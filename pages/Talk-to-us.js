@@ -37,7 +37,7 @@ const Home = () => {
               src="/9.png"
               alt="Image 9"
               className="image"
-              style={{ width: '80%', height: '30%' }}
+              style={{ width: '50%', height: '10%' }}
             />
             <p className="description">
             </p>   
@@ -56,9 +56,15 @@ const Home = () => {
         <p>
           Connect with us on LinkedIn: <a href="https://www.linkedin.com/company/realmhrservices"><strong>Follow us on LinkedIn</strong></a>
         </p>
-        <Link href="/index"><button className="menu-link-button"><strong>Back to Home</strong></button></Link>
         </div>
-      </div>
+        <div className="centered-content">
+            <Link href="/index">
+            <button className="menu-link-button">
+              <strong>Back to Home</strong>
+            </button>
+          </Link>
+          </div>
+          </div>
   );
 };
 export default Home;
