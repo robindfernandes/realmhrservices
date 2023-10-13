@@ -1,7 +1,6 @@
 import React, { useState } from 'react'; // Import useState from React
 import Head from 'next/head';
 import Link from 'next/link';
-import '../styles/globals.css'; // Import your global styles
 const Home = () => {
   // Define state to manage the visibility of the dropdown menu
   const [isMenuVisible, setMenuVisible] = useState(true);
