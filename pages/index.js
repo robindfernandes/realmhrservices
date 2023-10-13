@@ -43,7 +43,7 @@ const Home = () => {
           backgroundImage: 'url("/1.png")',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
-          height: '100vh',
+          minHeight: '100vh',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',
