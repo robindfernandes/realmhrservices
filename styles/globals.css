@@ -127,13 +127,6 @@ Button:hover {
   text-align: justify;
 }
 
-/* Center Align the Content within the Main Content Area */
-.main-content > * {
-  max-width: 1000px;
-  margin: 0 auto;
-  text-align: justify;
-}
-
 /* Logo Top Left Positioning */
 .logo-top-left {
   position: absolute;

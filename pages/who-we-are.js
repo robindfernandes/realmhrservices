@@ -19,7 +19,8 @@ const WhoWeAre = () => {
         <header>
           <div className="header-container">
             <div className="button-container">
-              {/*{isMenuVisible && (
+              {/*
+              {isMenuVisible && (
                 <>
                   <Link href="/index">
                     <button className="menu-link-button">
@@ -42,7 +43,8 @@ const WhoWeAre = () => {
                     </button>
                   </Link>
                 </>
-              )} */}
+              )} 
+             */}
             </div>
           </div>
         </header>
@@ -50,7 +52,7 @@ const WhoWeAre = () => {
           src="/2.png"
           alt="Image 2"
           className="image"
-          style={{ width: '50%', height: '10%' }}
+          style={{ width: '50%', height: 'auto' }}
         />
         <div className="main-content">
           <h1>TEJASWEETA MISTRY</h1>
@@ -70,11 +72,13 @@ const WhoWeAre = () => {
           <p>In the dynamic world of recruitment, Tejasweeta Mistry shines as an unwavering beacon of expertise, innovation, and excellence, guiding organizations toward a brighter future.</p>
           </div>
           <div className="centered-content">
+          <div style={{ textAlign: 'center' }}>
             <Link href="/index">
             <button className="menu-link-button">
               <strong>Back to Home</strong>
             </button>
           </Link>
+          </div>
           </div>
       </div>
     </div>
