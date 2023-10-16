@@ -22,4 +22,9 @@
   gap: 1rem;
 }
 
+.menu-link-button {
+  font-size: 14px; /* Adjust the font size to make the buttons smaller */
+  padding: 8px 12px; /* Adjust the padding to control the button size */
+}
+
 /* Define styles for buttons here */
