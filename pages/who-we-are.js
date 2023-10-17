@@ -31,11 +31,11 @@ const Home = () => {
           src="/2.png"
           alt="Image 2"
           className="image"
-          style={{ width: '50%', height: '10%' }}
+          style={{ width: '50%', height: 'auto' }}
         />
 
 
-        <div className="main-content">
+      <div className="main-content whoWeAre" style={{ marginLeft: '10%', marginRight: '10%' }}>
           <h1>TEJASWEETA MISTRY</h1>
           <h2>
             <strong>Founder | REALMHR Services</strong>
