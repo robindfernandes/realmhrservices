@@ -3,14 +3,13 @@
 /* Variables */
 :root {
   --primary-bg-color1: #f3f6f4;
-  /*--primary-bg-color2: #ffeb3b;*/
   --text-color: #333;
-  --base-font-size: 100%; /* Define a base font size */
+  --base-font-size: 100%;
 }
 
 /* Global Styles */
 html {
-  font-size: var(--base-font-size); /* Set the font size to the base font size */
+  font-size: var(--base-font-size);
 }
 
 body {
@@ -23,7 +22,7 @@ body {
   color: var(--text-color);
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow: hidden; /* Remove the x-axis overflow hiding */
 }
 
 @media (max-width: 768px) {
@@ -32,28 +31,28 @@ body {
 
 /* Container Styles */
 .container {
-  max-width: 200%; /* Change "1000px" to "100%" */
-  margin: 0 auto;
-  text-align: center; /* Added a semicolon at the end */
+  max-width: 100%; /* Set the container width to 100% */
+  text-align: center;
 }
 
 /* Title Styles */
 .title {
   font-size: 36px;
   font-weight: bold;
-  margin: 20px 0; /* Add margin for spacing */
+  margin: 20px 0;
 }
 
 /* Logo Styles */
 .logo {
-  width: 350px; /* Make the logo 25% smaller */
+  width: 100%; /* Make the logo fill the container horizontally */
   height: auto;
   display: block;
   transition: transform 0.2s ease-in-out;
 }
 
+/* LinkedIn Logo Styles */
 .LinkedInlogo {
-  width: 100px; /* Make the logo 25% smaller */
+  width: 25%; /* Adjust the width as needed */
   height: auto;
   display: block;
   transition: transform 0.2s ease-in-out;
@@ -107,14 +106,14 @@ body {
 
 /* Button Hover Effect */
 Button:hover {
-  background-color: #06dee3; /* Change to the desired hover color */
+  background-color: #06dee3;
 }
 
 /* Logo Container Positioning */
 .logo-container {
   position: absolute;
   top: 20px;
-  left: 10px; /* Added "px" to the left value */
+  left: 10px;
   transform: translateX(-50%);
 }
 
@@ -131,7 +130,7 @@ Button:hover {
 .logo-top-left {
   position: absolute;
   top: 20px;
-  left: 10px; /* Added "px" to the left value */
+  left: 10px;
   transform: translateX(0);
 }
 
