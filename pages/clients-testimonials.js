@@ -29,7 +29,7 @@ const Home = () => {
           style={{ width: '50%', height: '10%' }}
         />
           {/* Use CSS Modules class here */}
-          <div className="main-content">
+          <div className="main-content clients-testimonials" style={{ marginLeft: '10%', marginRight: '10%' }}>
           <h1>What Our Clients say about RealmHR Services:</h1>
           <h2>1. National Group Of Companies - India</h2>
           <p>

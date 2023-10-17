@@ -43,11 +43,14 @@ const Home = () => {
           backgroundImage: 'url("/1.png")',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
-          backgroundAttachment: 'fixed', // This will make the image fixed
-          display: 'flex', 
+          backgroundAttachment: 'fixed',
+          display: 'flex',
           flexDirection: 'column',
+          alignItems: 'center', // Center the content horizontally
         }}
       >
+        <Container style={{ maxWidth: '80%' }}> </Container>
+
         <Container>
         <Typography variant="h4" component="h1" style={{ color: 'black' }}>
             <strong>Welcome to REALM HR SERVICES, your trusted partner in recruitment solutions.</strong>
