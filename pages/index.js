@@ -43,11 +43,9 @@ const Home = () => {
           backgroundImage: 'url("/1.png")',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
-          minHeight: '100vh',
-          display: 'flex',
+          backgroundAttachment: 'fixed', // This will make the image fixed
+          display: 'flex', 
           flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
         }}
       >
         <Container>
