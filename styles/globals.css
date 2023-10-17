@@ -15,14 +15,12 @@ html {
 body {
   background-color: var(--primary-bg-color1);
   font-family: 'Lato', sans-serif;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
   display: flex;
   color: var(--text-color);
   margin: 0;
   padding: 0;
-  overflow: hidden; /* Remove the x-axis overflow hiding */
+  overflow-x: hidden; /* Keep overflow-x hidden for horizontal scrolling */
 }
 
 @media (max-width: 768px) {
