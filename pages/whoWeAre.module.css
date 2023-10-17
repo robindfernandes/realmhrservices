@@ -1,8 +1,8 @@
 /* Styles for the container div */
+/* Styles for the container div */
 .container {
-  text-align: center; /* center the content within the container */
+  text-align: justify; /* Justify the content within the container */
 }
-
 
 /* Styles for the logo container */
 .logo-container {
@@ -27,9 +27,9 @@
   transform: scale(1.05);
 }
 
-/* Styles for the "who-we-are" content */
-.who-we-are {
-  text-align: justify; /* justify the main content within the container */
+/* Styles for the "whoWeAre" content */
+.whoWeAre {
+  text-align: center; /* Justify the center content within the container */
   max-width: 800px; /* Adjust the maximum width as needed */
   margin: 0 auto; /* Center the content horizontally within the container */
 }
