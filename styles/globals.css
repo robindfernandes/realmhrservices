@@ -32,7 +32,7 @@ body {
 
 /* Container Styles */
 .container {
-  max-width: 110%; /* Change "1000px" to "100%" */
+  max-width: 175%; /* Change "1000px" to "100%" */
   margin: 0 auto;
   text-align: center; /* Added a semicolon at the end */
 }
