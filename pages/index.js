@@ -41,7 +41,7 @@ const Home = () => {
       <div
         style={{
           backgroundImage: 'url("/1.png")',
-          backgroundSize: '100% auto', // Cover width, auto height
+          backgroundSize: '100% 100%', // Cover width, auto height
           backgroundRepeat: 'no-repeat',
           //backgroundAttachment: 'fixed',
           backgroundBlendmode: 'normal',
