@@ -20,7 +20,7 @@ body {
   color: var(--text-color);
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Keep overflow-x hidden for horizontal scrolling */
+  overflow-x: scroll;
 }
 
 @media (max-width: 768px) {
