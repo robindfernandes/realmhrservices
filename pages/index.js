@@ -42,7 +42,7 @@ const Home = () => {
         style={{
           backgroundImage: 'url("/1.png")',
           backgroundSize: '100% auto', // Cover width, auto height
-          backgroundRepeat: no-repeat,
+          backgroundRepeat: 'no-repeat',
           //backgroundAttachment: 'fixed',
           backgroundBlendmode: 'normal',
           display: 'flex',
