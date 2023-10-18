@@ -42,8 +42,8 @@ const Home = () => {
         style={{
           backgroundImage: 'url("/1.png")',
           backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
           backgroundAttachment: 'fixed',
+          backgroundBlendmode: 'normal',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center', // Center the content horizontally
