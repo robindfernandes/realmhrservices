@@ -31,7 +31,7 @@ const Home = () => {
           src="/2.jpg"
           alt="Image 2"
           className="image"
-          style={{ width: '30%', height: 'auto' }}
+          style={{ width: '20%', height: 'auto' }}
         />
       <div className="main-content whoWeAre" style={{ marginLeft: '10%', marginRight: '10%' }}>
           <h1>TEJASWEETA MISTRY</h1>
@@ -54,7 +54,6 @@ const Home = () => {
 
           <div className="centered-content">
           <div style={{ textAlign: 'center' }}>
-          cursor: pointer;
             <Link href="/index">
             <button className="menu-link-button">
               <strong>Back to Home</strong>
