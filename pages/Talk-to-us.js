@@ -34,7 +34,7 @@ const Home = () => {
             />
             <p className="description">
             </p>   
-            <div className="main-content">
+            <div className="main-content" style={{ marginLeft: '10%', marginRight: '10%' }}>
           </div><hi><strong>Welcome to Realm HR SERVICES, your trusted partner in recruitment solutions.</strong></hi>
           <h2><strong>Contact Us:</strong></h2>
           <p>
