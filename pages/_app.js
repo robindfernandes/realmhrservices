@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <div className="container">
+      <Container style={{ maxWidth: '100%' }}> {/* Header */}
       <Head>
         <title>RealmHRServices</title>
         <link rel="icon" href="/logo-realm.png" />
@@ -26,8 +27,11 @@ function MyApp({ Component, pageProps }) {
           <h1 className="title">Welcome to RealmHR Services</h1>
         </div>
       </Header>
+      </Container> 
       <Component {...pageProps} />
+      <Container style={{ maxWidth: '100%' }}> {/* Footer */}
       <Footer />
+      </Container>
     </div>
   );
 }
