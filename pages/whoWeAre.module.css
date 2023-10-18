@@ -39,9 +39,3 @@
   text-align: center; /* Center-align the title text */
   margin-bottom: 20px; /* Add some spacing below the title */
 }
-
-/* Styles for the additional image */
-.image {
-  width: 50%; /* Adjust the width as needed */
-  height: auto;
-}
