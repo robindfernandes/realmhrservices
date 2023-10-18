@@ -49,7 +49,7 @@ const Home = () => {
           alignItems: 'center', // Center the content horizontally
         }}
       >
-        <Container style={{ maxWidth: '80%' }}> </Container>
+        <Container style={{ maxWidth: '100%' }}> </Container>
 
         <Container>
         <Typography variant="h4" component="h1" style={{ color: 'black' }}>
