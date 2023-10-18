@@ -28,10 +28,10 @@ const Home = () => {
           </div>
         </header>
         <img
-          src="/2.png"
+          src="/2.jpg"
           alt="Image 2"
           className="image"
-          style={{ width: '50%', height: 'auto' }}
+          style={{ width: '50%', height: '10%' }}
         />
 
 
