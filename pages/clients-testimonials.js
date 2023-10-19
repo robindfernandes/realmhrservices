@@ -39,20 +39,20 @@ const Home = () => {
           </p>
           <p><strong>Jaykumar Mistry - Chief Marketing Officer</strong></p>
 
-          <h2>2. RDF Group Of Companies</h2>
+          <h2>2. RDF Studios</h2>
           <p>
             "Working with RealmHR Services has been a game-changer for us in the Media industry.
             Their ability to quickly source top-tier talent, coupled with their industry knowledge, has made a significant impact on our team's productivity and success."
           </p>
-          <p><strong>Ronald D Feepling - National HR Head</strong></p>
+          <p><strong>Ronald D Feepling - Chief Operating Officer</strong></p>
 
-          <h2>3. MKR Group Of Companies</h2>
+          <h2>3. Rowling Pharma Pty. Ltd.</h2>
           <p>
             "We can't thank RealmHR Services enough for their outstanding support in the Pharma industry.
             Their personalized and tailored recruitment solutions have consistently provided us with skilled professionals who align perfectly with our company's goals.
             They are our go-to partner for talent acquisition."
           </p>
-          <p><strong>Max K Rowling - National HR Head</strong></p>
+          <p><strong>Max Prefectsio - National HR Head</strong></p>
 
           <h2>Contact Us:</h2>
           <p>
