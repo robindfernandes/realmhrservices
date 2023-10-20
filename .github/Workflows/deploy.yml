@@ -25,15 +25,15 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        run: |
-          git config --global user.name "robindfernandes"
-          git config --global user.email "robindfernandes@gmail.com"
-          git checkout --orphan gh-pages
-          git --set-upstream-to=origin/main
-          rm -rf .git
-          mv .next/* .
-          mv .next/.git .git
-          touch .nojekyll
-          git add .
-          git commit -m "GitHub Pages Deployment"
-          git push origin gh-pages -f
+  run: |
+    git config --global user.name "robindfernandes"
+    git config --global user.email "robindfernandes@gmail.com"
+    git checkout --orphan gh-pages
+    git pull origin main
+    rm -rf .git
+    mv .next/* .
+    mv .next/.git .git
+    touch .nojekyll
+    git add .
+    git commit -m "GitHub Pages Deployment"
+    git push origin gh-pages -f
