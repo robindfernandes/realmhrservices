@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Change this to the branch you want to deploy
+      - gh-pages # Change this to the branch you want to deploy
 
 jobs:
   deploy:
@@ -25,15 +25,15 @@ jobs:
         run: npm run build
 
       - name: Deploy
-  run: |
-    git config --global user.name "robindfernandes"
-    git config --global user.email "robindfernandes@gmail.com"
-    git checkout --orphan gh-pages
-    git pull origin main
-    rm -rf .git
-    mv .next/* .
-    mv .next/.git .git
-    touch .nojekyll
-    git add .
-    git commit -m "GitHub Pages Deployment"
-    git push origin gh-pages -f
+        run: |
+          git config --global user.name "robindfernandes"
+          git config --global user.email "robindfernandes@gmail.com"
+          git checkout --orphan gh-pages
+          git pull origin gh-pages
+          rm -rf .git
+          mv .next/* .
+          mv .next/.git .git
+          touch .nojekyll
+          git add .
+          git commit -m "GitHub Pages Deployment"
+          git push origin gh-pages -f
