@@ -27,17 +27,17 @@ jobs:
       - name: Build
         run: npm run build
 
-deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: build
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-      with:
-      ref: gh-pages # Assuming you want to deploy to the gh-pages branch
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages # Assuming you want to deploy to the gh-pages branch
 
-    - name: Copy files to deployment directory
-      run: cp -r realmhrservices/docs/* .
+      - name: Copy files to deployment directory
+        run: cp -r realmhrservices/docs/* .
 
       - name: Commit and push changes
         run: |
