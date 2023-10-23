@@ -1,41 +1,53 @@
 # Next.js Starter
 
-## Table of Contents:
+**Table of Contents:**
 
 - [Getting Started](#getting-started)
-- [Installation options](#installation-options)
+- [Installation Options](#installation-options)
 - [Testing](#testing)
   - [Included Default Testing](#included-default-testing)
-  - [Removing Renovate](#removing-renovate)
-  - [Removing Cypress](#removing-cypress)
+  - [Customizing Testing](#customizing-testing)
 
 ## Getting Started
 
-First, run the development server:
+To start your project, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Launch the development server:
+   npm run dev
+   # or
+   yarn dev
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+View your project at http://localhost:3000 in your web browser.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Begin editing the default page by modifying pages/index.js. The page will auto-update as you make changes.
 
-### Installation options
+Installation Options
+Choose one of these options to set up your project:
 
-**Option one:** One-click deploy
+Option One: Use the one-click deploy feature.
+Option Two: Manually clone this repository to your local machine.
+Testing
+Included Default Testing
+This starter includes tools that assist with project maintenance:
 
-**Option two:** Manual clone
+Renovate: Regularly updates project dependencies.
+Cypress: Enables browser-based testing to ensure your project functions correctly.
+Customizing Testing
+If you prefer different testing tools or want to remove the default testing features, it's easy to customize your setup.
 
-## Testing
+Modify the source code to fit your project requirements.
 
-### Included Default Testing
+Stage your changes for commit:
 
-We’ve included some tooling that helps us maintain these templates. This template currently uses:
+git add .
+Commit your changes with a descriptive message:
 
-- [Renovate](https://www.mend.io/free-developer-tools/renovate/) - to regularly update our dependencies
-- [Cypress](https://www.cypress.io/) - to run tests against how the template runs in the browser
+git commit -m "Add your descriptive commit message here"
+Push your changes to the main branch of your GitHub repository:
 
-If your team is not interested in this tooling, you can remove them with ease!
+git push origin main
+This will update your repository with the latest changes you've made.
+
+Customize this README.md to provide project-specific details and information.
+
+Enjoy using this Next.js starter for your web development projects!
