@@ -33,10 +33,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GH_PAGES_TOKEN }}
-          publish_dir: ./docs/_next
-          allow_empty_commit: true
+          ref: gh-pages # Assuming you want to deploy to the gh-pages branch
+
+      - name: Copy files to deployment directory
+        run: cp -r docs/* .
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name ${{ secrets.GITHUB_ACTOR }}
+          git config --global user.email ${{ secrets.GITHUB_ACTOR }}@users.noreply.github.com
+          git add .
+          git commit -m "Deploy to GitHub Pages"
+          git push origin gh-pages  # Change 'gh-pages' to the target branch name
