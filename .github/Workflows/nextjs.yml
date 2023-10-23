@@ -20,10 +20,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16 # You can specify the appropriate Node.js version
-      - name: Install Node.js dependencies
+      - name: Install Dependencies
         run: npm install # Replace with "yarn install" if you use Yarn
-      - name: Install Next.js
-        run: npm install next
       - name: Build with Next.js
         run: npm run build # Replace with your actual build command
 
@@ -35,6 +33,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          build_dir: ./out
+          publish_dir: .next # Use the correct directory
         env:
           GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
