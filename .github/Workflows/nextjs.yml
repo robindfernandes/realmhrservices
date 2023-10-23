@@ -4,11 +4,25 @@ on:
   push:
     branches:
       - main
+  pull_request_target:
+    types:
+      - opened
+      - synchronize
 
 jobs:
+  triage:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Pull request labeler
+        uses: actions/labeler@v4
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -30,6 +44,7 @@ jobs:
 
     steps:
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v2
         with:
           publish_dir: .next # Use the correct directory
+          personal_token: ${{ secrets.GH_PAGES_TOKEN }}
