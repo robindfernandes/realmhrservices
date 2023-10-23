@@ -33,4 +33,3 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: .next # Use the correct directory
-          Personal access tokens: ${{ secrets.GH_PAGES_TOKEN }}

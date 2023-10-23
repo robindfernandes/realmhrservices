@@ -51,5 +51,3 @@ This will update your repository with the latest changes you've made.
 Customize this README.md to provide project-specific details and information.
 
 Enjoy using this Next.js starter for your web development projects!
-
-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 - # Personal access tokens (classic)GitHub for this Repo
