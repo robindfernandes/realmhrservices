@@ -47,4 +47,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v2
         with:
           publish_dir: .next # Use the correct directory
-          personal_token: ${{ secrets.GH_PAGES_TOKEN }}
+          GH_PAGES_TOKEN: ${{ secrets.GITHUB_TOKEN }}
