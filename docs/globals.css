@@ -1,0 +1,149 @@
+/* styles.css */
+
+/* Variables */
+:root {
+  --primary-bg-color1: #f3f6f4;
+  --text-color: #333;
+  --base-font-size: 100%;
+}
+
+/* Global Styles */
+html {
+  font-size: var(--base-font-size);
+}
+
+body {
+  background-color: var(--primary-bg-color1);
+  font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  overflow-x: scroll;
+}
+
+@media (max-width: 768px) {
+  /* Add styles for small screens here */
+}
+
+/* Container Styles */
+.container {
+  max-width: 100%; /* Set the container width to 100% */
+  text-align: center;
+}
+
+/* Title Styles */
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+/* Logo Styles */
+.logo {
+  width: 100%; /* Make the logo fill the container horizontally */
+  height: auto;
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* LinkedIn Logo Styles */
+.LinkedInlogo {
+  width: 25%; /* Adjust the width as needed */
+  height: auto;
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover Effect on Logo */
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Dropdown Menu Styles */
+.dropdown-menu li {
+  padding: 20px 0;
+  text-align: center;
+  list-style: none;
+  margin-left: -10px;
+}
+
+/* Dropdown Button Styles */
+.dropdown-button {
+  background-color: var(--primary-bg-color1);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Dropdown Menu Visibility */
+.dropdown-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  position: absolute;
+  top: 36px;
+  right: 0;
+  background-color: transparent;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Show the menu when the button is clicked */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Button Hover Effect */
+Button:hover {
+  background-color: #06dee3;
+}
+
+/* Logo Container Positioning */
+.logo-container {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  transform: translateX(-50%);
+}
+
+/* Text Alignment for Main Content */
+.main-content p,
+.main-content ul,
+.main-content ol,
+.main-content li,
+.main-content h2 {
+  text-align: justify;
+}
+
+/* Logo Top Left Positioning */
+.logo-top-left {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  transform: translateX(0);
+}
+
+/* Centered Content */
+.centered-content {
+  text-align: center;
+}
+
+/* Main Content Text Alignment */
+.main-content {
+  text-align: left;
+}
+
+/* Text Styles */
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+}
