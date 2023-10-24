@@ -43,15 +43,8 @@ jobs:
           git config --global user.email "gh-pages-token@users.noreply.github.com"
           git config --global user.token ${{ secrets.GH_PAGES_TOKEN }}
 
-      - name: Copy built files to deployment directory
-        run: |
-          mkdir -p docs
-          cp -r .next/* docs/
+      - name: Create docs directory
+        run: mkdir -p docs
 
-      - name: Deploy to GitHub Pages
-        run: |
-          npm run build
-          mkdir -p docs
-          cp -r .next/* docs/
-        env:
-          NODE_ENV: production
+      - name: Copy built files to deployment directory
+        run: cp -r .next/* docs/
