@@ -4,10 +4,6 @@ on:
   push:
     branches:
       - main
-  pull_request_target:
-    types:
-      - opened
-      - synchronize
 
 jobs:
   build:
@@ -34,7 +30,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          ref: gh-pages # Assuming you want to deploy to the gh-pages branch
+          ref: main # deploy to the main branch
 
       - name: Set Git token
         run: |
