@@ -35,10 +35,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           ref: gh-pages # Assuming you want to deploy to the gh-pages branch
-
-      - name: Copy files to deployment directory
-        run: cp -r realmhrservices/docs/* .
-
       - name: Commit and push changes
         run: git config --robindfernandes ${{ secrets.GH_PAGES_TOKEN }}
           git config --robindfernandes@gmail.com ${{ secrets.GH_PAGES_TOKEN }}@users.noreply.github.com
