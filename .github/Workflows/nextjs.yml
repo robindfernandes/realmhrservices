@@ -40,4 +40,4 @@ jobs:
           git config --global user.token ${{ secrets.GH_PAGES_TOKEN }}
 
       - name: Copy built files to deployment directory
-        run: cp -r * .
+        run: cp -r docs/* .
