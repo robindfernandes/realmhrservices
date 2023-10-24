@@ -44,4 +44,14 @@ jobs:
           git config --global user.token ${{ secrets.GH_PAGES_TOKEN }}
 
       - name: Copy built files to deployment directory
-        run: cp -r docs/* .
+        run: |
+          mkdir -p docs
+          cp -r .next/* docs/
+
+      - name: Deploy to GitHub Pages
+        run: |
+          npm run build
+          mkdir -p docs
+          cp -r .next/* docs/
+        env:
+          NODE_ENV: production
