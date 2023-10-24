@@ -45,9 +45,3 @@ jobs:
 
       - name: Copy built files to deployment directory
         run: cp -r docs/* .
-
-      - name: Commit and push changes
-        run: |
-          git add .
-          git commit -m "Deploy to GitHub Pages"
-          git push origin gh-pages  # Change 'gh-pages' to the target branch name
