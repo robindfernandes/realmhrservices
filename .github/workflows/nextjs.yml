@@ -30,7 +30,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          ref: main # deploy to the main branch
+          ref: gh-pages # deploy to the main branch
 
       - name: Set Git token
         run: |
