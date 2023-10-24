@@ -30,7 +30,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          ref: gh-pages # deploy to the main branch
+          ref: main # deploy to the main branch
 
       - name: Set Git token
         run: |
@@ -40,4 +40,4 @@ jobs:
           git config --global user.token ${{ secrets.GH_PAGES_TOKEN }}
 
       - name: Copy built files to deployment directory
-        run: cp -r docs/* .
+        run: cp -r * .
