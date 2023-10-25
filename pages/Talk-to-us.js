@@ -49,7 +49,7 @@ const Home = () => {
         </p>
         </div>
         <div className="centered-content">
-            <Link href="/index">
+            <Link href="/">
             <button className="menu-link-button">
               <strong>Back to Home</strong>
             </button>

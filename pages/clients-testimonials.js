@@ -68,7 +68,7 @@ const Home = () => {
             Connect with us on LinkedIn: <a href="https://www.linkedin.com/company/realmhrservices">Follow us on LinkedIn</a>
           </p>
           <div className="centered-content">
-            <Link href="/index">
+            <Link href="/">
             <button className="menu-link-button">
               <strong>Back to Home</strong>
             </button>

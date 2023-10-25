@@ -54,7 +54,7 @@ const Home = () => {
 
           <div className="centered-content">
           <div style={{ textAlign: 'center' }}>
-            <Link href="/index">
+            <Link href="/">
             <button className="menu-link-button">
               <strong>Back to Home</strong>
             </button>
