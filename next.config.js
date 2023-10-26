@@ -1,3 +1,4 @@
 module.exports = {
-  // ... other Next.js configuration ...
+  basePath: '/docs',
+  assetPrefix: '/docs/', 
 };
