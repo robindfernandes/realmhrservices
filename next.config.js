@@ -1,4 +1,4 @@
 module.exports = {
-  basePath: '/docs',
-  assetPrefix: '/docs/_next/' 
+  basePath: '/docs', // This is your base path
+  assetPrefix: '' // Keep it empty for relative paths
 };
