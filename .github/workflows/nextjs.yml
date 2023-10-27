@@ -25,8 +25,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build
-             npm run export
+        run: npm run build && npm run export
 
   deploy:
     runs-on: ubuntu-latest
@@ -35,7 +34,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          ref: gh-pages # Assuming you want to deploy to the gh-pages branch
+          ref: main
 
       - name: Set Git token
         run: |
