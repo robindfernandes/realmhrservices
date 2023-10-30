@@ -5,8 +5,13 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
+<<<<<<< Updated upstream
     "static/ClGXFLOOjIIWoNJqt9Shx/_buildManifest.js",
     "static/ClGXFLOOjIIWoNJqt9Shx/_ssgManifest.js"
+=======
+    "static/p10TPKu4MFT0Tk1I02ETR/_buildManifest.js",
+    "static/p10TPKu4MFT0Tk1I02ETR/_ssgManifest.js"
+>>>>>>> Stashed changes
   ],
   "rootMainFiles": [],
   "pages": {
@@ -14,21 +19,33 @@
       "static/chunks/webpack-fd1bc4a65a80e5c8.js",
       "static/chunks/framework-4556c45dd113b893.js",
       "static/chunks/main-cce6ae5cc1a42d70.js",
+<<<<<<< Updated upstream
       "static/chunks/pages/index-cabc0f2fbfc2108c.js"
+=======
+      "static/chunks/pages/index-b528b51f1acd2954.js"
+>>>>>>> Stashed changes
     ],
     "/Talk-to-us": [
       "static/chunks/webpack-fd1bc4a65a80e5c8.js",
       "static/chunks/framework-4556c45dd113b893.js",
       "static/chunks/main-cce6ae5cc1a42d70.js",
       "static/chunks/664-6863c832d33388a7.js",
+<<<<<<< Updated upstream
       "static/chunks/pages/Talk-to-us-13f089548ab0895b.js"
+=======
+      "static/chunks/pages/Talk-to-us-0c60e7f03dc0d2f8.js"
+>>>>>>> Stashed changes
     ],
     "/_app": [
       "static/chunks/webpack-fd1bc4a65a80e5c8.js",
       "static/chunks/framework-4556c45dd113b893.js",
       "static/chunks/main-cce6ae5cc1a42d70.js",
       "static/css/8120de5abdc5f4f5.css",
+<<<<<<< Updated upstream
       "static/chunks/pages/_app-d450ccb54b04a6e5.js"
+=======
+      "static/chunks/pages/_app-47cb2ef9a5ac42ae.js"
+>>>>>>> Stashed changes
     ],
     "/_error": [
       "static/chunks/webpack-fd1bc4a65a80e5c8.js",
@@ -41,14 +58,22 @@
       "static/chunks/framework-4556c45dd113b893.js",
       "static/chunks/main-cce6ae5cc1a42d70.js",
       "static/chunks/664-6863c832d33388a7.js",
+<<<<<<< Updated upstream
       "static/chunks/pages/clients-testimonials-d124b558fde2876f.js"
+=======
+      "static/chunks/pages/clients-testimonials-49d26136dc25424c.js"
+>>>>>>> Stashed changes
     ],
     "/who-we-are": [
       "static/chunks/webpack-fd1bc4a65a80e5c8.js",
       "static/chunks/framework-4556c45dd113b893.js",
       "static/chunks/main-cce6ae5cc1a42d70.js",
       "static/chunks/664-6863c832d33388a7.js",
+<<<<<<< Updated upstream
       "static/chunks/pages/who-we-are-45bfb624846df527.js"
+=======
+      "static/chunks/pages/who-we-are-ba42c65040f88d30.js"
+>>>>>>> Stashed changes
     ]
   },
   "ampFirstPages": []

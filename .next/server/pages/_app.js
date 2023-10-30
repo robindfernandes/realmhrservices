@@ -84,7 +84,11 @@ const Header = ()=>{
                 className: (Header_module_default()).menu,
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx(material_.Link, {
+<<<<<<< Updated upstream
                         href: "/",
+=======
+                        href: "/index",
+>>>>>>> Stashed changes
                         children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
                             className: "menu-link-button",
                             children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
