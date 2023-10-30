@@ -1,5 +1,5 @@
 // next.config.js
 module.exports = {
-  basePath: '/realmhrservices', // Set your base path
-  assetPrefix: '/realmhrservices/', // Add a trailing slash
+  basePath: '/docs', // Set your base path
+  assetPrefix: '/docs/', // Add a trailing slash
 };
