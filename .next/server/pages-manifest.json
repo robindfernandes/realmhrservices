@@ -1,0 +1,10 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/Talk-to-us": "pages/Talk-to-us.html",
+  "/clients-testimonials": "pages/clients-testimonials.html",
+  "/who-we-are": "pages/who-we-are.html",
+  "/": "pages/index.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
