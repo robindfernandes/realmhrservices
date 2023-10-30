@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run:  npm run build
+        run: npm run build
 
   deploy:
     runs-on: ubuntu-latest
@@ -40,8 +40,15 @@ jobs:
         run: |
           git config --global user.name 'robindfernandes'
           git config --global user.email 'robindfernandes@gmail.com'
-          git config --global user.email "gh-pages-token@users.noreply.github.com"
           git config --global user.token ${{ secrets.GH_PAGES_TOKEN }}
+
+      - name: List contents before copy
+        run: ls
 
       - name: Copy built files to deployment directory
         run: cp -r docs/* .
+
+      - name: List contents after copy
+        run: ls
+
+        
