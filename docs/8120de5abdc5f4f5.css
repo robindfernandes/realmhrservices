@@ -68,8 +68,7 @@ body {
 }
 .container {
   max-width: 100%;
-  text-align: justify;
-  justify-content: center;
+  text-align: center;
 }
 .title {
   font-size: 36px;
@@ -138,7 +137,7 @@ Button:hover {
 .main-content ol,
 .main-content p,
 .main-content ul {
-  text-align: center;
+  text-align: justify;
 }
 .logo-top-left {
   position: absolute;
@@ -148,10 +147,10 @@ Button:hover {
 }
 .centered-content {
   text-align: center;
-  width: fit-content;
+  width: 100%;
 }
 .main-content {
-  text-align: center;
+  text-align: left;
 }
 .text {
   font-size: 16px;
@@ -159,6 +158,6 @@ Button:hover {
 }
 .menu-button-container {
   display: flex;
-  text-align: justify;
+  text-align: center;
   justify-content: center;
 }
