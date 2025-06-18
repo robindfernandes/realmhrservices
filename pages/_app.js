@@ -1,8 +1,21 @@
+// pages/_app.js
+
 import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import { useEffect } from 'react';
 import '../styles/globals.css'; // Import your global styles
+import React from 'react';
+import UserData from '/components/UserData'; // Import your component
+
+const App = () => {
+  return (
+    <div className="App">
+      <h1>My App</h1>
+      <UserData /> {/* Use your component */}
+    </div>
+  );
+};
 
 function MyApp({ Component, pageProps }) {
   // Add any global JavaScript or effects here
@@ -28,7 +41,6 @@ function MyApp({ Component, pageProps }) {
       </Header>
       <Component {...pageProps} />
       <Footer />
-      
     </div>
   );
 }

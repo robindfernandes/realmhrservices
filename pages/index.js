@@ -48,11 +48,14 @@ const Home = () => {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center', // Center the content horizontally
+          minHeight: '100vh' // Minimum height of the viewport
         }}
       >
-        <Container style={{ maxWidth: '100%' }}> </Container>
-
-        <Container>
+        <Container style={{ 
+          display: 'flex',
+          flexDirection: 'column',
+          maxWidth: '100%'
+          }}> 
         <Typography variant="h4" component="h1" style={{ color: 'black' }}>
             <strong>Welcome to REALM HR SERVICES, your trusted partner in recruitment solutions.</strong>
           </Typography>
